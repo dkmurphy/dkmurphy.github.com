@@ -1,0 +1,245 @@
+ <!doctype html>
+    <html>
+      <head>
+         <link rel="stylesheet" type="text/css" href="common.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="small.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="large.css" media="screen and (min-width: 35em)" />
+         <!--[if (lt IE 9)&(!IEMobile)]>
+         <link rel="stylesheet" type="text/css" href="enhanced.css" />
+         <![endif]-->
+
+
+         <meta charset="utf-8"/>
+         <!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
+
+         <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+         <title>Amical A1 – Leçon 10</title>
+      </head>
+      <body>
+        <div id="headline">
+          <header>
+            <h1><a href="index.html">Amical A1</a></h1>
+            <p>Leçon 10 | C'est l'anniversaire de Marion</p>
+            <p><noscript>
+              Please enable JavaScript to use this page!
+            </noscript></p>
+          </header>
+        </div>
+
+<!--
+
+allstr=("Il faut de la farine, du beurre..." "Alice voudrait un gâteau. Je fais les courses. Qu'est-ce qu'il faut acheter ?" "Il faut des œufs, du lait, de la farine, du beurre, un peu de sucre.")
+for i in "${allstr[@]}" ; do
+  espeak -qv fr --ipa=1 "$i"
+done
+
+
+
+
+Il faut de la farine, du beurre...
+Alice voudrait un gâteau. Je fais les courses. Qu'est-ce qu'il faut acheter ?
+Il faut des œufs, du lait, de la farine, du beurre, un peu de sucre.
+
+
+il fo də- la- faʁˈin dy- bˈœʁ
+
+alˈis vudʁˈɛt œ̃ ɡatˈo ʒə- fˈɛ le- kˈuʁs kɛs kil fot aʃtˈe
+
+il fo de-z ˈø dy- lˈɛ də- la- faʁˈin dy- bˈœʁ œ̃ pø də- sˈykʁ
+
+
+
+
+
+allstr=("Qu'est-ce que je fais comme dessert ?" "Elsa : Demain, c'est l'anniversaire de Marion, Qu'est-ce que je fais comme dessert ? Une salade de fruits ?" "Paul : Non, un gâteau au chocolat. Elle adore ça. Avec vingt bougies !" "Elsa : Oui, bien sûr ! Et comme play ? Je fais du poisson ou de la viande ?" "Paul : De la viande. Un beau gigot, par exemple." "Elsa : Oui, un gigot, c'est parfait ! Avec quoi ?" "Paul : Avec des frites ! Beaucoup de frites ! Tout le monde aime ça. Et une bonne bouteille. Vingt ans, ça s'arrose !")
+for i in "${allstr[@]}" ; do
+  espeak -qv fr --ipa=1 "$i"
+done
+
+Qu'est-ce que je fais comme dessert ?
+Elsa : Demain, c'est l'anniversaire de Marion, Qu'est-ce que je fais comme dessert ? Une salade de fruits ?
+Paul : Non, un gâteau au chocolat. Elle adore ça. Avec vingt bougies !
+Elsa : Oui, bien sûr ! Et comme play ? Je fais du poisson ou de la viande ?
+Paul : De la viande. Un beau gigot, par exemple.
+Elsa : Oui, un gigot, c'est parfait ! Avec quoi ?
+Paul : Avec des frites ! Beaucoup de frites ! Tout le monde aime ça. Et une bonne bouteille. Vingt ans, ça s'arrose !
+
+
+kɛskˌə ʒə- fˈɛ kɔm dɛsˈɛʁ
+
+ɛlsˈa dəmˈɛ̃ sɛ lanivɛʁsˈɛʁ də- maʁjˈɔ̃ kɛskˌə ʒə- fˈɛ kɔm dɛsˈɛʁ yn salˈad də- fʁyˈi
+
+pˈɔl nˈɔ̃ œ̃ ɡatˈo o ʃɔkɔlˈa ɛl adˈɔʁ sˈa avˌɛk vˈɛ̃ buʒˈi
+
+ɛlsˈa wˈi bjˈɛ̃ sˈyːʁ e kɔm plˈɛ ʒə- fˈɛ dy- pwasˈɔ̃ u də- la- vjˈɑ̃d
+
+pˈɔl də- la- vjˈɑ̃d œ̃ bˈo ʒiɡˈo paʁ ɛɡzˈɑ̃pl
+
+ɛlsˈa wˈi œ̃ ʒiɡˈo sɛ paʁfˈɛ avˌɛk kwˈa
+
+pˈɔl avˌɛk de- fʁˈit bokˌu də- fʁˈit tulmˈɔ̃d ˈɛm sˈa e yn bˈɔn butˈɛj vˈɛ̃t ˈɑ̃ sa saʁˈoz
+
+
+-->
+        <div>
+
+          <script type="text/javascript">
+var conversation1 =
+  [  
+    {  
+      "french":"Il faut de la farine, du beurre...",
+      "ipa":"il fo də- la- faʁˈin",
+      "audio_segment":[9.5,13],
+      "spanish":"Se necesita harina, mantequilla ...",
+      "english":"It takes flour, butter ...",
+      "korean":"그것은, 버터를 밀가루 걸립니다 ..."
+    },
+    {  
+      "french":"Alice voudrait un gâteau. Je fais les courses. Qu'est-ce qu'il faut acheter ?",
+      "ipa":"dy- bˈœʁ alˈis vudʁˈɛt œ̃ ɡatˈo ʒə- fˈɛ le- kˈuʁs kɛs kil fot aʃtˈe",
+      "audio_segment":[13,19],
+      "spanish":"Alice quiere un pastel. Hago compras. Lo qué comprar?",
+      "english":"Alice wants a cake. I shop. What what to buy?",
+      "korean":"앨리스는 케이크를 원한다. 나는 가게. 무엇을 어떻게 구입 하는가?"
+    },
+    {  
+      "french":"Il faut des œufs, du lait, de la farine, du beurre, un peu de sucre.",
+      "ipa":"il fo de-z ˈø dy- lˈɛ də- la- faʁˈin dy- bˈœʁ œ̃ pø də- sˈykʁ",
+      "audio_segment":[19,28],
+      "spanish":"Toma los huevos, la leche, la harina, la mantequilla, un poco de azúcar.",
+      "english":"It takes the eggs, milk, flour, butter, a little sugar.",
+      "korean":"그것은 계란, 우유, 밀가루, 버터, 설탕을 약간 걸립니다."
+    }
+  ];
+
+
+
+ 
+var conversation2 =
+  [  
+    {  
+      "french":"Qu'est-ce que je fais comme dessert ?",
+      "ipa":"kɛskˌə ʒə- fˈɛ kɔm dɛsˈɛʁ",
+      "audio_segment":[34, 36],
+      "spanish":"Lo que me gusta el postre?",
+      "english":"What I do like dessert?",
+      "korean":"나는 디저트를 좋아한다 무엇?"
+    },
+    {  
+      "french":"Elsa : Demain, c'est l'anniversaire de Marion, Qu'est-ce que je fais comme dessert ? Une salade de fruits ?",
+      "ipa":"ɛlsˈa dəmˈɛ̃ sɛ lanivɛʁsˈɛʁ də- maʁjˈɔ̃ kɛskˌə ʒə- fˈɛ kɔm dɛsˈɛʁ yn salˈad də- fʁyˈi",
+      "audio_segment":[36, 43.75],
+      "spanish":"Elsa: Mañana es el cumpleaños de Marion, Lo que me gusta el postre? Una ensalada de frutas?",
+      "english":"Elsa: Tomorrow is the birthday of Marion, What I do like dessert? A fruit salad?",
+      "korean":"엘사 : 내일 내가 디저트처럼 어떤 기능을 수행, 마리온의 생일인가?과일 샐러드?"
+    },
+    {  
+      "french":"Paul : Non, un gâteau au chocolat. Elle adore ça. Avec vingt bougies !",
+      "ipa":"pˈɔl nˈɔ̃ œ̃ ɡatˈo o ʃɔkɔlˈa ɛl adˈɔʁ sˈa avˌɛk vˈɛ̃ buʒˈi",
+      "audio_segment":[43.75, 49.5],
+      "spanish":"Paul: No, un pastel de chocolate. A ella le encanta. Con veinte velas!",
+      "english":"Paul: No, a chocolate cake. She loves it. With twenty candles!",
+      "korean":"폴 : 아니, 초콜릿 케이크. 그녀는 그것을 사랑한다. 스물 촛불!"
+    },
+    {  
+      "french":"Elsa : Oui, bien sûr ! Et comme play ? Je fais du poisson ou de la viande ?",
+      "ipa":"ɛlsˈa wˈi bjˈɛ̃ sˈyːʁ e kɔm plˈɛ ʒə- fˈɛ dy- pwasˈɔ̃ u də- la- vjˈɑ̃d",
+      "audio_segment":[49.5, 56.25],
+      "spanish":"Elsa: Sí, por supuesto! Y como jugar? Yo pescado o carne?",
+      "english":"Elsa: Yes, of course! And as play? I fish or meat?",
+      "korean":"엘사 : 네, 물론! 그리고 같은 재생? 나는 생선이나 고기?"
+    },
+    {  
+      "french":"Paul : De la viande. Un beau gigot, par exemple.",
+      "ipa":"pˈɔl də- la- vjˈɑ̃d œ̃ bˈo ʒiɡˈo paʁ ɛɡzˈɑ̃pl",
+      "audio_segment":[56.25, 60.25],
+      "spanish":"Paul: Carne. Una hermosa pierna, por ejemplo.",
+      "english":"Paul: Meat. A beautiful leg, for example.",
+      "korean":"폴 : 고기. 예를 들어, 아름다운 다리,."
+    },
+    {  
+      "french":"Elsa : Oui, un gigot, c'est parfait ! Avec quoi ?",
+      "ipa":"ɛlsˈa wˈi œ̃ ʒiɡˈo sɛ paʁfˈɛ avˌɛk kwˈa",
+      "audio_segment":[60.25, 64.25],
+      "spanish":"Elsa: Sí, una pierna, es perfecto! ¿Con qué?",
+      "english":"Elsa: Yes, a leg, it's perfect! With what?",
+      "korean":"엘사 : 예, 다리, 그것은 완벽! 무엇으로?"
+    },
+    {  
+      "french":"Paul : Avec des frites ! Beaucoup de frites ! Tout le monde aime ça. Et une bonne bouteille. Vingt ans, ça s'arrose !",
+      "ipa":"pˈɔl avˌɛk de- fʁˈit bokˌu də- fʁˈit tulmˈɔ̃d ˈɛm sˈa e yn bˈɔn butˈɛj vˈɛ̃t ˈɑ̃ sa saʁˈoz",
+      "audio_segment":[64.25, 74],
+      "spanish":"Paul: Con patatas! Muchas fichas! Todo el mundo le encanta. Y una buena botella. Veinte años, es asperja!",
+      "english":"Paul: With chips! Many chips! Everyone loves it. And a good bottle. Twenty years, it's sprinkles!",
+      "korean":"폴 : 칩! 많은 칩! 모두가 그것을 사랑한다. 그리고 좋은 병. 스물 년, 그것은 뿌리입니다!"
+    }
+  ];
+
+
+ 
+
+
+
+
+
+          </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <div><!-- starting sections so numbering from 1-->
+          <div class="section">
+            <div class="container">
+
+              <audio id="conversation" class="fullwidth" src="L10/Piste 049.mp3" controls preload></audio>
+              <script src="conversation.js"></script>
+
+            </div class="container">
+          </div class="section">
+          <div class="section">
+            <div class="container">
+
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation1)
+
+          </script>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="container">
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation2)
+
+          </script>
+            </div>
+          </div>
+
+
+
+        </div>
+        <footer>
+          <p><a href="index.html">Tableaux des contenus<a></p>
+        </footer>
+        </body>
+    </html>
+

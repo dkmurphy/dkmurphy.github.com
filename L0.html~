@@ -1,0 +1,1151 @@
+ <!doctype html>
+    <html>
+      <head>
+         <link rel="stylesheet" type="text/css" href="common.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="small.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="large.css" media="screen and (min-width: 35em)" />
+         <!--[if (lt IE 9)&(!IEMobile)]>
+         <link rel="stylesheet" type="text/css" href="enhanced.css" />
+         <![endif]-->
+
+
+         <meta charset="utf-8"/>
+         <!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
+
+         <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+         <title>Amical A1 – Leçon 0</title>
+      </head>
+      <body>
+        <div id="headline">
+          <header>
+            <h1><a href="index.html">Amical A1</a></h1>
+            <p>Leçon 0 | Bonjour !</p>
+            <p><noscript>
+              Please enable JavaScript to use this page!
+            </noscript></p>
+          </header>
+        </div>
+
+
+          <script src="word_word_audio.js"></script>
+          <script type="text/javascript">
+
+var numbers =
+[  
+  {  
+    "#":"1",
+    "number":"un",
+    "ipa":"œ̃",
+    "audio":"Nombres/un.mp3"
+  },
+  {  
+    "#":"2",
+    "number":"deux",
+    "ipa":"dø",
+    "audio":"Nombres/deux.mp3"
+  },
+  {  
+    "#":"3",
+    "number":"trois",
+    "ipa":"tʁwɑ",
+    "audio":"Nombres/trois.mp3"
+  },
+  {  
+    "#":"4",
+    "number":"quatre",
+    "ipa":"katʁ",
+    "audio":"Nombres/quatre.mp3"
+  },
+  {  
+    "#":"5",
+    "number":"cinq",
+    "ipa":"sɛ̃k",
+    "audio":"Nombres/cinq.mp3"
+  },
+  {  
+    "#":"6",
+    "number":"six",
+    "ipa":"sis",
+    "audio":"Nombres/six.mp3"
+  },
+  {  
+    "#":"7",
+    "number":"sept",
+    "ipa":"sεt",
+    "audio":"Nombres/sept.mp3"
+  },
+  {  
+    "#":"8",
+    "number":"huit",
+    "ipa":"ɥit",
+    "audio":"Nombres/huit.mp3"
+  },
+  {  
+    "#":"9",
+    "number":"neuf",
+    "ipa":"nœf",
+    "audio":"Nombres/neuf.mp3"
+  },
+  {  
+    "#":"10",
+    "number":"dix",
+    "ipa":"dis",
+    "audio":"Nombres/dix.mp3"
+  },
+  {  
+    "#":"11",
+    "number":"onze",
+    "ipa":"ɔ̃z",
+    "audio":"Nombres/onze.mp3"
+  },
+  {  
+    "#":"12",
+    "number":"douze",
+    "ipa":"duz",
+    "audio":"Nombres/douze.mp3"
+  },
+  {  
+    "#":"13",
+    "number":"treize",
+    "ipa":"tʁεz",
+    "audio":"Nombres/treize.mp3"
+  },
+  {  
+    "#":"14",
+    "number":"quatorze",
+    "ipa":"ka.tɔʁz",
+    "audio":"Nombres/quatorze.mp3"
+  },
+  {  
+    "#":"15",
+    "number":"quinze",
+    "ipa":"kɛ̃z",
+    "audio":"Nombres/quinze.mp3"
+  },
+  {  
+    "#":"16",
+    "number":"seize",
+    "ipa":"sεz",
+    "audio":"Nombres/seize.mp3"
+  },
+  {  
+    "#":"17",
+    "number":"dix-sept",
+    "ipa":"dis.sεt",
+    "audio":"Nombres/dix-sept.mp3"
+  },
+  {  
+    "#":"18",
+    "number":"dix-huit",
+    "ipa":"diz.ɥit",
+    "audio":"Nombres/dix-huit.mp3"
+  },
+  {  
+    "#":"19",
+    "number":"dix-neuf",
+    "ipa":"diz.nœf",
+    "audio":"Nombres/dix-neuf.mp3"
+  },
+  {  
+    "#":"20",
+    "number":"vingt",
+    "ipa":"vɛ̃",
+    "audio":"Nombres/vingt.mp3"
+  },
+  {  
+    "#":"21",
+    "number":"vingt et un",
+    "ipa":"vɛ̃.t‿e œ̃",
+    "audio":"Nombres/vingt_et_un.mp3"
+  },
+  {  
+    "#":"22",
+    "number":"vingt-deux",
+    "ipa":"vɛ̃t.dø",
+    "audio":"Nombres/vingt-deux.mp3"
+  },
+  {  
+    "#":"23",
+    "number":"vingt-trois",
+    "ipa":"vɛ̃t.tʁwɑ",
+    "audio":"Nombres/vingt-trois.mp3"
+  },
+  {  
+    "#":"30",
+    "number":"trente",
+    "ipa":"tʁɑ̃t",
+    "audio":"Nombres/trente.mp3"
+  },
+  {  
+    "#":"31",
+    "number":"trente et un",
+    "ipa":"tʁɑ̃.t‿e œ̃",
+    "audio":"Nombres/trente_et_un.mp3"
+  },
+  {  
+    "#":"32",
+    "number":"trente-deux",
+    "ipa":"tʁɑ̃t dø",
+    "audio":"Nombres/trente-deux.mp3"
+  },
+  {  
+    "#":"40",
+    "number":"quarante",
+    "ipa":"ka.ʁɑ̃t",
+    "audio":"Nombres/quarante.mp3"
+  },
+  {  
+    "#":"50",
+    "number":"cinquante",
+    "ipa":"sɛ̃.kɑ̃t",
+    "audio":"Nombres/cinquante.mp3"
+  },
+  {  
+    "#":"60",
+    "number":"soixante",
+    "ipa":"swa.sɑ̃t",
+    "audio":"Nombres/soixante.mp3"
+  },
+  {  
+    "#":"70",
+    "number":"soixante-dix",
+    "ipa":"swa.sɑ̃t.dis",
+    "audio":"Nombres/soixante-dix.mp3"
+  },
+  {  
+    "#":"71",
+    "number":"soixante et onze",
+    "ipa":"swa.sɑ̃.t‿e ɔ̃z",
+    "audio":"Nombres/soixante_et_onze.mp3"
+  },
+  {  
+    "#":"72",
+    "number":"soixante-douze",
+    "ipa":"swa.sɑ̃t.duz",
+    "audio":"Nombres/soixante-douze.mp3"
+  },
+  {  
+    "#":"73",
+    "number":"soixante-treize",
+    "ipa":"swa.sɑ̃t.tʁɛz",
+    "audio":"Nombres/soixante-treize.mp3"
+  },
+  {  
+    "#":"80",
+    "number":"quatre-vingts",
+    "ipa":"ka.tʁə.vɛ̃",
+    "audio":"Nombres/quatre-vingts.mp3"
+  },
+  {  
+    "#":"81",
+    "number":"quatre-vingt-un",
+    "ipa":"ka.tʁə.vɛ̃.œ̃",
+    "audio":"Nombres/quatre-vingt-un.mp3"
+  },
+  {  
+    "#":"82",
+    "number":"quatre-vingt-deux",
+    "ipa":"ka.tʁə.vɛ̃.dø",
+    "audio":"Nombres/quatre-vingt-deux.mp3"
+  },
+  {  
+    "#":"90",
+    "number":"quatre-vingt-dix",
+    "ipa":"ka.tʁə.vɛ̃.dis",
+    "audio":"Nombres/quatre-vingt-dix.mp3"
+  },
+  {  
+    "#":"91",
+    "number":"quatre-vingt-onze",
+    "ipa":"ka.tʁə.vɛ̃.ɔ̃z",
+    "audio":"Nombres/quatre-vingt-onze.mp3"
+  },
+  {  
+    "#":"92",
+    "number":"quatre-vingt-douze",
+    "ipa":"ka.tʁə.vɛ̃.duz",
+    "audio":"Nombres/quatre-vingt-douze.mp3"
+  },
+  {  
+    "#":"100",
+    "number":"cent",
+    "ipa":"sɑ̃",
+    "audio":"Nombres/cent.mp3"
+  }
+];
+
+
+var word_list = 
+[  
+  [  
+    1,
+    "un /œ̃/",
+    "Nombres/un.mp3"
+  ],
+  [  
+    2,
+    "deux /dø/",
+    "Nombres/deux.mp3"
+  ],
+  [  
+    3,
+    "trois /tʁwɑ/",
+    "Nombres/trois.mp3"
+  ],
+  [  
+    4,
+    "quatre /katʁ/",
+    "Nombres/quatre.mp3"
+  ],
+  [  
+    5,
+    "cinq /sɛ̃k/",
+    "Nombres/cinq.mp3"
+  ],
+  [  
+    6,
+    "six /sis/",
+    "Nombres/six.mp3"
+  ],
+  [  
+    7,
+    "sept /sεt/",
+    "Nombres/sept.mp3"
+  ],
+  [  
+    8,
+    "huit /ɥit/",
+    "Nombres/huit.mp3"
+  ],
+  [  
+    9,
+    "neuf /nœf/",
+    "Nombres/neuf.mp3"
+  ],
+  [  
+    10,
+    "dix /dis/",
+    "Nombres/dix.mp3"
+  ],
+  [  
+    11,
+    "onze /ɔ̃z/",
+    "Nombres/onze.mp3"
+  ],
+  [  
+    12,
+    "douze /duz/",
+    "Nombres/douze.mp3"
+  ],
+  [  
+    13,
+    "treize /tʁεz/",
+    "Nombres/treize.mp3"
+  ],
+  [  
+    14,
+    "quatorze /ka.tɔʁz/",
+    "Nombres/quatorze.mp3"
+  ],
+  [  
+    15,
+    "quinze /kɛ̃z/",
+    "Nombres/quinze.mp3"
+  ],
+  [  
+    16,
+    "seize /sεz/",
+    "Nombres/seize.mp3"
+  ],
+  [  
+    17,
+    "dix-sept /dis.sεt/",
+    "Nombres/dix-sept.mp3"
+  ],
+  [  
+    18,
+    "dix-huit /diz.ɥit/",
+    "Nombres/dix-huit.mp3"
+  ],
+  [  
+    19,
+    "dix-neuf /diz.nœf/",
+    "Nombres/dix-neuf.mp3"
+  ],
+  [  
+    20,
+    "vingt /vɛ̃/",
+    "Nombres/vingt.mp3"
+  ],
+  [  
+    21,
+    "vingt et un /vɛ̃.t‿e œ̃/",
+    "Nombres/vingt_et_un.mp3"
+  ],
+  [  
+    22,
+    "vingt-deux /vɛ̃t.dø/",
+    "Nombres/vingt-deux.mp3"
+  ],
+  [  
+    23,
+    "vingt-trois /vɛ̃t.tʁwɑ/",
+    "Nombres/vingt-trois.mp3"
+  ],
+  [  
+    30,
+    "trente /tʁɑ̃t/",
+    "Nombres/trente.mp3"
+  ],
+  [  
+    31,
+    "trente et un /tʁɑ̃.t‿e œ̃/",
+    "Nombres/trente_et_un.mp3"
+  ],
+  [  
+    32,
+    "trente-deux /tʁɑ̃t dø/",
+    "Nombres/trente-deux.mp3"
+  ],
+  [  
+    40,
+    "quarante /ka.ʁɑ̃t/",
+    "Nombres/quarante.mp3"
+  ],
+  [  
+    50,
+    "cinquante /sɛ̃.kɑ̃t/",
+    "Nombres/cinquante.mp3"
+  ],
+  [  
+    60,
+    "soixante /swa.sɑ̃t/",
+    "Nombres/soixante.mp3"
+  ],
+  [  
+    70,
+    "soixante-dix /swa.sɑ̃t.dis/",
+    "Nombres/soixante-dix.mp3"
+  ],
+  [  
+    71,
+    "soixante et onze /swa.sɑ̃.t‿e ɔ̃z/",
+    "Nombres/soixante_et_onze.mp3"
+  ],
+  [  
+    72,
+    "soixante-douze /swa.sɑ̃t.duz/",
+    "Nombres/soixante-douze.mp3"
+  ],
+  [  
+    73,
+    "soixante-treize /swa.sɑ̃t.tʁɛz/",
+    "Nombres/soixante-treize.mp3"
+  ],
+  [  
+    80,
+    "quatre-vingts /ka.tʁə.vɛ̃/",
+    "Nombres/quatre-vingts.mp3"
+  ],
+  [  
+    81,
+    "quatre-vingt-un /ka.tʁə.vɛ̃.œ̃/",
+    "Nombres/quatre-vingt-un.mp3"
+  ],
+  [  
+    82,
+    "quatre-vingt-deux /ka.tʁə.vɛ̃.dø/",
+    "Nombres/quatre-vingt-deux.mp3"
+  ],
+  [  
+    90,
+    "quatre-vingt-dix /ka.tʁə.vɛ̃.dis/",
+    "Nombres/quatre-vingt-dix.mp3"
+  ],
+  [  
+    91,
+    "quatre-vingt-onze /ka.tʁə.vɛ̃.ɔ̃z/",
+    "Nombres/quatre-vingt-onze.mp3"
+  ],
+  [  
+    92,
+    "quatre-vingt-douze /ka.tʁə.vɛ̃.duz/",
+    "Nombres/quatre-vingt-douze.mp3"
+  ],
+  [  
+    100,
+    "cent /sɑ̃/",
+    "Nombres/cent.mp3"
+  ]
+];
+          </script>
+
+
+        <div><!-- starting sections so numbering from 1-->
+
+          <div class="section">
+            <div class="container">
+              <h2>Les nombres</h2>
+<script type="text/javascript">
+//write_word_word_audio(word_list);
+write_numbers(numbers);
+</script>
+            </div>
+          </div>
+
+
+          <div class="section">
+            <div class="container">
+              <h2>L'Alphabet Phonétique</h2>
+
+<script type="text/javascript">
+function write_alphabet_audio(alph_data) {
+  document.write("<table class=\"alphabet-audio\">")
+  for (i in alph_data) {
+    document.write("</tr><td>" + alph_data[i]["writing"] + "</td>");
+    document.write("<td colspan=\"2\"><audio><source src=\"" + alph_data[i]["audio"] + "\" type=\"audio/mpeg\">Your browser does not support the audio element.</audio><button onclick=\"this.previousSibling.play()\">")
+document.write(alph_data[i]["ipa"]);
+document.write("</button></td></tr>")
+  }
+  document.write("</table>")
+}
+write_alphabet_audio(
+
+[  
+  {  
+    "writing":"[a] papa, samedi",
+    "ipa":"/a/ /pa.pa/ /sam.di/",
+    "audio":"L0/a.mp3"
+  },
+  {  
+    "writing":"[e] bébé, je vais à l'école",
+    "ipa":"/e/ /be.be/ /ʒə ve.z‿a le.kɔl/",
+    "audio":"L0/e.mp3"
+  },
+  {  
+    "writing":"[ɛ] le père, la mère, le frère",
+    "ipa":"/ɛ/ /lə pεʁ/ /la mεʁ/ /lə fʁεʁ/",
+    "audio":"L0/025B.mp3"
+  },
+  {  
+    "writing":"[i] merci, c'est facile",
+    "ipa":"/i/ /mεʁ.si/ /sε fa.sil/",
+    "audio":"L0/i.mp3"
+  },
+  {  
+    "writing":"[y]  la rue, c'est sur",
+    "ipa":"/y/ /la ʁy/ /sε syʁ/",
+    "audio":"L0/y.mp3"
+  },
+  {  
+    "writing":"[u] pour vous, sous",
+    "ipa":"/u/ /puʁ vu/ /su/",
+    "audio":"L0/u.mp3"
+  },
+  {  
+    "writing":"[ø] un peu, bleu, il pleut",
+    "ipa":"/ø/ /œ̃ pø/ /blø/ /il plø/",
+    "audio":"L0/00F8.mp3"
+  },
+  {  
+    "writing":"[œ] la sœur, la peur",
+    "ipa":"/œ/ /la sœʁ/ /la pœʁ/",
+    "audio":"L0/0153.mp3"
+  },
+  {  
+    "writing":"[o] c'est beau, c'est faux",
+    "ipa":"/o/ /sɛ bo/ /sɛ fo/",
+    "audio":"L0/o.mp3"
+  },
+  {  
+    "writing":"[ɔ] il est fort, il dort, alors",
+    "ipa":"/ɔ/ /il‿ɛ fɔʁ/ /il dɔʁ/ /a.lɔʁ/",
+    "audio":"L0/0254.mp3"
+  },  {  
+    "writing":"[ə] le me te se de",
+    "ipa":"/ə/ /lə/ /mə/ /tə/ /sə/ /də/ ",
+    "audio":"L0/0259.mp3"
+  },  {  
+    "writing":"[ɑ̃] dix ans, français, le temps",
+    "ipa":"/ɑ̃/ /di.z‿ɑ̃/ /fʁɑ̃.sε/ /lə tɑ̃/",
+    "audio":"L0/0251nasal.mp3"
+  },  {  
+    "writing":"[ɛ̃] un bain, du pain, rien",
+    "ipa":"/ɛ̃/ /œ̃ bɛ̃/ /dy pɛ̃/ /ʁjɛ̃/",
+    "audio":"L0/025Bnasal.mp3"
+  },  {  
+    "writing":"[ɔ̃] le pont, bon, mon oncle",
+    "ipa":"/ɔ̃/ /lə pɔ̃t/ /bɔ̃/ /mɔn‿ɔ̃kl/",
+    "audio":"L0/0254nasal.mp3"
+  },  {  
+    "writing":"[j] hier, réveil, travail",
+    "ipa":"/j/ /jεʁ/ /ʁe.vεj/ /tʁa.vaj/",
+    "audio":"L0/j.mp3"
+  },  {  
+    "writing":"[ɥ] huit, la nuit, et puis", 
+    "ipa":"/ɥ/ /ɥit/ /la nɥi/ /e pɥi/",
+    "audio":"L0/0265.mp3"
+  },  {  
+    "writing":"[w] oui, jouer, il voit",
+    "ipa":"/wə/ /wi/ /ʒuˈe/ /il vwa/",
+    "audio":"L0/w.mp3"
+  },  {  
+    "writing":"[p] pour, papa, la place",
+    "ipa":"/pə/ /puʁ/ /pa.pa/ /la plas/",
+    "audio":"L0/p.mp3"
+  },  {  
+    "writing":"[b] bien, bon, beau",
+    "ipa":"/bə/ /bjˈɛ̃/ /bɔ̃/ /bo/",
+    "audio":"L0/b.mp3"
+  },  {  
+    "writing":"[t] toi, attends !, le temps",
+    "ipa":" /tə/ /twa/ /a.tɑ̃ !/ /lə tɑ̃/",
+    "audio":"L0/t.mp3"
+  },  {  
+    "writing":"[d] demain, j'adore, dire",
+    "ipa":"/də/ /də.mɛ̃/ /ʒa.dɔʁ/ /diʁ/",
+    "audio":"L0/d.mp3"
+  },  {  
+    "writing":"[f] facile, difficile, offrir",
+    "ipa":"/fə/ /fa.sil/ /di.fi.sil/ /ɔ.fʁiʁ/",
+    "audio":"L0/f.mp3"
+  },  {  
+    "writing":"[v] voilà, l'hiver, un rêve",
+    "ipa":"/və/ /vwa.la/ /li.vεʁ/ /œ̃ ʁεv/",
+    "audio":"L0/v.mp3"
+  },  {  
+    "writing":"[s] russe, ici garçon",
+    "ipa":"/sə/ /ʁys/ /i.si/ /gaʁ.sɔ̃/",
+    "audio":"L0/s.mp3"
+  },  {  
+    "writing":"[z] la musique, deuxième",
+    "ipa":"/zə/ /la my.zik/ /dø.zjεm/",
+    "audio":"L0/z.mp3"
+  },  {  
+    "writing":"[k] d'accord,  quand",
+    "ipa":"/kə/ /da.kɔʁ/ /kɑ̃/",
+    "audio":"L0/k.mp3"
+  },  {  
+    "writing":"[g] grand, un gâteau",
+    "ipa":"/gə/ /gʁɑ̃/ /œ̃ gɑ.to/",
+    "audio":"L0/g.mp3"
+  },  {  
+    "writing":"[m] aimer, une femme",
+    "ipa":"/mə/ /e.me/ /yn fam/",
+    "audio":"L0/m.mp3"
+  },  {  
+    "writing":"[n] Bonne année !",
+    "ipa":"/nə/ /bɔn a.ne !/",
+    "audio":"L0/n.mp3"
+  },  {  
+    "writing":"[l] le, la, belle, Paul",
+    "ipa":"/lə/ /lə/ /la/ /bεl/ /pɔl/",
+    "audio":"L0/l.mp3"
+  },  {  
+    "writing":"[ʁ] rouge, arriver, amour",
+    "ipa":"/ʁe/ /ʁuʒ/ /a.ʁi.ve/ /a.muʁ/",
+    "audio":"L0/0281.mp3"
+  },  {  
+    "writing":"[ʒ] je, jouer, rouge",
+    "ipa":"/ʒə/ /ʒe/ /ʒwe/ /ʁuʒ/",
+    "audio":"L0/0292.mp3"
+  },  {  
+    "writing":"[ʃ] acheter, chocolat",
+    "ipa":"/ʃə/ /aʃ.te/ /ʃɔ.kɔ.la/",
+    "audio":"L0/0283.mp3"
+  },  {  
+    "writing":"[ɲ] Espagne, le champagne",
+    "ipa":"/ɲə/ /ɛs.paɲ/ /lə ʃɑ̃.paɲ/",
+    "audio":"L0/0272.mp3"
+  }
+]
+
+
+)
+
+
+
+</script>
+
+<!-- used to be
+<table class="twocol">
+  <tr>
+    <td>[a] papa, samedi</td>
+    <td><audio><source src="L0/a.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio><button onclick="this.previousSibling.play()">/a/ /pa.pa/ /sam.di/</button></td>
+  </tr>
+  <tr>
+    <td>[e] bébé, je vais à l'école</td>
+    <td><audio><source src="L0/e.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio><button onclick="this.previousSibling.play()">/e/ /be.be/ /ʒə ve a le.kɔl/</button></td>
+  </tr>
+  <tr>
+    <td>[ɛ] le père, la mère, le frère</td>
+    <td><audio><source src="L0/025B.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio><button onclick="this.previousSibling.play()">/ɛ/ /lə pεʁ/ /la mεʁ/ /lə fʁεʁ/</button></td>
+  </tr>
+</table>
+
+-->
+
+
+            </div>
+          </div>
+        </div>
+        <footer>
+          <p><a href="index.html">Tableaux des contenus<a></p>
+        </footer>
+        </body>
+    </html>
+
+
+<!-- old way
+
+          <div class="section">
+            <div class="container">
+              <h2>Les nombres</h2>
+
+              <table cellspacing="20" cellpadding="0" width="100%">
+
+                <tr>
+                  <td>1</td><td>un /œ̃/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" controls>
+                    <source src="Nombres/un.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio></td>
+                </tr>
+
+                <tr>
+                  <td>2</td><td>deux /dø/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/deux.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>3</td><td>trois /tʁwɑ/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/trois.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>4</td><td>quatre /katʁ/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/quatre.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>5</td><td>cinq /sɛ̃k/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/cinq.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>6</td><td>six /sis/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/six.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>7</td><td>sept /sεt/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/sept.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>8</td><td>huit /ɥit/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/huit.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>9</td><td>neuf /nœf/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/neuf.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>10</td><td>dix /dis/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/dix.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>11</td><td>onze /ɔ̃z/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/onze.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>12</td><td>douze /duz/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/douze.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>13</td><td>treize /tʁεz/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/treize.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>14</td><td>quatorze /ka.tɔʁz/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/quatorze.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>15</td><td>quinze /kɛ̃z/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/quinze.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>16</td><td>seize /sεz/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/seize.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>17</td><td>dix-sept /dis.sεt/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/dix-sept.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>18</td><td>dix-huit /diz.ɥit/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/dix-huit.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>19</td><td>dix-neuf /diz.nœf/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/dix-neuf.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>20</td><td>vingt /vɛ̃/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/vingt.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>21</td><td>vingt et un /vɛ̃.t‿e œ̃/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/vingt_et_un.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>22</td><td>vingt-deux /vɛ̃t.dø/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/vingt-deux.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>23</td><td>vingt-trois /vɛ̃t.tʁwɑ/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/vingt-trois.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>30</td><td>trente /tʁɑ̃t/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/trente.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>31</td><td>trente et un /tʁɑ̃.t‿e œ̃/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/trente_et_un.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>32</td><td>trente-deux /tʁɑ̃t dø/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/trente-deux.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>40</td><td>quarante /ka.ʁɑ̃t/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/quarante.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>50</td><td>cinquante /sɛ̃.kɑ̃t/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/cinquante.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>60</td><td>soixante /swa.sɑ̃t/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/soixante.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>70</td><td>soixante-dix /swa.sɑ̃t.dis/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/soixante-dix.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>71</td><td>soixante et onze /swa.sɑ̃.t‿e ɔ̃z/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/soixante_et_onze.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>72</td><td>soixante-douze /swa.sɑ̃t.duz/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/soixante-douze.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>73</td><td>soixante-treize /swa.sɑ̃t.tʁɛz/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/soixante-treize.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>80</td><td>quatre-vingts /ka.tʁə.vɛ̃/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/quatre-vingts.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>81</td><td>quatre-vingt-un /ka.tʁə.vɛ̃.œ̃/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/quatre-vingt-un.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>82</td><td>quatre-vingt-deux /ka.tʁə.vɛ̃.dø/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/quatre-vingt-deux.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>90</td><td>quatre-vingt-dix /ka.tʁə.vɛ̃.dis/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/quatre-vingt-dix.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>91</td><td>quatre-vingt-onze /ka.tʁə.vɛ̃.ɔ̃z/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/quatre-vingt-onze.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>92</td><td>quatre-vingt-douze /ka.tʁə.vɛ̃.duz/</td>
+                </tr>
+                <tr class="spaceUnder">
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/quatre-vingt-douze.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>100</td><td>cent /sɑ̃/</td>
+                </tr>
+                <tr>
+                  <td colspan="2"><audio class="fullwidth" class="fullwidth" controls>
+                      <source src="Nombres/cent.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+
+              </table>
+
+            </div>
+          </div>
+
+-->

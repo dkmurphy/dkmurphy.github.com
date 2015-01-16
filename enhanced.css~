@@ -1,0 +1,194 @@
+table.conversation {
+    width: 100%;
+    border-spacing: 1ex;
+    /*border-collapse: separate;*/
+
+}
+
+not(:nth-last-child(-n+1))
+
+table.conversation tr:nth-child(5n):not(:nth-last-child(-n+1)) td {
+  padding-bottom: 1ex;
+  border-bottom: 1px solid black;
+}
+
+table.conversation tr:nth-child(-n+5) td {
+    font-style: italic;
+}
+
+audio.fullwidth {
+ width: 100%;
+}
+
+audio::-webkit-media-controls-enclosure {
+    max-width: 100%; /*or inherit*/
+}
+
+
+table.conjugation, table.conjugation td {
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+
+table.conjugation {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+table.conjugation td {
+  padding: 10px;
+  width: 33.3%;
+}
+
+table.twocol {
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-collapse: collapse;
+}
+
+
+table.twocol td {
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+table.conjugation tr:first-child td:first-child {
+  font-weight: 600;
+}
+
+
+
+
+
+ul {
+    -webkit-padding-start: 2em;
+}
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      #headline {
+        padding: 20px 5%;
+        color: white;
+        font-family: helvetica, arial, sans-serif;
+        background-color: #0055A4; /* French flag Blue */
+        /* background-image: url(.jpg); */
+        background-size: cover;
+      }
+
+      #headline h1 {
+        font-weight: 200;
+        font-size: 80px;
+        line-height: 1em;
+        margin-top: 70px;
+        margin-bottom: 0;
+        text-align: center;
+      }
+
+      #headline p {
+        text-align: center;
+        margin-bottom: 70px;
+        font-weight: 100;
+        font-size: 30px;
+      }
+
+
+      .section:nth-child(3n+1) {
+        background-color: white;      
+      }
+
+      .section:nth-child(3n+2) {
+        background-color: #f5f5f5;      
+      }
+
+      .section:nth-child(3n) {
+        background-color: #e9e9e9;      
+      }
+        
+      .section {
+        box-sizing: border-box;
+        padding: 20px;
+        font-family: sans-serif;
+        font-weight: 100;
+        font-size: 26px;
+
+      }
+
+      .section h2 {
+        margin-top: 0;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 20px;
+      }
+          
+      .section ul {
+        box-sizing: border-box;
+        /*float: left;*/
+        /*width: 50%;*/
+        /*padding-right: 1em;*/
+        font-size: 30px;
+      }
+
+      .section div img {
+        width: 100%
+      }
+
+
+      footer {
+        font-family: sans-serif;
+        font-weight: 300;
+        text-align: center;
+        background-color: #EF4135; /* French flag Red */
+        color: white;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        font-size: 30px;
+      }
+
+         
+
+
+
+
+          
+          @media screen and (min-width: 55em) and (max-width: 70em) {
+
+            .container {
+              margin: auto;
+              max-width: 60em;
+            }
+
+            .section {
+              box-sizing: border-box;
+              padding: 50px 10% 80px 10%;
+            }
+
+
+          }
+
+          @media screen and (min-width: 70em) {
+
+            .container {
+              margin: auto;
+              max-width: 90em;
+            }
+
+            .section {
+              box-sizing: border-box;
+              padding: 50px 20% 80px 20%;
+            }
+
+
+          }          
+
+
+
+          

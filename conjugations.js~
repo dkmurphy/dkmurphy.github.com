@@ -1,0 +1,78 @@
+function write_conjugations(cong_data) {
+  document.write("<div>")
+  document.write("<table class=\"conjugation-head\"><tr><td>")
+  document.write(cong_data[0])
+  document.write("<audio class=\"fullwidth\"><source src=\"")
+  document.write(cong_data[2])
+  document.write("\" type=\"audio/mpeg\">Your browser does not support the audio element.</audio><button onclick=\"this.previousSibling.play()\">/")
+  document.write(cong_data[1])
+  document.write("/</button></td></tr></table>")
+  var persons = ["je", "tu", "il", "elle", "nous", "vous", "ils", "elles"]
+for (i in cong_data[3]) {
+  
+
+
+
+
+document.write("<table class=\"conjugation\"><tr><td colspan=\"4\">")
+document.write("</td></tr>")
+
+document.write("<tr><td>je</td><td>")
+document.write(cong_data[3][i]["je"][0])
+document.write(" <audio class=\"fullwidth\"><source src=\")")
+document.write(cong_data[3][i]["je"][2])
+document.write("\" type=\"audio/mpeg\">Your browser does not support the audio element.</audio><button onclick=\"this.previousSibling.play()\">/")
+document.write(cong_data[3][i]["je"][1])
+
+document.write("/</button><td>nous</td><td>")
+document.write(cong_data[3][i]["nous"][0])
+document.write(" <audio class=\"fullwidth\"><source src=\")")
+document.write(cong_data[3][i]["nous"][2])
+document.write("\" type=\"audio/mpeg\">Your browser does not support the audio element.</audio><button onclick=\"this.previousSibling.play()\">/")
+document.write(cong_data[3][i]["nous"][1])
+document.write("/</button></td></tr>")
+
+document.write("<tr><td>tu</td><td>")
+document.write(cong_data[3][i]["tu"][0])
+document.write(" <audio class=\"fullwidth\"><source src=\")")
+document.write(cong_data[3][i]["tu"][2])
+document.write("\" type=\"audio/mpeg\">Your browser does not support the audio element.</audio><button onclick=\"this.previousSibling.play()\">/")
+document.write(cong_data[3][i]["tu"][1])
+
+document.write("/</button><td>vous</td><td>")
+document.write(cong_data[3][i]["vous"][0])
+document.write(" <audio class=\"fullwidth\"><source src=\")")
+document.write(cong_data[3][i]["vous"][2])
+document.write("\" type=\"audio/mpeg\">Your browser does not support the audio element.</audio><button onclick=\"this.previousSibling.play()\">/")
+document.write(cong_data[3][i]["vous"][1])
+document.write("/</button></td></tr>")
+
+
+
+document.write("<tr><td>il<br>&nbsp;elle</td><td>")
+document.write(cong_data[3][i]["il"][0])
+document.write(" <audio class=\"fullwidth\"><source src=\")")
+document.write(cong_data[3][i]["il"][2])
+document.write("\" type=\"audio/mpeg\">Your browser does not support the audio element.</audio><button onclick=\"this.previousSibling.play()\">/")
+document.write(cong_data[3][i]["il"][1])
+document.write("/</button>")
+document.write("<audio class=\"fullwidth\"><source src=\")")
+document.write(cong_data[3][i]["elle"][2])
+document.write("\" type=\"audio/mpeg\">Your browser does not support the audio element.</audio><button onclick=\"this.previousSibling.play()\">/")
+document.write(cong_data[3][i]["elle"][1])
+document.write("/</button>")
+document.write("<td>ils<br>elles</td><td>")
+document.write(cong_data[3][i]["ils"][0])
+document.write(" <audio class=\"fullwidth\"><source src=\")")
+document.write(cong_data[3][i]["ils"][2])
+document.write("\" type=\"audio/mpeg\">Your browser does not support the audio element.</audio><button onclick=\"this.previousSibling.play()\">/")
+document.write(cong_data[3][i]["ils"][1])
+document.write("/</button></td></tr>")
+document.write("</table>")
+}
+}
+
+// cong_data should be [infinitive, ipa, infinitive audio path, [verb_entry, verb_entry]]
+// verb_entry should be [tense, {"1s": [writing, ipa, audio path], "2s": ..., "3p": [writing, ipa, audio path]}]
+
+

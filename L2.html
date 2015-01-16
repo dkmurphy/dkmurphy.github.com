@@ -1,0 +1,240 @@
+ <!doctype html>
+    <html>
+      <head>
+         <link rel="stylesheet" type="text/css" href="common.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="small.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="large.css" media="screen and (min-width: 35em)" />
+         <!--[if (lt IE 9)&(!IEMobile)]>
+         <link rel="stylesheet" type="text/css" href="enhanced.css" />
+         <![endif]-->
+
+
+         <meta charset="utf-8"/>
+         <!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
+
+         <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+         <title>Amical A1 – Leçon 2</title>
+      </head>
+      <body>
+        <div id="headline">
+          <header>
+            <h1><a href="index.html">Amical A1</a></h1>
+            <p>Leçon 2 | Vous êtes français ?</p>
+            <p><noscript>
+              Please enable JavaScript to use this page!
+            </noscript></p>
+          </header>
+        </div>
+
+<!--
+Oh ! Pardon !
+Oh, pardon, madame. Excusez-moi.
+Je vous en prie.
+(...) Vous êtes française ?
+Oui. Vous aussi ?
+Non, moi, je suis suisse.
+
+Moi, je suis journaliste.
+Mesdames, messieurs, bonjour ! Je suis Jacques Blanc. À vous !
+Bonjour. Anne Mérieux. Je suis suisse. Je suis professeur d'économie à Genève.
+Moi, je suis turc. Je m'appelle Goran Cegülik. Je suis journaliste à Istanbul.
+Noriko Takahashi. Je suis japonaise. Je travaille à Osaka. Moi aussi, je suis journaliste.
+Jean-Noël Diallo. Je suis sénégalais. Je suis informaticien. Je travaille a Dakar.
+Moi, je suis...
+
+-->
+
+
+          <script type="text/javascript">
+
+
+
+var conversation1 =
+  [  
+    {  
+      "french":"Oh ! Pardon !",
+      "ipa":"ɔ paʁ.dɔ̃",
+      //"audio":"L2/1.mp3",
+      "audio_segment":[9,10],
+      "spanish":"Oh! Lo sentimos!",
+      "english":"Oh! We are sorry!",
+      "korean":"오! 죄송합니다!"
+    },
+    {  
+      "french":"Oh, pardon, madame. Excusez-moi.",
+      "ipa":"ɔ paʁ.dɔ̃ ma.dam ɛk.sky.ze mwa",
+      //"audio":"L2/2.mp3",
+      "audio_segment":[12.5,15.5],
+      "spanish":"Oh, lo siento, señora. Discúlpeme.",
+      "english":"Oh, sorry, ma'am. Excuse me.",
+      "korean":"아, 죄송합니다, 부인. 실례합니다."
+    },
+    {  
+      "french":"Je vous en prie.",
+      "ipa":"ʒə vu.z‿ɑ̃ pʁi",
+      //"audio":"L2/3.mp3",
+      "audio_segment":[15.5,17],
+      "spanish":"Te lo ruego.",
+      "english":"You're welcome.",
+      "korean":"나는 당신을 구걸."
+    },
+    {  
+      "french":"(...) Vous êtes française ?",
+      "ipa":"vu.z‿ɛt fʁɑ̃.sɛz",
+      //"audio":"L2/4.mp3",
+      "audio_segment":[17.5,18.5],
+      "spanish":"(...) Estás francés?",
+      "english":"(...) You are French?",
+      "korean":"(...) 당신은 프랑스어입니까?"
+    },
+    {  
+      "french":"Oui. Vous aussi ?",
+      "ipa":"wi vu o.si",
+      //"audio":"L2/5.mp3",
+      "audio_segment":[19,20.75],
+      "spanish":"Si. Igualmente?",
+      "english":"Yes. You too?",
+      "korean":"예. 당신도?"
+    },
+    {  
+      "french":"Non, moi, je suis suisse.",
+      "ipa":"nɔ̃ mwa ʒə sɥi sɥis",
+      //"audio":"L2/6.mp3",
+      "audio_segment":[20.75,23.5],
+      "spanish":"No, soy suizo.",
+      "english":"No, I am Swiss.",
+      "korean":"아니, 스위스입니다."
+    }
+
+  ];
+
+var conversation2 =
+  [  
+    {  
+      "french":"Moi, je suis journaliste.",
+      "ipa":"mwa ʒə sɥi ʒuʁ.na.list",
+      //"audio":"L2/7.mp3",
+      "audio_segment":[30,32],
+      "spanish":"Soy periodista.",
+      "english":"I am a journalist.",
+      "korean":"나는 기자입니다."
+    },
+    {  
+      "french":"Mesdames, messieurs, bonjour ! Je suis Jacques Blanc. À vous !",
+      "ipa":"me.dam me.sjø bɔ̃.ʒuʁ ʒə sɥi ʒak blɑ̃ a vu",
+      //"audio":"L2/8.mp3",
+      "audio_segment":[34,38],
+      "spanish":"Señoras y señores, buenos días! Soy Jacques Blanc. A usted!",
+      "english":"Ladies and gentlemen, good morning! I am Jacques Blanc. To you!",
+      "korean":"신사 숙녀 여러분, 좋은 아침! 나는 자크 블랑입니다. 당신을 위하여!"
+    },
+    {  
+      "french":"Bonjour. Anne Mérieux. Je suis suisse. Je suis professeur d'économie à Genève.",
+      "ipa":"bɔ̃.ʒuʁ an me.ʁjø ʒə sɥi sɥis ʒə sɥi pʁɔ.fɛ.sœʁ de.kɔ.nɔ.mi a ʒə.nɛv",
+      //"audio":"L2/9.mp3",
+      "audio_segment":[38.5,47],
+      "spanish":"¡Hola. Anne Mérieux. Soy suizo. Soy un profesor de economía en Ginebra.",
+      "english":"Hello. Anne Mérieux. I am Swiss. I am a professor of economics at Geneva.",
+      "korean":"안녕하세요. 앤 Mérieux. 나는 스위스입니다. 나는 제네바에서 경제학 교수입니다."
+    },
+    {  
+      "french":"Moi, je suis turc. Je m'appelle Goran Cegülik. Je suis journaliste à Istanbul.",
+      "ipa":"mwa ʒə sɥi tyʁk ʒə ma.pɛl ɡɔ.ʁɑ̃ sə.ɡy.lik ʒə sɥi ʒuʁ.na.list a is.tɑ̃.byl",
+      //"audio":"L2/10.mp3",
+      "audio_segment":[47,54.5],
+      "spanish":"Soy turco. Mi nombre es Goran Cegülik. Soy periodista en Estambul.",
+      "english":"I am Turkish. My name is Goran Cegülik. I am a journalist in Istanbul.",
+      "korean":"나는 터키입니다. 내 이름은 고란 Cegülik입니다. 나는 이스탄불에서 기자입니다."
+    },
+    {  
+      "french":"Noriko Takahashi. Je suis japonaise. Je travaille à Osaka. Moi aussi, je suis journaliste.",
+      "ipa":"nɔ.ʁi.ko ta.ka.aʃ.i ʒə sɥi ʒa.pɔ.nɛz ʒə tʁa.vaj a o.za.ka mwa o.si ʒə sɥi ʒuʁ.na.list",
+      //"audio":"L2/11.mp3",
+      "audio_segment":[55,64],
+      "spanish":"Noriko Takahashi. Soy japonés. Yo trabajo en Osaka. Yo también soy periodista.",
+      "english":"Noriko Takahashi. I am Japanese. I work in Osaka. I too am a journalist.",
+      "korean":"노리코 다카하시. 나는 일본어입니다. 오사카에서 작동합니다. 나도 기자입니다."
+    },
+    {  
+      "french":"Jean-Noël Diallo. Je suis sénégalais. Je suis informaticien. Je travaille a Dakar.",
+      "ipa":"ʒɑ̃.nɔ.ɛl dja.lo ʒə sɥi se.ne.ɡa.lɛ ʒə sɥi ɛ̃.fɔʁ.ma.ti.sjɛ̃ ʒə tʁa.vaj a da.kaʁ",
+      //"audio":"L2/12.mp3",
+      "audio_segment":[64,72],
+      "spanish":"Jean-Noël Diallo. Soy senegalés. Soy un ordenador. Yo trabajo en Dakar.",
+      "english":"Jean-Noël Diallo. I am Senegalese. I am a computer. I work in Dakar.",
+      "korean":"장 - 노엘 디알로. 나는 세네갈입니다. 나는 컴퓨터입니다. 나는 다카르에서 작동합니다."
+    },
+    {  
+      "french":"Moi, je suis...",
+      "ipa":"mwa ʒə sɥi",
+      //"audio":"L2/13.mp3",
+      "audio_segment":[72.5,73.75],
+      "spanish":"Yo soy ...",
+      "english":"I am ...",
+      "korean":"난 ..."
+    }
+  ];
+
+
+
+          </script>
+
+
+        <div><!-- starting sections so numbering from 1-->
+          <div class="section">
+            <div class="container">
+
+              <audio id="conversation" class="fullwidth" src="L2/Piste011.mp3" controls preload></audio>
+              <script src="conversation.js"></script>
+
+            </div class="container">
+          </div class="section">
+
+
+
+          <div class="section">
+            <div class="container">
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation1)
+
+          </script>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="container">
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation2)
+
+          </script>
+            </div>
+          </div>
+
+
+          <div>
+            <div>
+              <h2>Notes</h2>
+              <ul>
+                <li>
+                  형용사 (L'adjectif)
+                  <ul>
+                    <li>
+                      부가 형용사: 명사 앞 또는 뒤에 녹여시 명사를 수식한다. 명사의 시어수에 일치
+                      <br> ex) un petit garçon
+                      <br> une fille française
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <footer>
+          <p><a href="index.html">Tableaux des contenus<a></p>
+        </footer>
+        </body>
+    </html>
+

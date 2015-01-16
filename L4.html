@@ -1,0 +1,286 @@
+ <!doctype html>
+    <html>
+      <head>
+         <link rel="stylesheet" type="text/css" href="common.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="small.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="large.css" media="screen and (min-width: 35em)" />
+         <!--[if (lt IE 9)&(!IEMobile)]>
+         <link rel="stylesheet" type="text/css" href="enhanced.css" />
+         <![endif]-->
+
+
+         <meta charset="utf-8"/>
+         <!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
+
+         <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+         <title>Amical A1 – Leçon 4</title>
+      </head>
+      <body>
+        <div id="headline">
+          <header>
+            <h1><a href="index.html">Amical A1</a></h1>
+            <p>Leçon 4 | Désolée, je suis touriste</p>
+            <p><noscript>
+              Please enable JavaScript to use this page!
+            </noscript></p>
+          </header>
+        </div>
+
+<!--
+
+Vous connaissez la rue...
+Pardon, madame. Est-ce que vous connaissez la rue...
+Non, je suis désolée ! Excusez-moi ! Je suis touriste. (...)
+Pardon, monsieur. Excusez-moi. Vous parlez anglais ?
+Ah non, désolé ! Je parle français, italien, allemand, un peu chinois...
+Merci, merci.
+
+
+Une fête Erasmus
+Salut, moi, c'est Thomas. Tu est étudiante ici ?
+Oui, et toi ?
+Moi aussi. Je suis étudiant à Nice mais j'habite à Berlin.
+Ah, tu es allemand ? Tu parles très bien français. Bravo !
+Merci !
+Moi, je suis espagnole. Je m'appelle Ana... Lui, il s'appelle Karim. Et elle, c'est Jessie. Elle est anglaise.
+Salut, toi aussi, tu es étudiante ?
+Non, je suis professeur de judo.
+Super !
+
+-->
+
+        <div><!-- starting sections so numbering from 1-->
+          <div class="section">
+            <div class="container">
+
+              <audio id="conversation" class="fullwidth" src="L4/Piste020.mp3" controls preload></audio>
+              <script src="conversation.js"></script>
+
+            </div class="container">
+          </div class="section">
+
+          <script type="text/javascript">
+var conversation1 =
+  [  
+    {"french":"Vous connaissez la rue...",
+      "ipa":"vu kɔnɛsˈe la- ʁˈy",
+      //"audio":"L4/1.mp3",
+      "audio_segment":[10,12],
+      "spanish":"Usted sabe la calle ...",
+      "english":"You know the street ..",
+      "korean":"당신은 길을 알고 .."
+    },
+    {  
+      "french":"Pardon, madame. Est-ce que vous connaissez la rue...",
+      "ipa":"paʁdˈɔ̃ madˈam ɛs kə vu kɔnɛsˈe la- ʁˈy",
+      //"audio":"L4/2.mp3",
+      "audio_segment":[14.5,16.85],
+      "spanish":"Disculpe, señora. ¿Sabe usted la calle ...",
+      "english":"Excuse me, ma'am. Do you know the street ...",
+      "korean":"실례합니다. 당신은 길을 아십니까 ..."
+    },
+    {  
+      "french":"Non, je suis désolée ! Excusez-moi ! Je suis touriste. (...)",
+      "ipa":"nˈɔ̃ ʒə- syˌi dezɔlˈe ɛkskyzˈemwˈa ʒə- syˌi tuʁˈist",
+      //"audio":"L4/3.mp3",
+      "audio_segment":[17.1,20.5],
+      "spanish":"No, lo siento! Discúlpeme! Yo soy turista. (...) Ventanilla de recepción de boletas",
+      "english":"No, I'm sorry! Excuse me! I'm a tourist. (...)",
+      "korean":"아니, 미안 해요! 실례합니다! 저는 여행자예요. (...)"
+    },
+    {  
+      "french":"Pardon, monsieur. Excusez-moi. Vous parlez anglais ?",
+      "ipa":"paʁdˈɔ̃ məsjˈø ɛkskyzˈemwˈa vu paʁlˈez ɑ̃ɡlˈɛ",
+      //"audio":"L4/4.mp3",
+      "audio_segment":[24.5,28.5],
+      "spanish":"Disculpe, señor. Discúlpeme. Hablas Inglés?",
+      "english":"Excuse me, sir. Excuse me. You speak English?",
+      "korean":"실례합니다, 선생님. 실례합니다. 당신은 영어를?"
+    },
+    {  
+      "french":"Ah non, désolé ! Je parle français, italien, allemand, un peu chinois...",
+      "ipa":"ˈa nˈɔ̃ dezɔlˈe ʒə- pˈaʁl fʁɑ̃sˈɛ italjˈɛ̃ almˈɑ̃ œ̃ pø ʃinwˈa",
+      //"audio":"L4/5.mp3",
+      "audio_segment":[29,35.5],
+      "spanish":"¡Oh, no, lo siento! Hablo francés, italiano, estilo Chino Alemán ...",
+      "english":"Oh no, sorry! I speak French, Italian, German, Chinese a little ...",
+      "korean":"죄송합니다, 오! 나는 프랑스어, 이탈리아어, 독일어, 중국어 조금 이야기 ..."
+    },
+    {  
+      "french":"Merci, merci.",
+      "ipa":"mɛʁsˈi mɛʁsˈi",
+      //"audio":"L4/6.mp3",
+      "audio_segment":[36,37],
+      "spanish":"Gracias, gracias.",
+      "english":"Thank you, thank you.",
+      "korean":"감사합니다, 감사합니다."
+    }
+  ];
+var conversation2 =
+  [  { "french":"Une fête Erasmus",
+      "ipa":"yn fˈɛt eʁasmˈys",
+      //"audio":"L4/7.mp3",
+      "audio_segment":[43,45.5],
+      "spanish":"Fiesta Erasmus",
+      "english":"Erasmus party",
+      "korean":"에라스무스 파티"
+    },
+    {  
+      "french":"Salut, moi, c'est Thomas. Tu est étudiante ici ?",
+      "ipa":"salˈy mwˈa sɛ tɔmˈa ty ɛt etydjˈɑ̃t isˈi",
+      //"audio":"L4/8.mp3",
+      "audio_segment":[46.5,50],
+      "spanish":"Hola, mi es Thomas. Usted es un estudiante aquí?",
+      "english":"Hi, me is Thomas. You are a student here?",
+      "korean":"안녕, 나 토마스입니다. 현재 학생?"
+    },
+    {  
+      "french":"Oui, et toi ?",
+      "ipa":"e twˈa",
+      //"audio":"L4/9.mp3",
+      "audio_segment":[50,51.5],
+      "spanish":"Sí y tú?",
+      "english":"Yes, and you?",
+      "korean":"그래, 당신은?"
+    },
+    {  
+      "french":"Moi aussi. Je suis étudiant à Nice mais j'habite à Berlin.",
+      "ipa":"mwˌa osˈi ʒə- syˌiz etydjˈɑ̃ a nˈis mɛ ʒabˈit a bɛʁlˈɛ̃",
+      //"audio":"L4/10.mp3",
+      "audio_segment":[51.75,55.5],
+      "spanish":"Yo también. Soy un estudiante en Niza, pero vivo en Berlín.",
+      "english":"Me too. I am a student in Nice but I live in Berlin.",
+      "korean":"나도. 나는 니스에서 학생 그러나 나는 베를린에 살고있다."
+    },
+    {  
+      "french":"Ah, tu es allemand ? Tu parles très bien français. Bravo !",
+      "ipa":"ˈa ty ɛz almˈɑ̃ ty pˈaʁl tʁɛ bjˈɛ̃ fʁɑ̃sˈɛ bʁavˈo",
+      //"audio":"L4/11.mp3",
+      "audio_segment":[56,60.5],
+      "spanish":"Ah, usted es alemán? Usted habla muy bien el francés. Bien hecho!",
+      "english":"Ah, you're German? You speak French very well. Well done!",
+      "korean":"아, 독일있어? 당신은 아주 잘 프랑스어. 잘 했어!"
+    },
+    {  
+      "french":"Merci !",
+      "ipa":"mɛʁsˈi",
+      //"audio":"L4/12.mp3",
+      "audio_segment":[60.5,61.5],
+      "spanish":"Gracias!",
+      "english":"Thank you!",
+      "korean":"감사합니다!"
+    },
+    {  
+      "french":"Moi, je suis espagnole. Je m'appelle Ana... Lui, il s'appelle Karim. Et elle, c'est Jessie. Elle est anglaise.",
+      "ipa":"mwˈa ʒə- syˌiz ɛspanjˈɔl ʒə- mapˈɛl anˈa lyˈi il sapˈɛl kaʁˈim e ˈɛl sɛ ʒɛsˈi ɛl ɛt ɑ̃ɡlˈɛz",
+      //"audio":"L4/13.mp3",
+      "audio_segment":[62,70.5],
+      "spanish":"Yo soy español. Mi nombre es Ana ... Él, su nombre es Karim. Y ella es Jessie. Ella es Inglés.",
+      "english":"I am Spanish. My name is Ana ... Him, his name is Karim. And she is Jessie. She's English.",
+      "korean":"나는 스페인어입니다. 내 이름은 아나 ... 그이다, 그의 이름은 카림입니다. 그리고 그녀는 제시입니다. 그녀는 영어입니다."
+    },
+    {  
+      "french":"Salut, toi aussi, tu es étudiante ?",
+      "ipa":"salˈy twˌa osˈi ty ɛz etydjˈɑ̃t",
+      //"audio":"L4/14.mp3",
+      "audio_segment":[70.5,73],
+      "spanish":"Hola, usted también, si eres un estudiante?",
+      "english":"Hi, you too, you're a student?",
+      "korean":"안녕하세요, 당신도, 당신은 학생인가요?"
+    },
+    {  
+      "french":"Non, je suis professeur de judo.",
+      "ipa":"nˈɔ̃ ʒə- syˌi pʁɔfɛsˈœʁ də- ʒydˈo",
+      //"audio":"L4/15.mp3",
+      "audio_segment":[73,75.6],
+      "spanish":"No, soy un profesor de judo.",
+      "english":"No, I am a professor of judo.",
+      "korean":"아니, 유도의 교수입니다."
+    },
+    {  
+      "french":"Super !",
+      "ipa":"sypˈɛʁ",
+      //"audio":"L4/16.mp3",
+      "audio_segment":[75.6,77],
+      "spanish":"¡Genial!",
+      "english":"Great!",
+      "korean":"좋아!"
+    }
+   ];
+          </script>
+
+          <div class="section">
+            <div class="container">
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation1)
+
+          </script>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="container">
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation2)
+
+          </script>
+            </div>
+          </div>
+
+
+          <div class="section">
+            <div class="container">
+              <h2>강세형 인칭 대명사 (les pronoms toniques)</h2>
+
+              <table class="twocol">
+                
+                <tr>
+                  <td style="border-bottom: 1px solid black;">les pronoms sujets<br>(주어 인칭 대명사)</td><td style="border-bottom: 1px solid black;">les pronoms toniques<br>(강세형 인칭 대명사)</td>
+                </tr>
+                <tr>
+                  <td>je</td><td>moi</td>
+                </tr>
+                <tr>
+                  <td>tu</td><td>toi</td>
+                </tr>
+                <tr>
+                  <td>il</td><td>lui</td>
+                </tr>
+                <tr>
+                  <td>nous</td><td>nous</td>
+                </tr>
+                <tr>
+                  <td>vous</td><td>vous</td>
+                </tr>
+                <tr>
+                  <td>ils</td><td>eux</td>
+                </tr>
+                <tr>
+                  <td>elles</td><td>elles</td>
+                </tr>
+              </table>
+
+
+
+
+            </div>
+          </div>
+          <div class="section">
+            <div class="container">
+              <h2>Notes</h2>
+              <ul>
+                <li>est-ce que + (vowel) → est-ce qu'(vowel) <br> ex) est-ce qu’elle, est-ce qu'il</li>
+                <li>invert pronoun (subject) and verb needs dash <br> ex) parlez-vous</li>
+                <li>c'est que = "is it that" → (inversion) → est-ce que</li>
+                <li>Est-ce que tu connais Paris ? = Connais-tu Paris ?</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <p><a href="index.html">Tableaux des contenus<a></p>
+        </footer>
+        </body>
+    </html>

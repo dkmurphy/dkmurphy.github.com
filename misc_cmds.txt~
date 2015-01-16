@@ -1,0 +1,5 @@
+allstr=("C'est pour toi." "Qu'est-ce que c'est ?" "C'est un petit cadeau pour toi !  Bon anniversaire !")
+for i in "${allstr[@]}" ; do
+  espeak -qv fr --ipa=1 "$i"
+done
+

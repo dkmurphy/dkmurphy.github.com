@@ -1,0 +1,253 @@
+ <!doctype html>
+    <html>
+      <head>
+         <link rel="stylesheet" type="text/css" href="common.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="small.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="large.css" media="screen and (min-width: 35em)" />
+         <!--[if (lt IE 9)&(!IEMobile)]>
+         <link rel="stylesheet" type="text/css" href="enhanced.css" />
+         <![endif]-->
+
+
+         <meta charset="utf-8"/>
+         <!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
+
+         <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+         <title>Amical A1 – Leçon 7</title>
+      </head>
+      <body>
+        <div id="headline">
+          <header>
+            <h1><a href="index.html">Amical A1</a></h1>
+            <p>Leçon 7 | Vous venez avec moi ?</p>
+            <p><noscript>
+              Please enable JavaScript to use this page!
+            </noscript></p>
+          </header>
+        </div>
+
+<!--
+
+allstr=("Devant la Sorbonne" "Tiens, Marion, salut." "Ah, salut, Louis. Tu vas où ?" "Je vais au cinéma. Tu viens avec moi ? Il y a un bon film au Champo." "Qu'est-ce que c'est ?" "C'est un nouveau film de Spielberg.")
+for i in "${allstr[@]}" ; do
+  espeak -qv fr --ipa=1 "$i"
+done
+
+
+allstr=("Vous venez au concert de jazz ?" "Allô, Marie ? C'est Jacques. Comment ça va, toi ? Et Pierre ?" 'On va très bien, merci. Et toi ?" "Ça va. Que'est-ce que vous faites ? Moi, je vais a un concert de jazz. Il y a trois musiciens : Hervé "Dupré, Tony Hergins et Henry Brown." "Oh, ils sont excellents. C'est où ?" "C'est à la Cigale à 21 heures. Vous venez ?" "Bonne idée ! On vient. À tout à l'heure.")
+for i in "${allstr[@]}" ; do
+  espeak -qv fr --ipa=1 "$i"
+done
+
+
+
+
+
+
+
+
+
+Devant la Sorbonne
+Tiens, Marion, salut.
+Ah, salut, Louis. Tu vas où ?
+Je vais au cinéma. Tu viens avec moi ? Il y a un bon film au Champo.
+Qu'est-ce que c'est ?
+C'est un nouveau film de Spielberg.
+
+
+
+
+
+
+
+
+
+
+Vous venez au concert de jazz ?
+Allô, Marie ? C'est Jacques. Comment ça va, toi ? Et Pierre ?
+On va très bien, merci. Et toi ?
+Ça va. Que'est-ce que vous faites ? Moi, je vais a un concert de jazz. Il y a trois musiciens : Hervé Dupré, Tony Hergins et Henry Brown.
+Oh, ils sont excellents. C'est où ?
+C'est à la Cigale à 21 heures. Vous venez ?
+Bonne idée ! On vient. À tout à l'heure.
+
+
+
+
+
+
+
+
+-->
+        <div>
+          <script type="text/javascript">
+var conversation1 =
+  [  
+    {  
+      "french":"Devant la Sorbonne",
+      "ipa":"də.vɑ̃ la sɔʁ.bɔn",
+      //"audio":"L7/1.mp3",
+      "audio_segment":[8.5, 10],
+      "spanish":"Antes de la Sorbona",
+      "english":"Before the Sorbonne",
+      "korean":"소르본 전"
+    },
+    {  
+      "french":"Tiens, Marion, salut.",
+      "ipa":"tjɛ̃ ma.ʁjɔ̃ sa.ly",
+      //"audio":"L7/2.mp3",
+      "audio_segment":[13, 15],
+      "spanish":"Mira, Marion, hola.",
+      "english":"Look, Marion, hi.",
+      "korean":"안녕하세요, 마리온 봐."
+    },
+    {  
+      "french":"Ah, salut, Louis. Tu vas où ?",
+      "ipa":"a sa.ly lwi ty va u",
+      //"audio":"L7/3.mp3",
+      "audio_segment":[15, 18],
+      "spanish":"Oh, hola, Louis. Adónde vas?",
+      "english":"Oh, hello, Louis. Where are you going?",
+      "korean":"아, 안녕하세요, 루이. 어디가?"
+    },
+    {  
+      "french":"Je vais au cinéma. Tu viens avec moi ? Il y a un bon film au Champo.",
+      "ipa":"ʒə vɛ o si.ne.ma ty vjɛ̃ a.vɛk mwa il i a œ̃ bɔ̃ film o ʃɑ̃.po",
+      //"audio":"L7/4.mp3",
+      "audio_segment":[18.5, 22.5],
+      "spanish":"Voy al cine. Vienes conmigo? Hay una buena película para Champo.",
+      "english":"I go to the cinema. You come with me? There is a good movie to Champo.",
+      "korean":"나는 영화로 이동합니다. 당신은 나와 함께? Champo에 좋은 영화가있다."
+    },
+    {  
+      "french":"Qu'est-ce que c'est ?",
+      "ipa":"kɛs.kə sɛ",
+      //"audio":"L7/5.mp3",
+      "audio_segment":[23, 24],
+      "spanish":"Qué es?",
+      "english":"What is it?",
+      "korean":"그것은 무엇인가?"
+    },
+    {  
+      "french":"C'est un nouveau film de Spielberg.",
+      "ipa":"sɛ.t‿œ̃ nu.vo film də spjɛl.bɛʁɡ",
+      //"audio":"L7/6.mp3",
+      "audio_segment":[24.5, 26.5],
+      "spanish":"Se trata de una nueva película de Spielberg.",
+      "english":"It is a new Spielberg film.",
+      "korean":"그것은 새로운 스필버그 영화이다."
+    }
+  ];
+
+
+
+ 
+var conversation2 =
+  [  
+    {  
+      "french":"Vous venez au concert de jazz ?",
+      "ipa":"vu və.ne o kɔ̃.sɛʁ də d͡ʒaz",
+      //"audio":"L7/7.mp3",
+      "audio_segment":[34.5, 36.5],
+      "spanish":"Tú vienes al concierto de jazz?",
+      "english":"당신은 재즈 콘서트에 와서?",
+      "korean":"당신은 재즈 콘서트에 와서?"
+    },
+    {  
+      "french":"Allô, Marie ? C'est Jacques. Comment ça va, toi ? Et Pierre ?",
+      "ipa":"alo ma.ʁi sɛ ʒak kɔ.mɑ̃ sa va twa e pjɛʁ",
+      //"audio":"L7/8.mp3",
+      "audio_segment":[38, 42.5],
+      "spanish":"Hola, María? Fue Jacques. ¿Cómo eres tú? Y Pedro?",
+      "english":"You come to the jazz concert?",
+      "korean":"안녕하세요, 마리아? 그것은 자크했다. 당신은 어때요? 베드로?"
+    },
+    {  
+      "french":"On va très bien, merci. Et toi ?",
+      "ipa":"ɔ̃ va tʁɛ bjɛ̃  mɛʁ.si e twa",
+      //"audio":"L7/9.mp3",
+      "audio_segment":[43.5, 46.25],
+      "spanish":"Está muy bien, gracias. Y usted?",
+      "english":"It is very well, thank you. And you?",
+      "korean":"그것은 아주 잘, 감사합니다. 그리고 당신은?"
+    },
+    {  
+      "french":"Ça va. Qu'est-ce que vous faites ? Moi, je vais a un concert de jazz. Il y a trois musiciens : Hervé Dupré, Tony Hergins et Henry Brown.",
+      "ipa":"sa va kɛs.kə vu fɛt mwa ʒə vɛ a œ̃ kɔ̃.sɛʁ də d͡ʒaz il i a tʁwa my.zi.sjɛ̃ ɛʁ.ve dy.pʁe tɔ.ni ɛʁ.ʒɛ̃s e ɑ̃.ʁi bʁawn",
+      //"audio":"L7/10.mp3",
+      "audio_segment":[46.5, 56],
+      "spanish":"Está bien. Ahora ¿qué pasa con lo que haces? Voy a un concierto de jazz. Hay tres músicos: Hervé Dupré, de Tony Hergins y Henry Brown.",
+      "english":"It's okay. Now what about what you do? I'm going to a jazz concert. There are three musicians: Hervé Dupré, Tony Hergins and Henry Brown.",
+      "korean":"괜찮아. 지금 당신이하는 일에 대해 무엇? 나는 재즈 콘서트에 갈거야. 하브 Dupré은, 토니 Hergins 헨리 브라운 세 뮤지션이있다."
+    },
+    {  
+      "french":"Oh, ils sont excellents. C'est où ?",
+      "ipa":"ɔ il sɔ̃ ɛk.sɛ.lɑ̃ sɛ u",
+      //"audio":"L7/11.mp3",
+      "audio_segment":[56.5, 59],
+      "spanish":"Oh, son excelentes. Dónde está?",
+      "english":"Oh, they are excellent. Where is it?",
+      "korean":"오, 우수하다. 어디?"
+    },
+    {  
+      "french":"C'est à la Cigale à 21 heures. Vous venez ?",
+      "ipa":"sɛ.t‿a la si.ɡal a vɛ̃.t‿e œ̃ œʁ vu vəne",
+      //"audio":"L7/12.mp3",
+      "audio_segment":[59, 62.5],
+      "spanish":"Es en los Cigale 21 horas. ¿Vienes?",
+      "english":"It is at the Cigale 21 hours. Are you coming?",
+      "korean":"그것은 Cigale 21시간에 있습니다. 당신이오고 있습니까?"
+    },
+    {  
+      "french":"Bonne idée ! On vient. À tout à l'heure.",
+      "ipa":"bɔn i.de ɔ̃ vjɛ̃ a tu.t‿a lœʁ",
+      //"audio":"L7/13.mp3",
+      "audio_segment":[62.5, 65.5],
+      "spanish":"Buena idea! Nosotros venimos. En cualquier hora.",
+      "english":"Good idea! We come from. At any hour.",
+      "korean":"좋은 생각! 우리는에서 온다. 어떤 시간에."
+    }
+  ];
+
+
+ 
+
+          </script>
+        </div>
+        <div><!-- starting sections so numbering from 1-->
+          <div class="section">
+            <div class="container">
+
+              <audio id="conversation" class="fullwidth" src="L7/Piste036.mp3" controls preload></audio>
+              <script src="conversation.js"></script>
+
+            </div class="container">
+          </div class="section">
+          <div class="section">
+            <div class="container">
+
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation1)
+
+          </script>
+            </div>
+          </div>
+          <div class="section">
+            <div class="container">
+
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation2)
+
+          </script>
+            </div>
+          </div>
+
+        </div>
+        <footer>
+          <p><a href="index.html">Tableaux des contenus<a></p>
+        </footer>
+        </body>
+    </html>
+

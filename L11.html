@@ -1,0 +1,347 @@
+ <!doctype html>
+    <html>
+      <head>
+         <link rel="stylesheet" type="text/css" href="common.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="small.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="large.css" media="screen and (min-width: 35em)" />
+         <!--[if (lt IE 9)&(!IEMobile)]>
+         <link rel="stylesheet" type="text/css" href="enhanced.css" />
+         <![endif]-->
+
+
+         <meta charset="utf-8"/>
+         <!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
+
+         <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+         <title>Amical A1 – Leçon 11</title>
+      </head>
+      <body>
+        <div id="headline">
+          <header>
+            <h1><a href="index.html">Amical A1</a></h1>
+            <p>Leçon 11 | C'est loin ?</p>
+            <p><noscript>
+              Please enable JavaScript to use this page!
+            </noscript></p>
+          </header>
+        </div>
+
+<!--
+
+allstr=("Le Louvre, c'est loin ?" "Je voudrais aller au Louvre, s'il vout plaît. C'est loin ?" "Non, c'est tout près. Vous prenez la deuxième rye a gauche. C'est là !")
+for i in "${allstr[@]}" ; do
+  espeak -qv fr --ipa=1 "$i"
+done
+
+
+Le Louvre, c'est loin ?
+Je voudrais aller au Louvre, s'il vout plaît. C'est loin ?
+Non, c'est tout près. Vous prenez la deuxième rue a gauche. C'est là !
+
+lə- lˈuvʁ sɛ lwˈɛ̃
+
+ʒə- vudʁˈɛz alˈe o lˈuvʁ sil vˈu plˈɛ sɛ lwˈɛ̃
+
+nˈɔ̃ sɛ tu pʁˈɛ vu pʁənˈe la- døzjˈɛm ʁˈy a ɡˈoʃ sɛ lˈa
+
+
+allstr=("Je voudrais aller à Montmartre." "Pardon, monsieur, pour aller à Montmartre, s'il vous plaît ?" "Prenez le métro ou le bus 85, c'est direct." "Et à pied." "Ah, à pied, c'est un peu loin.")
+for i in "${allstr[@]}" ; do
+  espeak -qv fr --ipa=1 "$i"
+done
+
+Je voudrais aller à Montmartre.
+Pardon, monsieur, pour aller à Montmartre, s'il vous plaît ?
+Prenez le métro ou le bus 85, c'est direct.
+Et à pied.
+Ah, à pied, c'est un peu loin.
+
+
+ʒə- vudʁˈɛz alˈe a mɔ̃mˈaʁtʁ
+
+paʁdˈɔ̃ məsjˈø puʁ alˈe a mɔ̃mˈaʁtʁ sil vu plˈɛ
+
+pʁənˈe lə- metʁˈo u lə- bˈys katʁəvɛ̃sˈɛ̃k sɛ diʁˈɛkt
+
+e a pjˈe
+
+ˈa a pjˈe sɛt œ̃ pø lwˈɛ̃
+
+
+
+allstr=("C'est à dix minutes à pied." "Oh là là ! Mais où est la gare !" "On demande à quelqu'un ?" "Oui. (...) Pardon, madame, nous sommes perdus. Nous cherchons la gare du Nord." "La gare du Nord ? C'est facile. Allez tout droit. Après la banque, c'est la première rue à droite." "C'est loin ?" "Non, dix minutes à pied." "Merci beaucoup." "Je vous en prie.")
+for i in "${allstr[@]}" ; do
+  espeak -qv fr --ipa=1 "$i"
+done
+
+C'est à dix minutes à pied.
+Oh là là ! Mais où est la gare !
+On demande à quelqu'un ?
+Oui. (...) Pardon, madame, nous sommes perdus. Nous cherchons la gare du Nord.
+La gare du Nord ? C'est facile. Allez tout droit. Après la banque, c'est la première rue à droite.
+C'est loin ?
+Non, dix minutes à pied.
+Merci beaucoup.
+Je vous en prie.
+
+
+sɛt a dˈi minˈytz a pjˈe
+
+ˈɔ lˈa lˈa mɛz u ɛ la- ɡˈaʁ
+
+ɔ̃ dəmˈɑ̃d a kɛlkˈœ̃
+
+wˈi paʁdˈɔ̃ madˈam nu sɔm pɛʁdˈy nu ʃɛʁʃˈɔ̃ la- ɡˈaʁ dy- nˈɔʁ
+
+la- ɡˈaʁ dy- nˈɔʁ sɛ fasˈil alˈe tu dʁwˈa apʁˌɛ la- bˈɑ̃k sɛ la- pʁəmjˈɛʁ ʁˈy a dʁwˈat
+
+sɛ lwˈɛ̃
+
+nˈɔ̃ dˈi minˈytz a pjˈe
+
+
+mɛʁsˈi bokˈu
+
+ʒə- vuz ɑ̃ pʁˈi
+
+
+
+
+
+
+
+-->
+        <div>
+
+          <script type="text/javascript">
+var conversation1 =
+  [  
+    {  
+      "french":"Le Louvre, c'est loin ?",
+      "ipa":"lə- lˈuvʁ sɛ lwˈɛ̃",
+      "audio_segment":[9,12],
+      "spanish":"El Louvre, muy lejos?",
+      "english":"The Louvre, far away?",
+      "korean":"루브르 박물관, 멀리?"
+    },
+    {  
+      "french":"Je voudrais aller au Louvre, s'il vout plaît. C'est loin ?",
+      "ipa":"ʒə vudʁˈɛ ale o luvʁ sil vu plɛ sɛ lwˈɛ̃",
+      "audio_segment":[13,16.25],
+      "spanish":"Me gustaría ir al Louvre, donde vsal favor. ¿Hasta dónde?",
+      "english":"I would go to the Louvre, where vout please. How far?",
+      "korean":"나는 루브르 박물관, VOUT하십시오로 이동합니다. 얼마나?"
+    },
+    {  
+      "french":"Non, c'est tout près. Vous prenez la deuxième rue a gauche. C'est là !",
+      "ipa":"nˈɔ̃ sɛ tu pʁˈɛ vu pʁənˈe la- døzjˈɛm ʁˈy a ɡˈoʃ sɛ lˈa",
+      "audio_segment":[16.25,22],
+      "spanish":"No, está cerca. Usted toma la segunda centeno izquierda. ¡Ahí está!",
+      "english":"No, it's close. You take the second left rye. There it is!",
+      "korean":"아니, 가까이. 당신은 두 번째 왼쪽 호밀을. 이 그것입니다!"
+    }
+  ];
+
+
+var conversation2 =
+  [  
+    {  
+      "french":"Je voudrais aller à Montmartre.",
+      "ipa":"ʒə- vudʁˈɛ ale a mɔ̃.maʁtʁ",
+      "audio_segment":[26,30],
+      "spanish":"Me gustaría ir a Montmartre.",
+      "english":"I would go to Montmartre.",
+      "korean":"나는 몽마르뜨 (Montmartre)로 갈 것입니다."
+    },
+    {  
+      "french":"Pardon, monsieur, pour aller à Montmartre, s'il vous plaît ?",
+      "ipa":"paʁdˈɔ̃ məsjˈø puʁ alˈe a mɔ̃mˈaʁtʁ sil vu plˈɛ",
+      "audio_segment":[31,34],
+      "spanish":"Disculpe, señor, para ir a Montmartre, por favor?",
+      "english":"Excuse me, sir, to go to Montmartre, please?",
+      "korean":"저, 선생님, 몽마르뜨 (Montmartre)로하시기 바랍니다 가고 요?"
+    },
+    {  
+      "french":"Prenez le métro ou le bus 85, c'est direct.",
+      "ipa":"pʁənˈe lə- metʁˈo u lə- bˈys katʁəvɛ̃sˈɛ̃k sɛ diʁˈɛkt",
+      "audio_segment":[34,37.75],
+      "spanish":"Tome el metro o el autobús 85, que es directa.",
+      "english":"Take the subway or bus 85, is direct.",
+      "korean":"지하철이나 버스 85를 타고, 직접입니다."
+    },
+    {  
+      "french":"Et à pied.",
+      "ipa":"e a pjˈe",
+      "audio_segment":[37.75,38.75],
+      "spanish":"Y se aleja.",
+      "english":"And walk away.",
+      "korean":"그리고 도보 거리."
+    },
+    {  
+      "french":"Ah, à pied, c'est un peu loin.",
+      "ipa":"ˈa a pjˈe sɛt œ̃ pø lwˈɛ̃",
+      "audio_segment":[39,42],
+      "spanish":"Ah, a pie, que es un poco lejos.",
+      "english":"Ah, on foot, it's a bit far.",
+      "korean":"아, 도보, 그것은 조금 멀어요."
+    }
+  ];
+
+var conversation3 =
+  [  
+    {  
+      "french":"C'est à dix minutes à pied.",
+      "ipa":"sɛt a dˈi minˈytz a pjˈe",
+      "audio_segment":[47,50],
+      "spanish":"Esta es una caminata de diez minutos.",
+      "english":"This is a ten minute walk.",
+      "korean":"이 10 분 거리에 있습니다."
+    },
+    {  
+      "french":"Oh là là ! Mais où est la gare !",
+      "ipa":"ˈɔ lˈa lˈa mɛz u ɛ la- ɡˈaʁ",
+      "audio_segment":[52,55],
+      "spanish":"Oh my! Pero ¿dónde está la estación!",
+      "english":"Oh my! But where is the station!",
+      "korean":"오! 그러나 여기서 역입니다!"
+    },
+    {  
+      "french":"On demande à quelqu'un ?",
+      "ipa":"ɔ̃ dəmˈɑ̃d a kɛlkˈœ̃",
+      "audio_segment":[55,57],
+      "spanish":"Le pedimos a alguien?",
+      "english":"We ask someone?",
+      "korean":"우리는 사람을 물어?"
+    },
+    {  
+      "french":"Oui. (...) Pardon, madame, nous sommes perdus. Nous cherchons la gare du Nord.",
+      "ipa":"wˈi paʁdˈɔ̃ madˈam nu sɔm pɛʁdˈy nu ʃɛʁʃˈɔ̃ la- ɡˈaʁ dy- nˈɔʁ",
+      "audio_segment":[57.5,63.75],
+      "spanish":"Sí. (...) Perdone, señora, estamos perdidos. Buscamos la Estación del Norte.",
+      "english":"Yes. (...) Excuse me, madam, we are lost. We seek the North Station.",
+      "korean":"예. (...) 우리는 손실, 부인, 실례합니다. 우리는 북한이 역을 추구합니다."
+    },
+    {  
+      "french":"La gare du Nord ? C'est facile. Allez tout droit. Après la banque, c'est la première rue à droite.",
+      "ipa":"la- ɡˈaʁ dy- nˈɔʁ sɛ fasˈil alˈe tu dʁwˈa apʁˌɛ la- bˈɑ̃k sɛ la- pʁəmjˈɛʁ ʁˈy a dʁwˈat",
+      "audio_segment":[63.75,71.25],
+      "spanish":"Estación del Norte? Es fácil. Siga derecho. Después de que el banco, esta es la primera calle a la derecha.",
+      "english":"North Station? It's easy. Go straight. After the bank, this is the first street on the right.",
+      "korean":"북역? 그것은 간단합니다. 똑바로가주세요.뱅크 이후이 오른쪽 첫 번째 거리이다."
+    },
+    {  
+      "french":"C'est loin ?",
+      "ipa":"sɛ lwˈɛ̃",
+      "audio_segment":[71.25,72],
+      "spanish":"¿Hasta dónde?",
+      "english":"How far?",
+      "korean":"얼마나?"
+    },
+    {  
+      "french":"Non, dix minutes à pied.",
+      "ipa":"nˈɔ̃ dˈi minˈytz a pjˈe",
+      "audio_segment":[72.5,74.5],
+      "spanish":"A menos de tres minutos.",
+      "english":"Not ten minutes.",
+      "korean":"아니 십분."
+    },
+    {  
+      "french":"Merci beaucoup.",
+      "ipa":"mɛʁsˈi bokˈu",
+      "audio_segment":[75,76],
+      "spanish":"Gracias.",
+      "english":"Thank you.",
+      "korean":"감사합니다."
+    },
+    {  
+      "french":"Je vous en prie.",
+      "ipa":"ʒə- vuz ɑ̃ pʁˈi",
+      "audio_segment":[76,78],
+      "spanish":"Te lo ruego.",
+      "english":"I beg you.",
+      "korean":"나는 당신을 구걸."
+    }
+  ];
+
+ 
+
+
+
+
+
+          </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <div><!-- starting sections so numbering from 1-->
+          <div class="section">
+            <div class="container">
+
+              <audio id="conversation" class="fullwidth" src="L11/Piste052.mp3" controls preload></audio>
+              <script src="conversation.js"></script>
+
+            </div class="container">
+          </div class="section">
+          <div class="section">
+            <div class="container">
+
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation1)
+
+          </script>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="container">
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation2)
+
+          </script>
+            </div>
+          </div>
+          <div class="section">
+            <div class="container">
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation3)
+
+          </script>
+            </div>
+          </div>
+          <div class="section">
+            <div class="container">
+              <h2>Notes</h2>
+              <ul>
+                <li>5, 6, 8, 10 + consontant → sɛ̃, si, ɥi, di
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <p><a href="index.html">Tableaux des contenus<a></p>
+        </footer>
+        </body>
+    </html>
+

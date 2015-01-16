@@ -1,0 +1,176 @@
+table.conjugation-head {
+  font-weight: 600;
+  width: 100%;
+  border: 3px solid black;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+table.conjugation:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+table.conjugation:last-child {
+  margin-bottom: 5ex;
+}
+
+table.conjugation-head td {
+  border: 0;
+}
+
+
+table.conjugation tr.conjugation td:nth-child(even) {
+  padding-bottom: 2px;
+  width: 50%;
+  border-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: none;
+  border-left-style: none;
+}
+
+table.conjugation tr.conjugation td:nth-child(odd) {
+  padding-bottom: 2px;
+  text-align: right;
+  white-space: nowrap;
+  width: 1px;
+  border-width: 1px;
+  border-top-style: solid;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: solid;
+}
+
+table.conjugation tr.conjugationpronunciation td {
+  text-align: right;
+  padding-top: 2px;
+  border-width: 1px;
+  border-top-style: none;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+}
+
+
+table.conjugation td.noverticalpadding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+table.conjugation td {
+  padding: 10px;
+}
+
+table.conjugation {
+   /*border: 3px solid black;*/
+   border: 0;
+   border-collapse: collapse;
+}
+
+table.conjugation tr:first-child{
+   border: 0;
+}
+
+
+
+
+
+
+
+
+/* table.conversation tr.english, table.conversation tr.spanish, table.conversation tr.korean {
+display: none;
+} */
+
+
+table.word-word-audio {
+    width: 100%;
+    border-spacing: 1ex;
+}
+
+table.word-word-audio tr:nth-child(2n):not(:nth-last-child(-n+1)) td {
+  padding-bottom: 1ex;
+  border-bottom: 1px solid black;
+}
+
+table.word-word-audio-short {
+  margin: auto;
+  border: 1px solid black;
+    border-spacing: 1ex;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  border-collapse: collapse;
+}
+
+table.word-word-audio-short td {
+  padding: 10px;
+}
+
+table.alphabet-audio td {
+  padding: 10px;
+}
+
+table.alphabet-audio {
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-collapse: collapse;
+}
+
+table.alphabet-audio td {
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+
+/*table.alphabet-audio tr td:first-child {
+  width: 1px;
+  white-space: nowrap;
+}*/
+
+
+table.conversation tr hr {
+    border: 0;
+    height: 3px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #222, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #222, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #222, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #222, #ccc); 
+}
+
+table.conversation {
+    width: 100%;
+    border-spacing: 1ex;
+    /*border-collapse: separate;*/
+
+}
+
+table.conversation tr:nth-child(-n+5) td {
+    font-style: italic;
+}
+
+audio.fullwidth {
+ width: 100%;
+}
+
+audio::-webkit-media-controls-enclosure {
+    max-width: 100%; /*or inherit*/
+}
+
+
+
+button
+{
+        font-size:inherit;
+	padding: 5px 10px;
+	margin: 0px 5px;
+	color: #FFF;
+	background-color: #555;
+	background: -webkit-linear-gradient(#AAA, #888);
+	background: linear-gradient(#AAA, #888);
+	border: 0 none;
+	cursor: pointer;
+}

@@ -1,0 +1,335 @@
+ <!doctype html>
+    <html>
+      <head>
+         <link rel="stylesheet" type="text/css" href="common.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="small.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="large.css" media="screen and (min-width: 35em)" />
+         <!--[if (lt IE 9)&(!IEMobile)]>
+         <link rel="stylesheet" type="text/css" href="enhanced.css" />
+         <![endif]-->
+
+
+         <meta charset="utf-8"/>
+         <!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
+
+         <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+         <title>Amical A1 – Leçon 12</title>
+      </head>
+      <body>
+        <div id="headline">
+          <header>
+            <h1><a href="index.html">Amical A1</a></h1>
+            <p>Leçon 12 | Je voudrais voir ça...</p>
+            <p><noscript>
+              Please enable JavaScript to use this page!
+            </noscript></p>
+          </header>
+        </div>
+
+<!--
+
+allstr=("Une très belle expo" "Bruno: Il y a une expo de Soulages. C'est très beau, je crois ! Viens avec moi !" "Sam : C'est où ?" "Bruno : Au Centre Pompidou." "Sam : Ah, c'est tout près de chez moi. Super !")
+for i in "${allstr[@]}" ; do
+  espeak -qv fr --ipa=1 "$i"
+done
+
+
+Une très belle expo
+Bruno: Il y a une expo de Soulages. C'est très beau, je crois ! Viens avec moi !
+Sam : C'est où ?
+Bruno : Au Centre Pompidou.
+Sam : Ah, c'est tout près de chez moi. Super !
+
+
+yn tʁɛ bˈɛl ɛkspˈo
+
+bʁynˈo il i a yn ɛkspˈo də- sulˈaʒ sɛ tʁɛ bˈo ʒə- kʁwˈa vjˈɛ̃ avˌɛk mwˈa
+
+sˈam sɛt ˈu
+
+bʁynˈo o sˈɑ̃tʁ pɔ̃pidˈu
+
+sˈam ˈa sɛ tu pʁɛ də- ʃe mwˈa sypˈɛʁ
+
+
+
+allstr=("Une folie !" "Le 31 décembre, faites une petite folie !" "Allez chez Maxim's pour dîner !")
+for i in "${allstr[@]}" ; do
+  espeak -qv fr --ipa=1 "$i"
+done
+
+
+Une folie !
+Le 31 décembre, faites une petite folie !
+Allez chez Maxim's pour dîner !
+
+
+yn fɔlˈi
+
+lə- tʁɑ̃teˈœ̃ desˈɑ̃bʁ fˈɛtz yn pətˈit fɔlˈi
+
+alˈe ʃemˈaksɛ-mz puʁ dinˈe
+
+
+
+
+allstr=("Week-end au Mont-Saint-Michel" "Léo : On a un grand week-end : vendredi, samedi, dimanche. Qu'est-ce qu'on fait ?" "Mick : On fait un petit voyage ?" "Je voudrais voir les châteaux de la Loire. D'accord ?" "Léo : Hum... C'est un peu loin, non ? J'ai une idée  : allons au Mont-Saint-Michel" "Mick : Oui, très bien ! On part en voiture ou en train ?" "Léo : Moi, je préfère le train." "Prends les billets, s'il te plaît." "Mick : D'accord. Je fais ça tout de suite sur Internet.")
+for i in "${allstr[@]}" ; do
+  espeak -qv fr --ipa=1 "$i"
+done
+
+
+
+
+Week-end au Mont-Saint-Michel
+Léo : On a un grand week-end : vendredi, samedi, dimanche. Qu'est-ce qu'on fait ?
+Mick : On fait un petit voyage ?
+Je voudrais voir les châteaux de la Loire. D'accord ?
+Léo : Hum... C'est un peu loin, non ? J'ai une idée : allons au Mont-Saint-Michel
+Mick : Oui, très bien ! On part en voiture ou en train ?
+Léo : Moi, je préfère le train.
+Prends les billets, s'il te plaît.
+Mick : D'accord. Je fais ça tout de suite sur Internet.
+
+wˈiːkˈɛnd o mˈɔ̃sˈɛ̃miʃˈɛl
+
+leˈo ɔ̃n a œ̃ ɡʁˈɑ̃wˈiːkˈɛnd vɑ̃dʁədˈi samdˈi dimˈɑ̃ʃ kɛs kɔ̃ fˈɛ
+
+mˈik ɔ̃ fˈɛt œ̃ pətˈi vwajˈaʒ
+
+ʒə- vudʁˈɛ vwˈaʁ le- ʃatˈo də- la- lwˈaʁ dakˈɔʁ
+
+leˈo ˈɔm sɛt œ̃ pø lwˈɛ̃ nˈɔ̃ ʒe yn idˈe alˈɔ̃z o mˈɔ̃sˈɛ̃miʃˈɛl
+
+mˈik wˈi tʁɛ bjˈɛ̃ ɔ̃ pˈaʁ ɑ̃ vwatˈyʁ u ɑ̃ tʁˈɛ̃
+
+leˈo mwˈa ʒə- pʁefˈɛʁ lə- tʁˈɛ̃
+
+pʁˈɑ̃ le- bijˈɛ sil tə- plˈɛ
+
+mˈik dakˈɔʁ ʒə- fˈɛ sa tu də- syˈit syʁ ɛ̃tɛʁnˈɛt
+
+-->
+        <div>
+
+          <script type="text/javascript">
+var conversation1 =
+  [  
+    {  
+      "french":"Une très belle expo",
+      "ipa":"yn tʁɛ bˈɛl ɛkspˈo",
+      "audio_segment":[7.75,9],
+      "spanish":"Una bella exposición",
+      "english":"A beautiful exhibition",
+      "korean":"아름다운 전시"
+    },
+    {  
+      "french":"Bruno: Il y a une expo de Soulages. C'est très beau, je crois ! Viens avec moi !",
+      "ipa":"bʁynˈo il i a yn ɛkspˈo də- sulˈaʒ sɛ tʁɛ bˈo ʒə- kʁwˈa vjˈɛ̃ avˌɛk mwˈa",
+      "audio_segment":[10.5,16],
+      "spanish":"Bruno: No es una exposición de Soulages. Es hermoso, creo! Ven conmigo!",
+      "english":"Bruno: There is an exhibition of Soulages. It's beautiful, I think! Come with me!",
+      "korean":"브루노 : Soulages의 전시가있다. 그것은 아름답다, 나는 생각한다! 저와 함께가요!"
+    },
+    {  
+      "french":"Sam : C'est où ?",
+      "ipa":"sˈam sɛt ˈu",
+      "audio_segment":[16,17.75],
+      "spanish":"Sam: ¿Dónde está?",
+      "english":"Sam: Where is it?",
+      "korean":"샘 : 그것은 어디?"
+    },
+    {  
+      "french":"Bruno : Au Centre Pompidou.",
+      "ipa":"bʁynˈo o sˈɑ̃tʁ pɔ̃pidˈu",
+      "audio_segment":[17.75,19],
+      "spanish":"Bruno: En el Centro Pompidou.",
+      "english":"Bruno: At the Centre Pompidou.",
+      "korean":"브루노 : 퐁피두 센터에서."
+    },
+    {  
+      "french":"Sam : Ah, c'est tout près de chez moi. Super !",
+      "ipa":"sˈam ˈa sɛ tu pʁɛ də- ʃe mwˈa sypˈɛʁ",
+      "audio_segment":[19.5,22.5],
+      "spanish":"Sam: Oh, es cerca de casa. ¡Genial!",
+      "english":"Sam: Oh, it's close to home. Great!",
+      "korean":"샘 : 아, 집에 가까이. 좋아!"
+    }
+  ];
+
+
+
+var conversation2 =
+  [  
+    {  
+      "french":"Une folie !",
+      "ipa":"yn fɔlˈi",
+      "audio_segment":[28.5,30],
+      "spanish":"¡Qué locura!",
+      "english":"Madness!",
+      "korean":"광기!"
+    },
+    {  
+      "french":"Le 31 décembre, faites une petite folie !",
+      "ipa":"lə- tʁɑ̃teˈœ̃ desˈɑ̃bʁ fˈɛtz yn pətˈit fɔlˈi",
+      "audio_segment":[30,33],
+      "spanish":"El 31 de diciembre de derrochar!",
+      "english":"On 31 December, splurge!",
+      "korean":"12 월 31 일, 과시!"
+    },
+    {  
+      "french":"Allez chez Maxim's pour dîner !",
+      "ipa":"alˈe ʃemˈaksɛ-mz puʁ dinˈe",
+      "audio_segment":[33,36],
+      "spanish":"Ir a Maxim es para la cena!",
+      "english":"Go to Maxim's for dinner!",
+      "korean":"저녁 식사를 위해 Maxim의로 이동합니다!"
+    }
+  ];
+
+
+var conversation3 =
+  [  
+    {  
+      "french":"Week-end au Mont-Saint-Michel",
+      "ipa":"wˈiːkˈɛnd o mˈɔ̃sˈɛ̃miʃˈɛl",
+      "audio_segment":[42,44],
+      "spanish":"",
+      "english":"",
+      "korean":""
+    },
+    {  
+      "french":"Léo : On a un grand week-end : vendredi, samedi, dimanche. Qu'est-ce qu'on fait ?",
+      "ipa":"leˈo ɔ̃n a œ̃ ɡʁˈɑ̃wˈiːkˈɛnd vɑ̃dʁədˈi samdˈi dimˈɑ̃ʃ kɛs kɔ̃ fˈɛ",
+      "audio_segment":[44.5,51],
+      "spanish":"",
+      "english":"",
+      "korean":""
+    },
+    {  
+      "french":"Mick : On fait un petit voyage ?",
+      "ipa":"mˈik ɔ̃ fˈɛt œ̃ pətˈi vwajˈaʒ",
+      "audio_segment":[51,53],
+      "spanish":"",
+      "english":"",
+      "korean":""
+    },    
+    {  
+      "french":"Je voudrais voir les châteaux de la Loire. D'accord ?",
+      "ipa":"ʒə- vudʁˈɛ vwˈaʁ le- ʃatˈo də- la- lwˈaʁ dakˈɔʁ",
+      "audio_segment":[53,56.5],
+      "spanish":"",
+      "english":"",
+      "korean":""
+    },
+    {  
+      "french":"Léo : Hum... C'est un peu loin, non ? J'ai une idée : allons au Mont-Saint-Michel",
+      "ipa":"leˈo ˈɔm sɛt œ̃ pø lwˈɛ̃ nˈɔ̃ ʒe yn idˈe alˈɔ̃z o mˈɔ̃sˈɛ̃miʃˈɛl",
+      "audio_segment":[56.5,63.5],
+      "spanish":"",
+      "english":"",
+      "korean":""
+    },
+    {  
+      "french":"Mick : Oui, très bien ! On part en voiture ou en train ?",
+      "ipa":"mˈik wˈi tʁɛ bjˈɛ̃ ɔ̃ pˈaʁ ɑ̃ vwatˈyʁ u ɑ̃ tʁˈɛ̃",
+      "audio_segment":[63.75,68],
+      "spanish":"",
+      "english":"",
+      "korean":""
+    },
+    {  
+      "french":"Léo : Moi, je préfère le train.",
+      "ipa":"leˈo mwˈa ʒə- pʁefˈɛʁ lə- tʁˈɛ̃",
+      "audio_segment":[68,70],
+      "spanish":"",
+      "english":"",
+      "korean":""
+    },
+    {  
+      "french":"Prends les billets, s'il te plaît.",
+      "ipa":"pʁˈɑ̃ le- bijˈɛ sil tə- plˈɛ",
+      "audio_segment":[70,72],
+      "spanish":"",
+      "english":"",
+      "korean":""
+    },
+    {  
+      "french":"Mick : D'accord. Je fais ça tout de suite sur Internet.",
+      "ipa":"mˈik dakˈɔʁ ʒə- fˈɛ sa tu də- syˈit syʁ ɛ̃tɛʁnˈɛt",
+      "audio_segment":[72,75.5],
+      "spanish":"",
+      "english":"",
+      "korean":""
+    }
+  ];
+
+          </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <div><!-- starting sections so numbering from 1-->
+          <div class="section">
+            <div class="container">
+
+              <audio id="conversation" class="fullwidth" src="L12/Piste057.mp3" controls preload></audio>
+              <script src="conversation.js"></script>
+
+            </div class="container">
+          </div class="section">
+          <div class="section">
+            <div class="container">
+
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation1)
+
+          </script>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="container">
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation2)
+
+          </script>
+            </div>
+          </div>
+          <div class="section">
+            <div class="container">
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation3)
+
+          </script>
+            </div>
+          </div>
+
+
+        </div>
+        <footer>
+          <p><a href="index.html">Tableaux des contenus<a></p>
+        </footer>
+        </body>
+    </html>
+

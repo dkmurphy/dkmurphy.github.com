@@ -1,0 +1,102 @@
+function write_conjugation(cong_data) {
+  document.write("<div>")
+  document.write("<table class=\"conjugation-head\"><tr><td>")
+  document.write(cong_data[0]["writing"])
+
+if ("ipa" in cong_data[0] && "audio" in cong_data[0]) {
+  document.write(" <audio><source src=\"");
+  document.write(cong_data[0]["audio"]);
+  document.write("\" type=\"audio/mpeg\">Your browser does not support the audio element.</audio><button onclick=\"this.previousSibling.play()\">/");
+  document.write(cong_data[0]["ipa"]);
+  document.write("/</button>");
+  } else if ("audio" in cong_data[0]) {
+  document.write(" <audio><source src=\"")
+  document.write(cong_data[0]["audio"])
+  document.write("\" type=\"audio/mpeg\">Your browser does not support the audio element.</audio><button onclick=\"this.previousSibling.play()\">")
+  document.write(cong_data[0]["writing"])
+  } else if ("ipa" in cong_data[0]) {
+document.write("&nbsp;/")
+document.write(cong_data[0]["ipa"])
+document.write("/")
+  }
+
+  document.write("</td></tr></table>");
+
+  for (i in cong_data[1]) {
+
+  document.write("<table class=\"conjugation\"><tr><td colspan=\"4\">")
+  document.write(cong_data[1][i][0])
+  document.write("</td></tr>")
+
+  if ("j'" in cong_data[1][i][1]) {
+  var je_str = "j'";
+  } else {
+  var je_str = "je";
+  }
+
+  var persons = [[[je_str], ["nous"]], [["tu"], ["vous"]], [["il","elle"], ["ils","elles"]]];
+
+  for (j in persons) {
+
+  document.write("<tr class=\"conjugation\">")
+
+  for (var k = 0; k < 2; o++) { 
+    document.write("<td>");
+    if ("writing" in cong_data[1][i][1][persons[j][k][0]] && "writing" in cong_data[1][i][1][persons[j][0][0]] !== "") {
+      document.write(persons[j][k][0])
+      if (persons[j][0].length > 1) {
+        document.write("<br>")
+        document.write(persons[j][k][1])
+      }
+      document.write("</td><td>")
+      document.write(cong_data[1][i][1][persons[j][k][0]]["writing"])
+    } else {
+      document.write("</td><td>")
+      document.write("—")
+    }
+    document.write("</td>")
+  }
+  document.write("</tr>")
+  document.write("<tr class=\"conjugationpronunciation\">")
+  for (k in persons[j]) {
+    document.write("<td colspan=\"2\">")
+    for (l in persons[j][k]) {
+      if ("ipa" in cong_data[1][i][1][persons[j][k][l]] && "audio" in cong_data[1][i][1][persons[j][k][l]]) {
+  document.write("<audio><source src=\"")
+  document.write(cong_data[1][i][1][persons[j][k][l]]["audio"])
+  document.write("\" type=\"audio/mpeg\">Your browser does not support the audio element.</audio><button onclick=\"this.previousSibling.play()\">/")
+  document.write(cong_data[1][i][1][persons[j][k][l]]["ipa"])
+  document.write("/</button>")
+      } else if ("audio" in cong_data[1][i][1][persons[j][k][l]]) {
+  document.write("<audio><source src=\"")
+  document.write(cong_data[1][i][1][persons[j][k][l]]["audio"])
+  document.write("\" type=\"audio/mpeg\">Your browser does not support the audio element.</audio><button onclick=\"this.previousSibling.play()\">")
+  if ("writing" in cong_data[1][i][1][persons[j][k][l]] && cong_data[1][i][1][persons[j][k][l]]["writing"] !== "") {
+  document.write(cong_data[1][i][1][persons[j][k][l]]["writing"])
+} else {
+  document.write("—");
+}
+  document.write("</button>")
+    } else if ("ipa" in cong_data[1][i][1][persons[j][k][l]]) {
+  document.write("&nbsp;/")
+  document.write(cong_data[1][i][1][persons[j][k][l]]["ipa"])
+  document.write("/")
+      }
+    }
+    document.write("</td>")
+  }
+
+
+}
+
+
+document.write("</table>")
+}
+document.write("</div>")
+}
+
+// cong_data should be [{"writing": "", "ipa": "", "audio": ""}, [verb_entry, verb_entry]]
+// for the infinitive form and then
+// verb_entry should be [tense, {"je": {"writing": "", "ipa": "", "audio": ""}, "tu": {"writing": "", "ipa": "", "audio": ""}, ..., "elles": {"writing": "", "ipa": "", "audio": ""}}]
+
+

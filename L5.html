@@ -1,0 +1,675 @@
+ <!doctype html>
+    <html>
+      <head>
+         <link rel="stylesheet" type="text/css" href="common.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="small.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="large.css" media="screen and (min-width: 35em)" />
+         <!--[if (lt IE 9)&(!IEMobile)]>
+         <link rel="stylesheet" type="text/css" href="enhanced.css" />
+         <![endif]-->
+
+
+         <meta charset="utf-8"/>
+         <!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
+
+         <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+         <title>Amical A1 – Leçon 5</title>
+      </head>
+      <body>
+        <div id="headline">
+          <header>
+            <h1><a href="index.html">Amical A1</a></h1>
+            <p>Leçon 5 | Qu'est-ce que tu aimes ?</p>
+            <p><noscript>
+              Please enable JavaScript to use this page!
+            </noscript></p>
+          </header>
+        </div>
+
+<!--
+Elle aime..., il aime...
+Laura
+Elle aime les vacances.
+Elle aime bien danser.
+Elle adore le sport.
+Elle n'aime pas beaucoup la plage.
+Alex
+Il aime dormir.
+Il n'aime pas le sport.
+Il déteste danser.
+Il aime la plage.
+
+
+Sur Internet
+Bonjour, Chris. Moi, c'est Julie. Je suis étudiante à Bordeaux. Et toi, qu'est-ce que tu fais ?
+Euh... Je suis étudiant aussi. Qu'est-ce que tu aimes faire ?
+Alors... J'aime le cinéma, l'opéra, j'aime lire... Et toi ?
+Moi, je n'aime pas beaucoup ça ! Je préfère le sport : le foot, la moto...
+Oh là là ! D'accord, d'accord ! Au revoir !
+
+-->
+
+        <div>
+          <script type="text/javascript">
+var conversation1 =
+  [  
+    {  
+      "french":"Elle aime..., il aime...",
+      "ipa":"ɛ.l‿ɛm i.l‿ɛm",
+      //"audio":"L5/1.mp3",
+      "audio_segment":[13,15.5],
+      "spanish":"A ella le encanta ... que ama ...",
+      "english":"She loves ... he loves ...",
+      "korean":"그녀는 사랑 ... 그는 사랑 ..."
+    },
+    {  
+      "french":"Laura",
+      "ipa":"lo.ʁa",
+      //"audio":"L5/2.mp3",
+      "audio_segment":[17,18],
+      "spanish":"Laura",
+      "english":"Laura",
+      "korean":"로라"
+    },
+    {  
+      "french":"Elle aime les vacances.",
+      "ipa":"ɛ.l‿ɛm le va.kɑ̃s",
+      //"audio":"L5/3.mp3",
+      "audio_segment":[18.5,20.5],
+      "spanish":"Ella ama las fiestas.",
+      "english":"She loves the holidays.",
+      "korean":"그녀는 휴일을 사랑한다."
+    },
+    {  
+      "french":"Elle aime bien danser.",
+      "ipa":"ɛ.l‿ɛm bjɛ̃ dɑ̃.se",
+      //"audio":"L5/4.mp3",
+      "audio_segment":[21,22.5],
+      "spanish":"Le encanta bailar.",
+      "english":"그녀는 춤을 좋아합니다.",
+      "korean":"She loves to dance."
+    },
+    {  
+      "french":"Elle adore le sport.",
+      "ipa":"ɛ.l‿a.dɔʁ lə spɔʁ",
+      //"audio":"L5/5.mp3",
+      "audio_segment":[24,25.5],
+      "spanish":"A ella le encanta el deporte.",
+      "english":"She loves sports.",
+      "korean":"그녀는 스포츠를 사랑한다."
+    },
+    {  
+      "french":"Elle n'aime pas beaucoup la plage.",
+      "ipa":"ɛn nɛm pa bo.ku la plaʒ",
+      //"audio":"L5/6.mp3",
+      "audio_segment":[26,28.5],
+      "spanish":"No le gusta la playa.",
+      "english":"She does not like the beach.",
+      "korean":"그녀는 해변을 좋아하지 않는다."
+    },
+    {  
+      "french":"Alex",
+      "ipa":"a.lɛks",
+      //"audio":"L5/7.mp3",
+      "audio_segment":[30,31.5],
+      "spanish":"Alex",
+      "english":"Alex",
+      "korean":"알렉스"
+    },
+    {  
+      "french":"Il aime dormir.",
+      "ipa":"i.l‿ɛm dɔʁ.miʁ",
+      //"audio":"L5/8.mp3",
+      "audio_segment":[32,33.5],
+      "spanish":"A él le gusta dormir.",
+      "english":"He likes to sleep.",
+      "korean":"그는 잠을 좋아한다."
+    },
+    {  
+      "french":"Il n'aime pas le sport.",
+      "ipa":"in nɛm pa lə spɔʁ",
+      //"audio":"L5/9.mp3",
+      "audio_segment":[34,36.5],
+      "spanish":"No le gustan los deportes.",
+      "english":"He does not like sports.",
+      "korean":"그는 스포츠를 좋아하지 않는다."
+    },
+    {  
+      "french":"Il déteste danser.",
+      "ipa":"il de.tɛst dɑ̃.se",
+      //"audio":"L5/10.mp3",
+      "audio_segment":[37.5,39],
+      "spanish":"Odia a bailar.",
+      "english":"He hates dancing.",
+      "korean":"그는 춤을 싫어."
+    },
+    {  
+      "french":"Il aime la plage.",
+      "ipa":"i.l‿ɛm la plaʒ",
+      //"audio":"L5/11.mp3",
+      "audio_segment":[39.5,41],
+      "spanish":"Le encanta la playa.",
+      "english":"He loves the beach.",
+      "korean":"그는 해변을 좋아한다."
+    }
+  ];
+var conversation2 =
+  [  
+    {  
+      "french":"Sur Internet",
+      "ipa":"sy.ʁ‿ɛ̃.tɛʁ.nɛt",
+      //"audio":"L5/12.mp3",
+      "audio_segment":[48,49],
+      "spanish":"en Internet",
+      "english":"on the Internet",
+      "korean":"인터넷에"
+    },
+    {  
+      "french":"Bonjour, Chris. Moi, c'est Julie. Je suis étudiante à Bordeaux. Et toi, qu'est-ce que tu fais ?",
+      "ipa":"bɔ̃.ʒuʁ kʁis mwa sɛ ʒy.li ʒə syi.z‿e.ty.djɑ̃t a bɔʁ.do e twa kɛs kə ty fɛ",
+      //"audio":"L5/13.mp3",
+      "audio_segment":[50,57,5],
+      "spanish":"Hola, Chris. Me es Julie. Soy un estudiante en Burdeos. Y tú, ¿qué haces?",
+      "english":"Hello, Chris. Me is Julie. I am a student in Bordeaux. And you, what do you do?",
+      "korean":"안녕하세요, 크리스. 나 줄리이다. 나는 보르도에있는 학생입니다. 그리고 당신은, 당신은 무엇을 하는가?"
+    },
+    {  
+      "french":"Euh... Je suis étudiant aussi. Qu'est-ce que tu aimes faire ?",
+      "ipa":"œ ʒə syi.z‿e.ty.djɑ̃ o.si kɛs kə ty ɛm fɛʁ",
+      //"audio":"L5/14.mp3",
+      "audio_segment":[57.5,62.5],
+      "spanish":"Uh ... Soy un estudiante también. Qué te gusta hacer?",
+      "english":"Uh ... I'm a student too. What do you like to do?",
+      "korean":"어 ... 나도 학생입니다. 무엇을하기를 좋아합니까?"
+    },
+    {  
+      "french":"Alors... J'aime le cinéma, l'opéra, j'aime lire... Et toi ?",
+      "ipa":"a.lɔʁ ʒɛm lə si.ne.ma lɔ.pe.ʁa ʒɛm liʁ e twa",
+      //"audio":"L5/15.mp3",
+      "audio_segment":[63,69.5],
+      "spanish":"Así que ... me encanta el cine, ópera, me gusta leer ... ¿verdad?",
+      "english":"So ... I love cinema, opera, I like to read ... have you?",
+      "korean":"그래서 ... 나는 영화, 오페라 사랑, 내가 읽고 ... 한 당신을 좋아?"
+    },
+    {  
+      "french":"Moi, je n'aime pas beaucoup ça ! Je préfère le sport : le foot, la moto...",
+      "ipa":"mwa ʒə nɛm pa bo.ku sa ʒə pʁe.fɛʁ lə spɔʁ lə fut la mɔ.to",
+      //"audio":"L5/16.mp3",
+      "audio_segment":[69.5,76.5],
+      "spanish":"No me gusta eso! Yo prefiero el deporte: fútbol, motos ...",
+      "english":"I do not like that! I prefer the sport: football, motorcycle ...",
+      "korean":"나는 그것을 좋아하지 않아! 나는 스포츠를 선호 : 축구, 오토바이를 ..."
+    },
+    {  
+      "french":"Oh là là ! D'accord, d'accord ! Au revoir !",
+      "ipa":"ɔ la la d‿a.kɔʁ d‿a.kɔʁ o ʁə.vwaʁ",
+      //"audio":"L5/17.mp3",
+      "audio_segment":[76.75,80],
+      "spanish":"Oh my! Vale, vale! ¡Adiós!",
+      "english":"Oh my! Okay, okay! Bye!",
+      "korean":"오! 좋아, 좋아! 안녕!"
+    }
+  ];
+          </script>
+        <div><!-- starting sections so numbering from 1-->
+          <div class="section">
+            <div class="container">
+
+              <audio id="conversation" class="fullwidth" src="L5/Piste024.mp3" controls preload></audio>
+              <script src="conversation.js"></script>
+
+            </div class="container">
+          </div class="section">
+
+
+          <div class="section">
+            <div class="container">
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation1)
+
+          </script>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="container">
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation2)
+
+          </script>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="container">
+              <h2>Conjugaison</h2>
+
+
+
+
+
+
+          <script src="conjugation.js"></script>
+          <script type="text/javascript">
+
+
+cong_data1 =
+[  
+  {
+    "writing":"aimer",
+    "ipa":"ɛ.me"//,
+    //"audio":"L5/.mp3"
+  },
+  [  
+    [  
+      "le présent de l'indicatif",
+      {  
+        "j'":{  
+          "writing":"aime",
+          "ipa":"ʒ‿ɛm",
+          //"audio":"L5/.mp3"
+        },
+        "tu":{  
+          "writing":"aimes",
+          "ipa":"ty ɛm"//,
+          //"audio":"L5/.mp3"
+        },
+        "il":{  
+          "writing":"aime",
+          "ipa":"i.l‿ɛm"//,
+          //"audio":"L5/.mp3"
+        },
+        "elle":{  
+          "writing":"aime",
+          "ipa":"ɛ.l‿ɛm"//,
+          //"audio":"L5/.mp3"
+        },
+        "nous":{  
+          "writing":"aimons",
+          "ipa":"nu.z‿ɛ.mɔ̃"//,
+          //"audio":"L5/.mp3"
+        },
+        "vous":{  
+          "writing":"aimez",
+          "ipa":"vu.z‿ɛ.me"//,
+          //"audio":"L5/.mp3"
+        },
+        "ils":{  
+          "writing":"aiment",
+          "ipa":"il.z‿ɛm"//,
+          //"audio":"L5/.mp3"
+        },
+        "elles":{  
+          "writing":"aiment",
+          "ipa":"ɛl.z‿ɛm"//,
+          //"audio":"L5/.mp3"
+        }
+      }
+    ]
+  ]
+];
+
+
+cong_data2 =
+[  
+  {
+    "writing":"détester",
+    "ipa":"de.tɛs.te"//,
+  //"audio":"L5/.mp3"
+  },
+  [  
+    [  
+      "le présent de l'indicatif",
+      {  
+        "je":{  
+          "writing":"déteste",
+          "ipa":"ʒə de.tεst",
+          //"audio":"L5/.mp3"
+        },
+        "tu":{  
+          "writing":"détestes",
+          "ipa":"ty de.tεst",
+          //"audio":"L5/.mp3"
+        },
+        "il":{  
+          "writing":"déteste",
+          "ipa":"il de.tεst",
+          //"audio":"L5/.mp3"
+        },
+        "elle":{  
+          "writing":"déteste",
+          "ipa":"εl de.tεst",
+          //"audio":"L5/.mp3"
+        },
+        "nous":{  
+          "writing":"détestons",
+          "ipa":"nu de.tεs.tɔ̃",
+          //"audio":"L5/.mp3"
+        },
+        "vous":{  
+          "writing":"détestez",
+          "ipa":"vu de.tɛs.te",
+          //"audio":"L5/.mp3"
+        },
+        "ils":{  
+          "writing":"détestent",
+          "ipa":"il de.tεst",
+          //"audio":"L5/.mp3"
+        },
+        "elles":{  
+          "writing":"détestent",
+          "ipa":"εl de.tεst",
+          //"audio":"L5/.mp3"
+        }
+      }
+    ]
+  ]
+];
+
+cong_data3 =
+[  
+  {
+    "writing":"préférer",
+    "ipa":"pʁe.fe.ʁe"//,
+  //"audio":"L5/.mp3"
+  },
+  [  
+    [  
+      "le présent de l'indicatif",
+      {  
+        "je":{  
+          "writing":"préfère",
+          "ipa":"ʒə pʁe.fεʁ",
+          //"audio":"L5/.mp3"
+        },
+        "tu":{  
+          "writing":"préfères",
+          "ipa":"ty pʁe.fεʁ",
+          //"audio":"L5/.mp3"
+        },
+        "il":{  
+          "writing":"préfère",
+          "ipa":"il pʁe.fεʁ",
+          //"audio":"L5/.mp3"
+        },
+        "elle":{  
+          "writing":"préfère",
+          "ipa":"εl pʁe.fεʁ",
+          //"audio":"L5/.mp3"
+        },
+        "nous":{  
+          "writing":"préférons",
+          "ipa":"nu pʁe.fe.ʁɔ̃",
+          //"audio":"L5/.mp3"
+        },
+        "vous":{  
+          "writing":"préférez",
+          "ipa":"vu pʁe.fe.ʁe",
+          //"audio":"L5/.mp3"
+        },
+        "ils":{  
+          "writing":"préfèrent",
+          "ipa":"il pʁe.fεʁ",
+          //"audio":"L5/.mp3"
+        },
+        "elles":{  
+          "writing":"préfèrent",
+          "ipa":"εl pʁe.fεʁ",
+          //"audio":"L5/.mp3"
+        }
+      }
+    ]
+  ]
+];
+
+
+cong_data4 =
+[  
+  {
+    "writing":"faire",
+    "ipa":"fɛʁ",
+  "audio":"L5/Faire.mp3"
+  },
+  [  
+    [  
+      "le présent de l'indicatif",
+      {  
+        "je":{  
+          "writing":"fais",
+          "ipa":"ʒə fε",
+          "audio":"L5/JeFais.mp3"
+        },
+        "tu":{  
+          "writing":"fais",
+          "ipa":"ty fε",
+          "audio":"L5/TuFais.mp3"
+        },
+        "il":{  
+          "writing":"fait",
+          "ipa":"il fε",
+          "audio":"L5/IlFait.mp3"
+        },
+        "elle":{  
+          "writing":"fait",
+          "ipa":"εl fε",
+          "audio":"L5/ElleFait.mp3"
+        },
+        "nous":{  
+          "writing":"faisons",
+          "ipa":"nu fə.zɔ̃",
+          "audio":"L5/NousFaisons.mp3"
+        },
+        "vous":{  
+          "writing":"faites",
+          "ipa":"vu fεt",
+          "audio":"L5/VousFaites.mp3"
+        },
+        "ils":{  
+          "writing":"font",
+          "ipa":"il fɔ̃",
+          "audio":"L5/IlsFont.mp3"
+        },
+        "elles":{  
+          "writing":"font",
+          "ipa":"εl fɔ̃",
+          "audio":"L5/EllesFont.mp3"
+        }
+      }
+    ]
+  ]
+];
+
+
+
+cong_data5 =
+[  
+  {
+    "writing":"dormir",
+    "ipa":"dɔʁ.miʁ"
+  },
+  [  
+    [  
+      "le présent de l'indicatif",
+      {  
+        "je":{  
+          "writing":"dors",
+          "ipa":"ʒə dɔʁ"
+        },
+        "tu":{  
+          "writing":"dors",
+          "ipa":"ty dɔʁ"
+        },
+        "il":{  
+          "writing":"dort",
+          "ipa":"il dɔʁ"
+        },
+        "elle":{  
+          "writing":"dort",
+          "ipa":"ɛl dɔʁ"
+        },
+        "nous":{  
+          "writing":"dormons",
+          "ipa":"nu dɔʁ.mɔ̃"
+        },
+        "vous":{  
+          "writing":"dormez",
+          "ipa":"vu dɔʁ.me"
+        },
+        "ils":{  
+          "writing":"dorment",
+          "ipa":"il dɔʁm"
+        },
+        "elles":{  
+          "writing":"dorment",
+          "ipa":" ɛl dɔʁm"
+        }
+      }
+    ]
+  ]
+];
+
+
+cong_data6 =
+[  
+  {
+    "writing":"lire",
+    "ipa":"liʁ"
+  },
+  [  
+    [  
+      "le présent de l'indicatif",
+      {  
+        "je":{  
+          "writing":"lis",
+          "ipa":" ʒə li"
+        },
+        "tu":{  
+          "writing":"lis",
+          "ipa":"ty li"
+        },
+        "il":{  
+          "writing":"lit",
+          "ipa":"il li"
+        },
+        "elle":{  
+          "writing":"lit",
+          "ipa":"ɛl li"
+        },
+        "nous":{  
+          "writing":"lisons",
+          "ipa":"nu li.zɔ̃"
+        },
+        "vous":{  
+          "writing":"lisez",
+          "ipa":"vu li.ze"
+        },
+        "ils":{  
+          "writing":"lisent",
+          "ipa":"il liz"
+        },
+        "elles":{  
+          "writing":"lisent",
+          "ipa":"ɛl liz"
+        }
+      }
+    ]
+  ]
+];
+
+
+
+          </script>
+
+          <script type="text/javascript">
+write_conjugation(cong_data1);
+write_conjugation(cong_data2);
+write_conjugation(cong_data3);
+write_conjugation(cong_data4);
+write_conjugation(cong_data5);
+write_conjugation(cong_data6);
+          </script>
+
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="container">
+              <h2>Notes</h2>
+              <ul>
+                <li>(le, la → l') devout a, e, i, o, u, y, mute h
+<table border="1" style="text-align: center" cellpadding="10px">
+<tr><td></td><td colspan="2"><b>s</b></td><td colspan="2"><b>pl</b></td></tr>
+<tr><td><b>m</b></td><td>le</td><td rowspan="2">l'</td><td rowspan="2" colspan="2">les</td></td></tr>
+<tr><td><b>f</b></td><td>la</td></tr>
+</table>
+<!--<table border="1" style="text-align: center" cellpadding="10px">
+<tr><td colspan="2">s</td><td colspan="2">pl</td></tr>
+<tr><td>m</td><td>f</td><td>m</td><td>f</td></tr>
+<tr><td>le</td><td>la</td><td rowspan="2" colspan="2">les</td></td></tr>
+<tr><td colspan="2">l'</td></tr>-->
+</table>
+
+                </li>
+                <li>aimer + (le, la, l', les) nom | aimer + inf.</li>
+                <li>détester + (le, la, l', les) nom | détester + inf.</li>
+                <li> aimer/détester scale
+                  <ul>
+                    <li>j'adore (++++)</li>
+                    <li>j'aime beaucoup (+++)</li>
+                    <li>j'aime bien (++)</li>
+                    <li>j'aime (+)</li>
+                    <li>j'aime un peu</li>
+                    <li>je n'aime pas bien(-)</li>
+                    <li>je n'aime pas beaucoup (--)</li>
+                    <li>je n'aime pas (---)</li>
+                    <li>je déteste (----)</li>
+                  </ul>
+                </li>
+                <li>que + est-ce que → qu'est-ce qu(e) <br> ex) qu'est-ce que tu fais, qu'est-ce qu’elle fait</li>
+                <li>Qu'<b>est-ce que</b> tu fais ? = Que fais-tu ?</li>
+                <li><p style="display:inline-table">dormir = dorm + <table border="1" cellpadding="5px" style="display:inline-table;">
+<tr><td>-m</td><td>&nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td>-m</td><td>&nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td>-m</td><td>&nbsp;&nbsp;&nbsp;</td></tr>
+</table> + <table border="1" cellpadding="5px" style="display:inline-table;">
+<tr><td>s</td><td>ons</td></tr>
+<tr><td>s</td><td>ez</td></tr>
+<tr><td>t</td><td>ent</td></tr>
+</table></p>
+
+                </li>
+                <li><p style="display:inline-table">lire = li + <table border="1" cellpadding="5px" style="display:inline-table;">
+<tr><td>&nbsp;&nbsp;&nbsp;</td><td>+s</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;</td><td>+s</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;</td><td>+s</td></tr>
+</table> + <table border="1" cellpadding="5px" style="display:inline-table;">
+<tr><td>s</td><td>ons</td></tr>
+<tr><td>s</td><td>ez</td></tr>
+<tr><td>t</td><td>ent</td></tr>
+</table></p>
+
+                </li>
+</li>
+                <li><p style="display:inline-table">préférer = préf + <table border="1" cellpadding="5px" style="display:inline-table;">
+<tr><td>èr</td><td>ér</td></tr>
+<tr><td>èr</td><td>ér</td></tr>
+<tr><td>èr</td><td>èr</td></tr>
+</table> + <table border="1" cellpadding="5px" style="display:inline-table;">
+<tr><td>e</td><td>ons</td></tr>
+<tr><td>es</td><td>ez</td></tr>
+<tr><td>e</td><td>ent</td></tr>
+</table></p>
+
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <footer>
+          <p><a href="index.html">Tableaux des contenus<a></p>
+        </footer>
+        </body>
+    </html>

@@ -1,0 +1,20 @@
+function write_word_audio(heading, word_list) {
+
+for (i in word_list)
+{
+  document.write("<div class=\"section\"><div class=\"container\">");
+  document.write("<h2>" + heading + "</h2>")
+  document.write("<table class=\"conversation\">")
+  for (j in word_list[i]) {
+    document.write("</tr><td>" + word_list[i][j]["french"] + "</td></tr>");
+    document.write("</tr><td>/" + word_list[i][j]["ipa"] + "/</td></tr>");
+    document.write("</tr><td colspan=\"2\"><audio class=\"fullwidth\" controls><source src=\"" + word_list[i][j]["audio"] + "\" type=\"audio/mpeg\">Your browser does not support the audio element.</audio></td></tr>")
+    document.write("</tr><td>" + word_list[i][j]["english"] + "</td></tr>");
+    document.write("</tr><td>" + word_list[i][j]["korean"] + "</td></tr>");
+  }
+  document.write("</table>")
+  document.write("</div></div>");
+}
+}
+
+

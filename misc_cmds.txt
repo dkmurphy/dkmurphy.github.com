@@ -1,0 +1,100 @@
+allstr=("C'est pour toi." "Qu'est-ce que c'est ?" "C'est un petit cadeau pour toi !  Bon anniversaire !")
+for i in "${allstr[@]}" ; do
+  espeak -qv fr --ipa=1 "$i"
+done
+
+
+
+
+
+
+
+<!-- OLD WAY before JSON
+
+        <div>
+          <div class="section">
+            <div class="container">
+              <h2>Allô, Nicolas ? Bonjour. C'est moi, Émilie.</h2>
+
+              <table class="conversation">
+
+                <tr>
+                  <td>Allô, Nicolas ? Bonjour. C'est moi, Émilie., /alˈo nikɔlˈa bɔ̃ʒˈuʁ sɛ mwˈa emilˈi/, L1/1.mp3, Hello, Nicolas? Hello. It's me, Emily., 안녕하세요, 니콜라스? 안녕하세요. 에밀리, 저예요.</td>
+                </tr>
+
+
+                <tr>
+                  <td>Ah ! Bonjour ! Ça va ?, /ˈa bɔ̃ʒˈuʁ sa vˈa/, L1/2.mp3, Ah! Hello! It's okay?, 아! 안녕하세요! 괜찮아?</td>
+                </tr>
+
+                <tr>
+                  <td>Oui, ça va bien. Et vous ?, /wˈi sa vˈa bjˈɛ̃ e vˈu/, L1/3.mp3, Yes, it is okay. And you?, 네, 괜찮습니다. 그리고 당신은?</td>
+                </tr>
+
+                <tr>
+                  <td>Très bien, merci., /tʁɛ bjˈɛ̃ mɛʁsˈi/, L1/4.mp3, Very well, thank you., 아주 잘, 감사합니다.</td>
+                </tr>
+
+              </table>
+
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="container">
+              <h2>Tiens, Julie ! Bonjour !</h2>
+
+              <table class="conversation">
+
+                <tr>
+                  <td>Tiens, Julie ! Bonjour !, /tjˈɛ̃ ʒylˈi bɔ̃ʒˈuʁ/, L1/5.mp3, Hey, Julie! Hello!, 줄리, 이봐! 안녕하세요!</td>
+                </tr>
+
+                <tr>
+                  <td>Ah ! Steve ! Bonjour ! Comment ça va ?, /ˈa stˈəv bɔ̃ʒˈuʁ kɔmˌɑ̃ sa vˈa/, L1/6.mp3, Ah! Steve! Hello! How are you?, 아! 스티브! 안녕하세요! 어떻게 지내세요?</td>
+                </tr>
+
+                <tr>
+                  <td>Ça va, ça va., /sa vˈa sa vˈa/, L1/7.mp3, Okay, okay., 좋아, 좋아.</td>
+                </tr>
+
+
+              </table>
+
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="container">
+              <h2>Bonjour, monsieur.</h2>
+
+              <table class="conversation">
+
+                <tr>
+                  <td>Bonjour, monsieur., /bɔ̃ʒˈuʁ məsjˈø/, L1/8.mp3, Hello, sir., 안녕하세요, 선생님.</td>
+                </tr>
+
+                <tr>
+                  <td>Bonjour, madame. Une baguette, s'il vous plaît., /bɔ̃ʒˈuʁ madˈam yn baɡˈɛt sil vu plˈɛ/, L1/9.mp3, Hello, ma'am. A baguette, please., 안녕하세요, 부인. 바게트주세요.</td>
+                </tr>
+
+                <tr>
+                  <td>Voilà., /vwalˈa/, L1/10.mp3, That's it., 이게 다예요.</td>
+                </tr>
+
+                <tr>
+                  <td>Merci. Au revoir, madame., /mɛʁsˈi o ʁəvwˈaʁ madˈam/, L1/11.mp3, Thank you. Goodbye, madam., 감사합니다. 안녕, 부인.</td>
+                </tr>
+
+                <tr>
+                  <td>Au revoir, monsieur., /o ʁəvwˈaʁ məsjˈø/, L1/12.mp3, Goodbye, sir., 안녕히 가세요.</td>
+                </tr>
+
+
+              </table>
+
+            </div>
+          </div>
+
+-->
+

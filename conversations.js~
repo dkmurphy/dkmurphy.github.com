@@ -1,0 +1,15 @@
+function write_conversation(conversation) {
+
+  document.write("<h2>" + conversation[0]["french"] + "</h2>")
+  document.write("<table class=\"conversation\">")
+  for (i in conversation) {
+    document.write("</tr><td>" + conversation[i]["french"] + "</td></tr>");
+    document.write("</tr><td>/" + conversation[i]["ipa"] + "/</td></tr>");
+    document.write("</tr><td colspan=\"2\"><audio class=\"fullwidth\" controls><source src=\"" + conversation[j]["audio"] + "\" type=\"audio/mpeg\">Your browser does not support the audio element.</audio></td></tr>")
+    document.write("</tr><td>" + conversation[i]["english"] + "</td></tr>");
+    document.write("</tr><td>" + conversation[i]["korean"] + "</td></tr>");
+  }
+  document.write("</table>");
+}
+
+

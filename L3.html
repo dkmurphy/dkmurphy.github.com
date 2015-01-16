@@ -1,0 +1,844 @@
+ <!doctype html>
+    <html>
+      <head>
+         <link rel="stylesheet" type="text/css" href="common.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="small.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="large.css" media="screen and (min-width: 35em)" />
+         <!--[if (lt IE 9)&(!IEMobile)]>
+         <link rel="stylesheet" type="text/css" href="enhanced.css" />
+         <![endif]-->
+
+
+         <meta charset="utf-8"/>
+         <!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
+
+         <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+         <title>Amical A1 – Leçon 3</title>
+      </head>
+      <body>
+        <div id="headline">
+          <header>
+            <h1><a href="index.html">Amical A1</a></h1>
+            <p>Leçon 3 | Toi aussi, tu es japonaise ?</p>
+            <p><noscript>
+              Please enable JavaScript to use this page!
+            </noscript></p>
+          </header>
+        </div>
+<!--
+Vous êtes Anne Mérieux, n'est-ce pas ?
+Pardon, madame. Vous êtes Anne Mérieux, n'est-ce pas ?
+Oui. C'est moi.
+Vous êtes professeur d'economie à Genève ?
+Oui.
+Alors, vous connaissez monsieur Latournelle ?
+Paul Latournelle ? Oui, bien sûr !
+C'est joli, Yukiko !
+Salut ! Moi, c'est Paul ! Et toi ?
+Yukiko.
+C'est joli, Yukiko ! Japonaise ?
+Oui. Et toi ?
+Je suis français... Et toi aussi, tu es japonaise ?
+Non, pas du tout ! Moi, je suis américaine. Je m'appelle Jenny.
+Tu parles très bien français ! Tu habites ici ?
+Oui, oui, j'habite à Paris. Je suis étudiante. Et toi ?
+Oui. Et je travaille aussi dans un restaurant.
+Hum... C'est très intéressant !
+
+-->
+
+
+          <script type="text/javascript">
+var conversation1 =
+  [  
+    {  
+      "french":"Vous êtes Anne Mérieux, n'est-ce pas ?",
+      "ipa":"vuz ɛtz ˈan meʁjˈø nˈɛs pˈa",
+      //"audio":"L3/1.mp3",
+      "audio_segment":[10,12],
+      "spanish": "Eres Anne Mérieux, ¿no?",
+      "english":"You are Anne Mérieux, is not it?",
+      "korean":"당신은, 앤 Mérieux되지인가?"
+    },
+    {  
+      "french":"Pardon, madame. Vous êtes Anne Mérieux, n'est-ce pas ?",
+      "ipa":"paʁdˈɔ̃ madˈam vuz ɛtz ˈan meʁjˈø nˈɛs pˈa",
+      //"audio":"L3/2.mp3",
+      "audio_segment":[12,16.75],
+      "spanish": "Disculpe, señora. Eres Anne Mérieux, ¿no?",
+      "english":"Excuse me, ma'am. You are Anne Mérieux, is not it?",
+      "korean":"실례합니다. 당신은, 앤 Mérieux되지인가?"
+    },
+    {  
+      "french":"Oui. C'est moi.",
+      "ipa":"wˈi sɛ mwˈa",
+      //"audio":"L3/3.mp3",
+      "audio_segment":[17,18.5],
+      "spanish": "Si. Ese soy yo.",
+      "english":"Yes. That's me.",
+      "korean":"예. 그 날입니다."
+    },
+    {  
+      "french":"Vous êtes professeur d'economie à Genève ?",
+      "ipa":"vuz ɛt pʁɔfɛsˈœʁ dekɔnɔmˈi a ʒənˈɛv",
+      //"audio":"L3/4.mp3",
+      "audio_segment":[19,21.5],
+      "spanish": "Usted es un profesor de economía en Ginebra?",
+      "english":"You are a professor of economics at Geneva?",
+      "korean":"당신은 제네바에서 경제학 교수인가?"
+    },
+    {  
+      "french":"Oui.",
+      "ipa":"wˈi",
+      //"audio":"L3/5.mp3",
+      "audio_segment":[21.5,22],
+      "spanish": "Sí.",
+      "english":"Yes.",
+      "korean":"아 ...."
+    },
+    {  
+      "french":"Alors, vous connaissez monsieur Latournelle ?",
+      "ipa":"alˈɔʁ vu kɔnɛsˈe məsjˈø latuʁnˈɛl",
+      //"audio":"L3/6.mp3",
+      "audio_segment":[22,24.5],
+      "spanish": "Así que ya sabes Sr. Latournelle?",
+      "english":"So you know Mr. Latournelle?",
+      "korean":"그래서 당신은 씨 Latournelle을 알아?"
+    },
+    {  
+      "french":"Paul Latournelle ? Oui, bien sûr !",
+      "ipa":"pˈɔl latuʁnˈɛl wˈi bjˈɛ̃ sˈyːʁ",
+      //"audio":"L3/7.mp3",
+      "audio_segment":[25,28],
+      "spanish": "Paul Latournelle? Sí, por supuesto!",
+      "english":"Paul Latournelle? Yes of course!",
+      "korean":"폴 Latournelle? 예 물론!"
+    }
+  ];
+var conversation2 =
+  [
+    {  
+      "french":"C'est joli, Yukiko !",
+      "ipa":"sɛ ʒɔlˈi jykikˈo",
+      //"audio":"L3/8.mp3",
+      "audio_segment":[35,37],
+      "spanish": "Es bonito, Yukiko!",
+      "english":"It's pretty, Yukiko!",
+      "korean":"그것은 유키코 꽤입니다!"
+    },
+    {  
+      "french":"Salut ! Moi, c'est Paul ! Et toi ?",
+      "ipa":" salˈy mwˈa sɛ pˈɔl e twˈa",
+      //"audio":"L3/9.mp3",
+      "audio_segment":[38,41],
+      "spanish": "¡Hola! Yo, Pablo! ¿Y tú?",
+      "english":"Hi! Me is Paul! And you?",
+      "korean":"안녕하세요! 나 바울입니다! 그리고 당신은?"
+    },
+    {  
+      "french":"Yukiko.",
+      "ipa":"jykikˈo",
+      //"audio":"L3/10.mp3",
+      "audio_segment":[41,42],
+      "spanish": "Yukiko.",
+      "english":"Yukiko.",
+      "korean":"유키코."
+    },
+    {  
+      "french":"C'est joli, Yukiko ! Japonaise ?",
+      "ipa":"sɛ ʒɔlˈi jykikˈo ʒapɔnˈɛz",
+      //"audio":"L3/11.mp3",
+      "audio_segment":[42.25,45],
+      "spanish": "¡Es bonito, Yukiko! Japonesa?",
+      "english":"It's pretty, Yukiko! Japanese?",
+      "korean":"그것은 유키코 꽤입니다! 일본어?"
+    },
+    {  
+      "french":"Oui. Et toi ?",
+      "ipa":"wˈi e twˈa",
+      //"audio":"L3/12.mp3",
+      "audio_segment":[45.25,46.5],
+      "spanish": "Sí. Y usted?",
+      "english":"Yes. And you?",
+      "korean":"예. 그리고 당신은?"
+    },
+    {  
+      "french":"Je suis français... Et toi aussi, tu es japonaise ?",
+      "ipa":"ʒə- syˌi fʁɑ̃sˈɛ e twˌa osˈi ty ɛ ʒapɔnˈɛz",
+      //"audio":"L3/13.mp3",
+      "audio_segment":[47,50.25],
+      "spanish": "Soy francés ... Y tú también, ¿tú eres japonés?",
+      "english":"I am French ... And you too, you're Japanese?",
+      "korean":"나는 프랑스어입니다 ... 그리고 당신도, 당신은 일본어이야?"
+    },
+    {  
+      "french":"Non, pas du tout ! Moi, je suis américaine. Je m'appelle Jenny.",
+      "ipa":"nˈɔ̃ pa dy- tˈu mwˈa ʒə- syˌiz ameʁikˈɛn ʒə- mapˈɛld͡ʒˈɛni",
+      //"audio":"L3/14.mp3",
+      "audio_segment":[50.25,56],
+      "spanish": "No, no en absoluto! Soy estadounidense. Mi nombre es Jenny.",
+      "english":"No, not at all! I am American. My name is Jenny.",
+      "korean":"아니, 전혀! 나는 미국입니다. 내 이름은 제니입니다."
+    },
+    {  
+      "french":"Tu parles très bien français ! Tu habites ici ?",
+      "ipa":"ty pˈaʁl tʁɛ bjˈɛ̃ fʁɑ̃sˈɛ ty abˈitz isˈi",
+      //"audio":"L3/15.mp3",
+      "audio_segment":[56,59.5],
+      "spanish": "Usted habla muy bien el francés! ¿Usted vive aquí?",
+      "english":"You speak French very well! You live here?",
+      "korean":"당신은 아주 잘 프랑스어! 여기 사세요?"
+    },
+    {  
+      "french":"Oui, oui, j'habite à Paris. Je suis étudiante. Et toi ?",
+      "ipa":"wˈi wˈi ʒabˈit a paʁˈi ʒə- syˌiz etydjˈɑ̃t e twˈa",
+      //"audio":"L3/16.mp3",
+      "audio_segment":[59.5,64],
+      "spanish": "Sí, vivo en París. Soy un estudiante. ¿Y usted?",
+      "english":"Yes, I live in Paris. I am a student. And you?",
+      "korean":"예, 파리에 살고 있습니다. 저는 학생입니다. 그리고 당신은?"
+    },
+    {  
+      "french":"Oui. Et je travaille aussi dans un restaurant.",
+      "ipa":"wˈi e ʒə- tʁavˈaj osˌi dɑ̃z œ̃ ʁɛstoʁˈɑ̃",
+      //"audio":"L3/17.mp3",
+      "audio_segment":[64,68],
+      "spanish": "Si. Y yo trabajo en un restaurante.",
+      "english":"Yes. And I work in a restaurant.",
+      "korean":"예. 그리고 식당에서 일한다."
+    },
+    {  
+      "french":"Hum... C'est très intéressant !",
+      "ipa":"ˈɔm sɛ tʁɛz ɛ̃teʁɛsˈɑ̃",
+      //"audio":"L3/18.mp3",
+      "audio_segment":[68,71.5],
+      "spanish": "Hmm ... Esto es muy interesante!",
+      "english":"Hmm ... This is very interesting!",
+      "korean":"흠 ... 이것은 매우 재미있다!"
+    }
+  ];
+
+          </script>
+
+
+        <div><!-- starting sections so numbering from 1-->
+          <div class="section">
+            <div class="container">
+
+              <audio id="conversation" class="fullwidth" src="L3/Piste015.mp3" controls preload></audio>
+              <script src="conversation.js"></script>
+
+            </div class="container">
+          </div class="section">
+
+          <div class="section">
+            <div class="container">
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation1)
+
+          </script>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="container">
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation2)
+
+          </script>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="container">
+              <h2>Conjugaison</h2>
+
+
+
+
+
+
+          <script src="conjugation.js"></script>
+          <script type="text/javascript">
+
+
+cong_data1 =
+[  
+  {"writing":"être",
+  "ipa":"εtʁ",
+  "audio":"L3/Etre.mp3"},
+  [  
+    [  
+      "le présent de l'indicatif",
+      {  
+        "je":{  
+          "writing":"suis",
+          "ipa":"ʒə sɥi",
+          "audio":"L3/JeSuis.mp3"
+        },
+        "tu":{  
+          "writing":"es",
+          "ipa":"ty ε",
+          "audio":"L3/TuEs.mp3"
+        },
+        "il":{  
+          "writing":"est",
+          "ipa":"il ε",
+          "audio":"L3/IlEst.mp3"
+        },
+        "elle":{  
+          "writing":"est",
+          "ipa":"εl ε",
+          "audio":"L3/ElleEst.mp3"
+        },
+        "nous":{  
+          "writing":"sommes",
+          "ipa":"nu sɔm",
+          "audio":"L3/NousSommes.mp3"
+        },
+        "vous":{  
+          "writing":"êtes",
+          "ipa":"vu.z‿εt",
+          "audio":"L3/VousEtes.mp3"
+        },
+        "ils":{  
+          "writing":"sont",
+          "ipa":"il sɔ̃",
+          "audio":"L3/IlsSont.mp3"
+        },
+        "elles":{  
+          "writing":"sont",
+          "ipa":"εl sɔ̃",
+          "audio":"L3/EllesSont.mp3"
+        }
+      }
+    ]
+  ]
+];
+
+
+cong_data2 =
+[  
+  {"writing":"habiter",
+  "ipa":"a.bi.ˈte",
+  "audio":"L3/Habiter.mp3"},
+  [  
+    [  
+      "le présent de l'indicatif",
+      {  
+        "j'":{  
+          "writing":"habite",
+          "ipa":"ʒabit",
+          "audio":"L3/Jhabite.mp3"
+        },
+        "tu":{  
+          "writing":"habites",
+          "ipa":"ty abit",
+          "audio":"L3/TuHabites.mp3"
+        },
+        "il":{  
+          "writing":"habite",
+          "ipa":"il abit",
+          "audio":"L3/IlHabite.mp3"
+        },
+        "elle":{  
+          "writing":"habite",
+          "ipa":"εl abit",
+          "audio":"L3/ElleHabite.mp3"
+        },
+        "nous":{  
+          "writing":"habitons",
+          "ipa":"nuz- abitɔ̃",
+          "audio":"L3/NousHabitons.mp3"
+        },
+        "vous":{  
+          "writing":"habitez",
+          "ipa":"vuz- abite",
+          "audio":"L3/VousHabitez.mp3"
+        },
+        "ils":{  
+          "writing":"habitent",
+          "ipa":"ilz- abit",
+          "audio":"L3/IlsHabitent.mp3"
+        },
+        "elles":{  
+          "writing":"habitent",
+          "ipa":"εlz- abit",
+          "audio":"L3/EllesHabitent.mp3"
+        }
+      }
+    ]
+  ]
+];
+
+cong_data3 =
+[  
+  {"writing":"s'appeler",
+  "ipa":"saple",
+  "audio":"L3/Sappeler.mp3"},
+  [  
+    [  
+      "le présent de l'indicatif",
+      {  
+        "je":{  
+          "writing":"m'appelle",
+          "ipa":"ʒə mapεl",
+          "audio":"L3/JeMappelle.mp3"
+        },
+        "tu":{  
+          "writing":"t'appelles",
+          "ipa":"ty tapεl",
+          "audio":"L3/TuTappelles.mp3"
+        },
+        "il":{  
+          "writing":"s'appelle",
+          "ipa":"il sapεl",
+          "audio":"L3/IlSappelle.mp3"
+        },
+        "elle":{  
+          "writing":"s'appelle",
+          "ipa":"εl sapεl",
+          "audio":"L3/ElleSappelle.mp3"
+        },
+        "nous":{  
+          "writing":"nous appelons",
+          "ipa":"nu nuz- aplɔ̃",
+          "audio":"L3/NousNousAppelons.mp3"
+        },
+        "vous":{  
+          "writing":"vous appelez",
+          "ipa":"vu vuz- aple",
+          "audio":"L3/VousVousAppelez.mp3"
+        },
+        "ils":{  
+          "writing":"s'appellent",
+          "ipa":"il sapεl",
+          "audio":"L3/IlsSappellent.mp3"
+        },
+        "elles":{  
+          "writing":"s'appellent",
+          "ipa":"εl sapεl",
+          "audio":"L3/EllesSappellent.mp3"
+        }
+      }
+    ]
+  ]
+];
+
+
+
+
+cong_data4 =
+[  
+  {"writing":"parler",
+  "ipa":"paʁle",
+  "audio":"L3/Parler.mp3"},
+  [  
+    [  
+      "le présent de l'indicatif",
+      {  
+        "je":{  
+          "writing":"parle",
+          "ipa":"ʒə paʁl",
+          "audio":"L3/JeParle.mp3"
+        },
+        "tu":{  
+          "writing":"parles",
+          "ipa":"ty paʁl",
+          "audio":"L3/TuParles.mp3"
+        },
+        "il":{  
+          "writing":"parle",
+          "ipa":"il paʁl",
+          "audio":"L3/IlParle.mp3"
+        },
+        "elle":{  
+          "writing":"parle",
+          "ipa":"εl paʁl",
+          "audio":"L3/ElleParle.mp3"
+        },
+        "nous":{  
+          "writing":"parlons",
+          "ipa":"nu paʁlɔ̃",
+          "audio":"L3/NousParlons.mp3"
+        },
+        "vous":{  
+          "writing":"parlez",
+          "ipa":"vu paʁle",
+          "audio":"L3/VousParlez.mp3"
+        },
+        "ils":{  
+          "writing":"parlent",
+          "ipa":"il paʁl",
+          "audio":"L3/IlsParlent.mp3"
+        },
+        "elles":{  
+          "writing":"parlent",
+          "ipa":"εl paʁl",
+          "audio":"L3/EllesParlent.mp3"
+        }
+      }
+    ]
+  ]
+];
+
+
+cong_data5 =
+[  
+  {"writing":"travailler",
+  "ipa":"tʁavaje",
+  "audio":"L3/Travailler.mp3"},
+  [  
+    [  
+      "le présent de l'indicatif",
+      {  
+        "je":{  
+          "writing":"travaille",
+          "ipa":"ʒə tʁavai",
+          "audio":"L3/JeTravaille.mp3"
+        },
+        "tu":{  
+          "writing":"travailles",
+          "ipa":"ty tʁavai",
+          "audio":"L3/TuTravailles.mp3"
+        },
+        "il":{  
+          "writing":"travaille",
+          "ipa":"il tʁavai",
+          "audio":"L3/IlTravaille.mp3"
+        },
+        "elle":{  
+          "writing":"travaille",
+          "ipa":"εl tʁavai",
+          "audio":"L3/ElleTravaille.mp3"
+        },
+        "nous":{  
+          "writing":"travaillons",
+          "ipa":"nu tʁavajɔ̃",
+          "audio":"L3/NousTravaillons.mp3"
+        },
+        "vous":{
+          "writing":"travaillez",
+          "ipa":"vu tʁavaje",
+          "audio":"L3/VousTravaillez.mp3"
+        },
+        "ils":{  
+          "writing":"travaillent",
+          "ipa":"il tʁavai",
+          "audio":"L3/IlsTravaillent.mp3"
+        },
+        "elles":{  
+          "writing":"travaillent",
+          "ipa":"εl tʁavai",
+          "audio":"L3/EllesTravaillent.mp3"
+        }
+      }
+    ]
+  ]
+];
+
+
+cong_data6 =
+[  
+  {"writing":"connaître",
+  "ipa":"kɔ.nεtʁ",
+  "audio":"L3/Connaitre.mp3"},
+  [  
+    [  
+      "le présent de l'indicatif",
+      {  
+        "je":{  
+          "writing":"connais",
+          "ipa":"ʒə kɔ.nε",
+          "audio":"L3/JeConnais.mp3"
+        },
+        "tu":{  
+          "writing":"connais",
+          "ipa":"ty kɔ.nε",
+          "audio":"L3/TuConnais.mp3"
+        },
+        "il":{  
+          "writing":"connaît",
+          "ipa":"il kɔ.nε",
+          "audio":"L3/IlConnait.mp3"
+        },
+        "elle":{  
+          "writing":"connaît",
+          "ipa":"εl kɔ.nε",
+          "audio":"L3/ElleConnait.mp3"
+        },
+        "nous":{  
+          "writing":"connaissons",
+          "ipa":"nu kɔ.nε.sɔ̃",
+          "audio":"L3/NousConnaissons.mp3"
+        },
+        "vous":{  
+          "writing":"connaissez",
+          "ipa":"vu kɔ.nε.se",
+          "audio":"L3/VousConnaissez.mp3"
+        },
+        "ils":{  
+          "writing":"connaissent",
+          "ipa":"il kɔ.nεs",
+          "audio":"L3/IlsConnaissent.mp3"
+        },
+        "elles":{  
+          "writing":"connaissent",
+          "ipa":"εl kɔ.nεs",
+          "audio":"L3/EllesConnaissent.mp3"
+        }
+      }
+    ]
+  ]
+];
+
+          </script>
+
+          <script type="text/javascript">
+write_conjugation(cong_data1);
+write_conjugation(cong_data2);
+write_conjugation(cong_data3);
+write_conjugation(cong_data4);
+write_conjugation(cong_data5);
+write_conjugation(cong_data6);
+          </script>
+
+            </div>
+          </div>
+          <div class="section">
+            <div class="container">
+              <h2>Nationalités et Professions</h2>
+
+              <table class="twocol">
+                
+                <tr>
+                  <td style="border-bottom: 1px solid black;">masculin</td><td style="border-bottom: 1px solid black;">féminin</td>
+                </tr>
+
+                <tr>
+                  <td>français</td><td>française</td>
+                </tr>
+                <tr>
+                  <td>anglais</td><td>anglaise</td>
+                </tr>
+                <tr>
+                  <td>japonais</td><td>japonaise</td>
+                </tr>
+                <tr>
+                  <td>chinois</td><td>chinoise</td>
+                </tr>
+                <tr>
+                  <td>sénégalais</td><td>sénégalaise</td>
+                </tr>
+                <tr>
+                  <td>coréen</td><td>coréenne</td>
+                </tr>
+                <tr>
+                  <td>belge</td><td>belge</td>
+                </tr>
+                <tr>
+                  <td>suisse</td><td>suisse</td>
+                </tr>
+                <tr>
+                  <td>turc</td><td>turque</td>
+                </tr>
+                <tr>
+                  <td>américain</td><td>américaine</td>
+                </tr>
+                <tr>
+                  <td>allemand</td><td>allemande</td>
+                </tr>
+                <tr>
+                  <td>espagnol</td><td>espagnole</td>
+                </tr>
+                <tr>
+                  <td>italien</td><td>italienne</td>
+                </tr>
+              </table>
+              <table class="twocol">
+                
+                <tr>
+                  <td style="border-bottom: 1px solid black;">masculin</td><td style="border-bottom: 1px solid black;">féminin</td>
+                </tr>
+
+                <tr>
+                  <td>étudiant</td><td>étudiante</td>
+                </tr>
+                <tr>
+                  <td>employe</td><td>employée</td>
+                </tr>
+                <tr>
+                  <td>musicien</td><td>musicienne</td>
+                </tr>
+                <tr>
+                  <td>secrétaire</td><td>secrétaire</td>
+                </tr>
+                <tr>
+                  <td>professeur</td><td>professeur</td>
+                </tr>
+                <tr>
+                  <td>journaliste</td><td>journaliste</td>
+                </tr>
+              </table>
+
+
+
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="container">
+              <h2>Phrases</h2>
+              </table>
+              <table class="twocol">
+
+                <tr>
+                  <td>Pardon ?</td><td>Pardon | 예?</td>
+                </tr>
+                <tr>
+                  <td>Salut !</td><td>informal hello/goodbye | 안녕</td>
+                </tr>
+                <tr>
+                  <td>N'est-ce pas ?</td><td>Isn't that right? | 그렇지?</td>
+                </tr>
+                <tr>
+                  <td>bien sûr</td><td>of course | 물론</td>
+                </tr>
+                <tr>
+                  <td>mais oui</td><td>of course | 물론</td>
+                </tr>
+                <tr>
+                  <td>pas du tout</td><td>not at all | 절대로 그렇지 않다</td>
+                </tr>
+                <tr>
+                  <td>mais no</td><td>not at all | 절대로 그렇지 않다</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="container">
+              <h2>Notes</h2>
+              <ul>
+                <li>à + le → au, à + les → aux<br>(when le, les are articles, not direct objects)</li>
+                <li>habiter à + ville</li>
+                <li>
+                  <table border="1" style="text-align: center" cellpadding="10px">
+<tr><td><b>s</b></td><td colspan="2"><b>pl</b></td></tr>
+<tr><td>madame = M<sup>me</sup> ou Mme</td><td>mesdames = M<sup>mes</sup> ou Mmes</td></tr>
+<tr><td>monsieur = M.</td><td>messieurs = MM.</td></tr>
+<tr><td>mademoiselle = M<sup>lle</sup> ou Mlle</td><td>mesdemoiselles = M<sup>lles</sup> ou Mlles</td></tr>
+</table>
+                </li>
+                <li>
+                  동사 군
+                  <ul>
+                    <li>
+                    1군 <span style="display: inline-block; width: 40px; border-bottom: 1px solid #000; padding-bottom: 3px"></span>er 규칙동사
+                    </li>
+                    <li>
+                    2군 <span style="display: inline-block; width: 40px; border-bottom: 1px solid #000; padding-bottom: 3px"></span>ir 규칙동사
+                    </li>
+                    <li>
+                    3군 <span style="display: inline-block; width: 40px; border-bottom: 1px solid #000; padding-bottom: 3px"></span>ir/re/oir 불규칙동사
+                    </li>
+                  </ul>                  
+                </li>
+                <li> 1군동사: travailler, habiter, parler
+                </li>
+                <li> Using le/la with languages.
+                  <ul>
+                    <li> Je parle (le) coréen, un peu (le) français et (l')anglais.
+                    </li>
+                    <li> Je étudie le coréen, un peu le français et l'anglais.
+                    </li>
+                  </ul>
+                </li>
+                <li><p style="display:inline-table">connaître = connai + <table border="1" cellpadding="5px" style="display:inline-table;">
+<tr><td>s</td><td>ssons</td></tr>
+<tr><td>s</td><td>ssez</td></tr>
+<tr><td>t</td><td>ssent</td></tr>
+</table></p>
+"The 's' is doubled in the plural because in French a single 's' between two consonants is pronounced like a 'z': the double 's' represents more accurately the 's' sound of the pronunciation."
+
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <footer>
+          <p><a href="index.html">Tableaux des contenus<a></p>
+        </footer>
+        </body>
+    </html>
+
+<!-- old conjugation style before JS
+
+            <table class="conjugation">
+              
+                <tr>
+                  <td></td><td>//</td><td><audio class="fullwidth" controls>
+                    <source src="L3/.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio></td>
+                </tr>
+                <tr>
+                  <td colspan="3">le présent de l'indicatif</td>
+                <tr>
+                <tr>
+                  <td>je </td><td>//</td><td><audio class="fullwidth" controls>
+                    <source src="L3/Je.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio></td>
+                </tr>
+                <tr>
+                  <td>tu </td><td>//</td><td><audio class="fullwidth" controls>
+                    <source src="L3/Tu.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio></td>
+                </tr>
+                <tr>
+                  <td>il </td><td>//</td><td><audio class="fullwidth" controls>
+                    <source src="L3/Il.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio></td>
+                </tr>
+                <tr>
+                  <td>elle </td><td>//</td><td><audio class="fullwidth" controls>
+                    <source src="L3/Elle.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio></td>
+                </tr>
+                <tr>
+                  <td>nous </td><td>//</td><td><audio class="fullwidth" controls>
+                    <source src="L3/Nous.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio></td>
+                </tr>
+                <tr>
+                  <td>vous </td><td>//</td><td><audio class="fullwidth" controls>
+                    <source src="L3/Vous.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio></td>
+                </tr>
+                <tr>
+                  <td>ils </td><td>//</td><td><audio class="fullwidth" controls>
+                    <source src="L3/Ils.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio></td>
+                </tr>
+                <tr>
+                  <td>elles </td><td>//</td><td><audio class="fullwidth" controls>
+                    <source src="L3/Elles.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio></td>
+                </tr>
+
+            </table>
+
+-->
+
