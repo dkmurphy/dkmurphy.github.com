@@ -20,7 +20,7 @@ function write_conversation(conversation) {
   for (var j=0; j < button_list.length; j++) {
     if (button_list[j][0] in conversation[0]) {
       document.write("<td>")
-      document.write("<button onclick=\"toggle_visible_class(\'")
+      document.write("<button style=\"font-size:50%\" onclick=\"toggle_visible_class(\'")
       document.write(button_list[j][0])
       document.write("\')\">")
       document.write(button_list[j][1])
@@ -145,7 +145,7 @@ function write_conversation_segment(conversation) {
           } else {
               var playRange = conversation[i]["audio_segment"][0].toString() + ", " + conversation[i]["audio_segment"][1].toString()
           }
-          document.write("<tr class=\"audio_segment\"><td colspan=\"2\" style=\"display: none;\"><a href=\"javascript:playSegment(" + playRange +");\">Play Audio Segment</a></td></tr>")
+          document.write("<tr class=\"audio_segment\" style=\"display: none;\"><td colspan=\"2\"><a href=\"javascript:playSegment(" + playRange +");\">Play Audio Segment</a></td></tr>")
            // audio_segment initially display none because when it is displayed byu button press, the audio gets primed
         }
       } else { }

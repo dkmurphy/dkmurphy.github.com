@@ -1,0 +1,73 @@
+application: d-k-murphy
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+default_expiration: "1d" 
+
+handlers:
+
+# index files
+- url: /(.*)/
+  static_files: \1/index.html
+  upload: (.*)/index.html
+
+- url: /(.*\.(txt|log|bbl|blg|aux))
+  static_files: \1
+  upload: (.*\.(txt|log|bbl|blg|aux))
+  mime_type: text/plain
+
+- url: /(.*\.log)
+  static_files: \1
+  upload: (.*\.log)
+  mime_type: text/plain
+
+
+- url: /L3/Piste015\.mp3
+  static_files: L3/Piste015\.mp3
+  upload: L3/Piste015\.mp3
+  http_headers:
+    Accept-Ranges: bytes
+  mime_type: audio/mpeg
+
+# issues with mp3 HTML5 audio served by GAE to mobile
+# Google App Engine does not support ranged requests
+
+# mpeg audio
+- url: /(.*\.mp3)
+  static_files: \1
+  upload: (.*\.mp3)
+  #http_headers:
+  #  # Trying to get 206 instead of 200
+  #  Status: 206 Partial Content
+  mime_type: audio/mpeg
+
+# other audio files
+- url: /(.*\.(mid|midi|mp3|wav))
+  static_files: \1
+  upload: (.*\.(mid|midi|mp3|wav))  
+ 
+
+- url: /(.+)
+  static_files: \1
+  upload: (.*)
+
+- url: /
+  static_files: index.html
+  upload: index.html
+  expiration: "15m"
+
+
+
+
+skip_files:
+- ^(.*/)?#.*#$
+- ^(.*/)?.*~$
+- ^(.*/)?.*\.py[co]$
+- ^(.*/)?.*/RCS/.*$
+- ^(.*/)?\..*$
+- ^(.*/)?app\.yaml
+- ^README\..*
+- \.gitignore
+- ^\.git/.*

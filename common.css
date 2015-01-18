@@ -164,9 +164,10 @@ audio::-webkit-media-controls-enclosure {
 
 button
 {
+        /*font-size: 80%;*/
         font-size:inherit;
-	padding: 5px 10px;
-	margin: 0px 5px;
+	padding: 5px 8px;
+	margin: 0px 2px;
 	color: #FFF;
 	background-color: #555;
 	background: -webkit-linear-gradient(#AAA, #888);

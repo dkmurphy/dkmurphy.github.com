@@ -97,7 +97,7 @@ table.word-word-audio-short {
   margin: auto;
   border: 1px solid black;
     border-spacing: 1ex;
-  margin-top: 0px;
+  margin-top: 40px;
   margin-bottom: 40px;
   border-collapse: collapse;
 }
@@ -164,9 +164,10 @@ audio::-webkit-media-controls-enclosure {
 
 button
 {
+        /*font-size: 80%;*/
         font-size:inherit;
-	padding: 5px 10px;
-	margin: 0px 5px;
+	padding: 5px 7px;
+	margin: 0px 3px;
 	color: #FFF;
 	background-color: #555;
 	background: -webkit-linear-gradient(#AAA, #888);
