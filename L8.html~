@@ -78,7 +78,7 @@ done
 
  il aʁˈiv dəmˈɛ̃
 
- ɔskˈaʁ
+ ɔs.kaʁ
  ly.ka
  ʒe œ̃ pʁɔblˈɛm
  lə- pʁɔfɛsˈœʁhˈɛndœʁsœn aʁˈiv də- ʃikaɡˈo dəmˈɛ̃ a dizyˈit ˈœʁz e ʒə- tʁavˈaj
@@ -92,7 +92,7 @@ done
  bʁˈœ̃
  ʁˈu
 
- ɔskˈaʁ
+ ɔs.kaʁ
  pa dy- tˈu
  il a le- ʃəvˈø blˈɑ̃
  œ̃ pø lˈɔ̃
@@ -192,7 +192,7 @@ var conversation2 =
     },
     {  
       "french":"(Oscar:) Lucas, j'ai un problème : le professeur Henderson arrive de Chicago demain à 18 heures et je travaille.",
-      "ipa":"(ɔskˈaʁ) ly.ka ʒ‿e œ̃ pʁɔ.blɛm lə pʁɔ.fɛ.sœʁ ɛn.dœʁ.sœn a.ʁiv də ʃi.ka.ɡo də.mɛ̃ a diz.ɥit œʁ e ʒə tʁa.vaj",
+      "ipa":"(ɔs.kaʁ) ly.ka ʒ‿e œ̃ pʁɔ.blɛm lə pʁɔ.fɛ.sœʁ ɛn.dœʁ.sœn a.ʁiv də ʃi.ka.ɡo də.mɛ̃ a diz.ɥit œʁ e ʒə tʁa.vaj",
       //"audio":"L8/8.mp3",
       "audio_segment":[36, 44],
       "spanish":"Oscar Lucas, tengo un problema: el profesor Henderson llega a Chicago mañana y yo trabajo 18 horas.",
@@ -210,7 +210,7 @@ var conversation2 =
     },
     {  
       "french":"(Oscar:) Pas du tout, il a les cheveux blancs, un peu longs. Il a une queue de cheval, une barbe, des lunettes... Il est très grand et très maigre.",
-      "ipa":"(ɔskˈaʁ) pa dy tu i.l‿a le ʃəvø blɑ̃ œ̃ pø lɔ̃ i.l‿a yn kø də ʃəval yn baʁb de ly.nɛt i.l‿ɛ tʁɛ ɡʁɑ̃ e tʁɛ mɛɡʁ",
+      "ipa":"(ɔs.kaʁ) pa dy tu i.l‿a le ʃəvø blɑ̃ œ̃ pø lɔ̃ i.l‿a yn kø də ʃəval yn baʁb de ly.nɛt i.l‿ɛ tʁɛ ɡʁɑ̃ e tʁɛ mɛɡʁ",
       //"audio":"L8/10.mp3",
       "audio_segment":[52, 64],
       "spanish":"Oscar: No, él tiene el pelo blanco, un poco más. Cuenta con una cola de caballo, barba, gafas ... Él es muy alto y muy delgado.",
@@ -261,7 +261,7 @@ var conversation2 =
           <div class="section">
             <div class="container">
 
-              <audio id="conversation" class="fullwidth" src="L8/Piste 040.mp3" controls preload></audio>
+              <audio id="conversation" class="fullwidth" src="L8/Piste040.mp3" controls preload></audio>
               <script src="conversation.js"></script>
 
             </div class="container">

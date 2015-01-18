@@ -187,7 +187,7 @@ var conversation3 =
     },
     {  
       "french":"(Pierre Ivanov:) Oh, pardon, Jamila Hatami. Non, elle n'est pas photographe, elle est peintre. C'est une amie iranienne. Nous travaillons ensemble.",
-      "ipa":"(pjɛʁ i.va.nɔv) ɔ paʁ.dɔ̃ ʒa.mi.la a.ta.mi nɔ̃ ɛl nɛ pa fo.to.ɡʁaf ɛl ɛ pɛ̃tʁ sɛ.t‿yn a.mi i.ʁa.njɛn nu tʁa.va.jɔ̃.z‿ɑ̃.sɑ̃.bl",
+      "ipa":"(pjɛʁ i.va.nɔv) ɔ paʁ.dɔ̃ ʒa.mi.la a.ta.mi nɔ̃ ɛl nɛ pa fo.to.ɡʁaf ɛl ɛ pɛ̃tʁ sɛ.t‿yn a.mi i.ʁa.njɛn nu tʁa.va.jɔ̃ ɑ̃.sɑ̃.bl",
       //"audio":"L6/14.mp3",
       "audio_segment":[84,94],
       "spanish":"(Peter Ivanov:) Oh, lo siento, Jamila Hatami. No, no es un fotógrafo, es un pintor. Se trata de un amigo iraní. Trabajamos juntos.",
@@ -205,7 +205,7 @@ var conversation3 =
           <div class="section">
             <div class="container">
 
-              <audio id="conversation" class="fullwidth" src="L6/Piste 031.mp3" controls preload></audio>
+              <audio id="conversation" class="fullwidth" src="L6/Piste031.mp3" controls preload></audio>
               <script src="conversation.js"></script>
 
             </div class="container">
@@ -382,7 +382,7 @@ cong_data3 =
         "j'":{  
           "writing":"ai",
           "ipa":"ˈʒe",
-          "audio":"L6/J'ai.mp3"
+          "audio":"L6/Jai.mp3"
         },
         "tu":{  
           "writing":"as",

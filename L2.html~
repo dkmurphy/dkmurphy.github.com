@@ -166,7 +166,7 @@ var conversation2 =
     },
     {  
       "french":"Moi, je suis...",
-      "ipa":"mwˈa ʒə- syˈi",
+      "ipa":"mwa ʒə sɥi",
       //"audio":"L2/13.mp3",
       "audio_segment":[72.5,73.75],
       "spanish":"Yo soy ...",
@@ -184,7 +184,7 @@ var conversation2 =
           <div class="section">
             <div class="container">
 
-              <audio id="conversation" class="fullwidth" src="L2/Piste 011.mp3" controls preload></audio>
+              <audio id="conversation" class="fullwidth" src="L2/Piste011.mp3" controls preload></audio>
               <script src="conversation.js"></script>
 
             </div class="container">

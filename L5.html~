@@ -118,7 +118,7 @@ var conversation1 =
     },
     {  
       "french":"Il aime dormir.",
-      "ipa":"il‿ɛm dɔʁ.miʁ",
+      "ipa":"i.l‿ɛm dɔʁ.miʁ",
       //"audio":"L5/8.mp3",
       "audio_segment":[32,33.5],
       "spanish":"A él le gusta dormir.",
@@ -215,7 +215,7 @@ var conversation2 =
           <div class="section">
             <div class="container">
 
-              <audio id="conversation" class="fullwidth" src="L5/Piste 024.mp3" controls preload></audio>
+              <audio id="conversation" class="fullwidth" src="L5/Piste024.mp3" controls preload></audio>
               <script src="conversation.js"></script>
 
             </div class="container">

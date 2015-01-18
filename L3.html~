@@ -225,7 +225,7 @@ var conversation2 =
           <div class="section">
             <div class="container">
 
-              <audio id="conversation" class="fullwidth" src="L3/Piste 015.mp3" controls preload></audio>
+              <audio id="conversation" class="fullwidth" src="L3/Piste015.mp3" controls preload></audio>
               <script src="conversation.js"></script>
 
             </div class="container">
@@ -331,7 +331,7 @@ cong_data2 =
         "j'":{  
           "writing":"habite",
           "ipa":"ʒabit",
-          "audio":"L3/J'habite.mp3"
+          "audio":"L3/Jhabite.mp3"
         },
         "tu":{  
           "writing":"habites",
@@ -377,7 +377,7 @@ cong_data3 =
 [  
   {"writing":"s'appeler",
   "ipa":"saple",
-  "audio":"L3/S'appeler.mp3"},
+  "audio":"L3/Sappeler.mp3"},
   [  
     [  
       "le présent de l'indicatif",
@@ -385,22 +385,22 @@ cong_data3 =
         "je":{  
           "writing":"m'appelle",
           "ipa":"ʒə mapεl",
-          "audio":"L3/JeM'appelle.mp3"
+          "audio":"L3/JeMappelle.mp3"
         },
         "tu":{  
           "writing":"t'appelles",
           "ipa":"ty tapεl",
-          "audio":"L3/TuT'appelles.mp3"
+          "audio":"L3/TuTappelles.mp3"
         },
         "il":{  
           "writing":"s'appelle",
           "ipa":"il sapεl",
-          "audio":"L3/IlS'appelle.mp3"
+          "audio":"L3/IlSappelle.mp3"
         },
         "elle":{  
           "writing":"s'appelle",
           "ipa":"εl sapεl",
-          "audio":"L3/ElleS'appelle.mp3"
+          "audio":"L3/ElleSappelle.mp3"
         },
         "nous":{  
           "writing":"nous appelons",
@@ -415,12 +415,12 @@ cong_data3 =
         "ils":{  
           "writing":"s'appellent",
           "ipa":"il sapεl",
-          "audio":"L3/IlsS'appellent.mp3"
+          "audio":"L3/IlsSappellent.mp3"
         },
         "elles":{  
           "writing":"s'appellent",
           "ipa":"εl sapεl",
-          "audio":"L3/EllesS'appellent.mp3"
+          "audio":"L3/EllesSappellent.mp3"
         }
       }
     ]
@@ -758,13 +758,9 @@ write_conjugation(cong_data6);
                   </ul>
                 </li>
                 <li><p style="display:inline-table">connaître = connai + <table border="1" cellpadding="5px" style="display:inline-table;">
-<tr><td>&nbsp;&nbsp;&nbsp;</td><td>+s</td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;</td><td>+s</td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;</td><td>+s</td></tr>
-</table> + <table border="1" cellpadding="5px" style="display:inline-table;">
-<tr><td>s</td><td>sons</td></tr>
-<tr><td>s</td><td>sez</td></tr>
-<tr><td>t</td><td>sent</td></tr>
+<tr><td>s</td><td>ssons</td></tr>
+<tr><td>s</td><td>ssez</td></tr>
+<tr><td>t</td><td>ssent</td></tr>
 </table></p>
 "The 's' is doubled in the plural because in French a single 's' between two consonants is pronounced like a 'z': the double 's' represents more accurately the 's' sound of the pronunciation."
 
