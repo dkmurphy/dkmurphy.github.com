@@ -1,0 +1,321 @@
+ <!doctype html>
+    <html>
+      <head>
+         <link rel="stylesheet" type="text/css" href="common.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="small.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="large.css" media="screen and (min-width: 35em)" />
+         <!--[if (lt IE 9)&(!IEMobile)]>
+         <link rel="stylesheet" type="text/css" href="enhanced.css" />
+         <![endif]-->
+
+
+         <meta charset="utf-8"/>
+         <!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
+
+         <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+         <title>Amical A1 – Leçon 13</title>
+      </head>
+      <body>
+        <div id="headline">
+          <header>
+            <h1><a href="index.html">Amical A1</a></h1>
+            <p>Leçon 13 | Quelle heure est-il ?</p>
+            <p><noscript>
+              Please enable JavaScript to use this page!
+            </noscript></p>
+          </header>
+        </div>
+
+<!--
+
+
+allstr=("Il est huit heures et demie à Paris." "Tu as l'heure, s'il te plaît ?" "Huit heures et demie." "Et à Hongkong, qu'elle heure est-il ?" "Euh... Deux heures et demie, je crois." "Je vais appeler Hélène. À deux heures et demie, elle est au bureau.")
+for i in "${allstr[@]}" ; do
+  espeak -qv fr --ipa=1 "$i"
+done
+
+
+Je vais appeler Hélène. À deux heures et demie, elle est au bureau.
+
+Il est huit heures et demie à Paris.
+
+Tu as l'heure, s'il te plaît ?
+
+Huit heures et demie.
+
+Et à Hongkong, qu'elle heure est-il ?
+
+Euh... Deux heures et demie, je crois.
+
+Je vais appeler Hélène. À deux heures et demie, elle est au bureau.
+
+ il ɛ yˈit ˈœʁz e dəmˈi a paʁˈi
+
+ ty a lˈœʁ
+ sil tə- plˈɛ
+
+ yˈit ˈœʁz e dəmˈi
+
+ e a ɔ̃ɡkˈɔ̃ɡ
+ kɛl ˈœʁ ɛtˈil
+
+ ˈœ
+ dˈøz ˈœʁz e dəmˈi
+ ʒə- kʁwˈa
+
+ ʒə- vˈɛz aplˈe elˈɛn
+ a dˈøz ˈœʁz e dəmˈi
+ ɛl ɛt o byʁˈo
+
+
+
+
+
+
+allstr=("Debout ! C'est l'heure !" "(7h00) La mère : Les enfants, debout ! Il est 7 heures. Réveillez-vous ! Vous vous douchez et moi, je vais préparer le petit déjeuner." "Alice : Je suis fatiguée. Je voudrais dormir encore un peu." "Le mère : Non, pas question ! Et l'école ? Allez, hop, debout ! Et tout de suite !" "(7h30) La mère : Allez. Dépêchez-vous ! Alice, s'il te plaît réveille-toi ! Tu dors !" "Théo, attention avec la confiture ! Oh là là !" "(8h00) La mère : Oh ! 8 heures ! On part ! Vite ! Habillez-vous.")
+for i in "${allstr[@]}" ; do
+  espeak -qv fr --ipa=1 "$i"
+done
+
+
+
+
+Debout ! C'est l'heure !
+
+(7h00) La mère : Les enfants, debout ! Il est 7 heures. Réveillez-vous ! Vous vous douchez et moi, je vais préparer le petit déjeuner.
+
+Alice : Je suis fatiguée. Je voudrais dormir encore un peu.
+
+Le mère : Non, pas question ! Et l'école ? Allez, hop, debout ! Et tout de suite !
+
+
+(7h30) La mère : Allez. Dépêchez-vous ! Alice, s'il te plaît réveille-toi ! Tu dors !
+
+Théo, attention avec la confiture ! Oh là là !
+
+(8h00) La mère : Oh ! 8 heures ! On part ! Vite ! Habillez-vous.
+
+
+ dəbˈu sɛ lˈœʁ
+
+  sˈɛt ˈaʃ zeʁo zeʁˈo la- mˈɛʁ le-z ɑ̃fˈɑ̃ dəbˈu il ɛ sˈɛt ˈœʁ ʁevɛjˈevˈu vu vu duʃˈez e mwˈa ʒə- vˈɛ pʁepaʁˈe lə- pətˈi deʒønˈe
+
+ alˈis ʒə- syˌi fatiɡˈe ʒə- vudʁˈɛ dɔʁmˈiʁ ɑ̃kˌɔʁ œ̃ pˈø
+
+ lə- mˈɛʁ nˈɔ̃ pa kɛstjˈɔ̃ e lekˈɔl alˈe ˈɔp dəbˈu e tu də- syˈit
+
+  sˈɛt ˈaʃ tʁˈɑ̃t la- mˈɛʁ alˈe depɛʃˈevˈu alˈis sil tə- plˈɛ ʁevˈɛjtwˈa ty dˈɔʁ
+
+ teˈo atɑ̃sjˈɔ̃ avˌɛk la- kɔ̃fitˈyʁ ˈɔ lˈa lˈa
+
+  yˈit ˈaʃ zeʁo zeʁˈo la- mˈɛʁ ˈɔ yˈit ˈœʁ ɔ̃ pˈaʁ vˈit abijˈevˈu
+
+
+
+
+
+
+
+
+-->
+        <div>
+
+          <script type="text/javascript">
+var conversation1 =
+  [  
+    {  
+      "french":"Il est huit heures et demie à Paris.",
+      "ipa":"il ɛ yˈit ˈœʁz e dəmˈi a paʁˈi",
+      "audio":"L13/1.mp3",
+      "audio_segment":[7.75,9],
+      "spanish":"Es ocho y media de París.",
+      "english":"It is half past eight in Paris.",
+      "korean":"그것은 파리에서 8시 반입니다."
+    },
+    {  
+      "french":"Tu as l'heure, s'il te plaît ?",
+      "ipa":"ty a lˈœʁ sil tə- plˈɛ",
+      "audio":"L13/2.mp3",
+      "audio_segment":[7.75,9],
+      "spanish":"Usted tiene el tiempo, por favor?",
+      "english":"You have the time, please?",
+      "korean":"당신은 시간을 주 시겠어요?"
+    },
+    {  
+      "french":"Huit heures et demie.",
+      "ipa":"yˈit ˈœʁz e dəmˈi",
+      "audio":"L13/3.mp3",
+      "audio_segment":[7.75,9],
+      "spanish":"Ocho y media.",
+      "english":"Eight-thirty.",
+      "korean":"여덟시 반."
+    },
+    {  
+      "french":"Et à Hongkong, qu'elle heure est-il ?",
+      "ipa":"e a ɔ̃ɡkˈɔ̃ɡ kɛl ˈœʁ ɛtˈil",
+      "audio":"L13/4.mp3",
+      "audio_segment":[7.75,9],
+      "spanish":"Y Hong Kong, ¿qué hora es?",
+      "english":"And Hong Kong, what time is it?",
+      "korean":"그리고 홍콩, 지금 몇 시죠?"
+    },
+    {  
+      "french":"Euh... Deux heures et demie, je crois.",
+      "ipa":"ˈœ dˈøz ˈœʁz e dəmˈi ʒə- kʁwˈa",
+      "audio":"L13/5.mp3",
+      "audio_segment":[7.75,9],
+      "spanish":"Uh ... Dos horas y media, creo.",
+      "english":"Uh ... Two and a half hours, I think.",
+      "korean":"어 ... 두 시간 반, 나는 생각한다."
+    },
+    {  
+      "french":"Je vais appeler Hélène. À deux heures et demie, elle est au bureau.",
+      "ipa":"ʒə- vˈɛz aplˈe elˈɛn a dˈøz ˈœʁz e dəmˈi ɛl ɛt o byʁˈo",
+      "audio":"L13/6.mp3",
+      "audio_segment":[7.75,9],
+      "spanish":"Voy a llamar a Helen. A las dos y media que está en la oficina.",
+      "english":"I'll call Helen. At half past two, she's in the office.",
+      "korean":"헬렌 전화 할게. 2시 반에, 그녀는 사무실에 있습니다."
+    }
+  ];
+
+
+
+
+
+var conversation2 =
+  [  
+    {  
+      "french":"Debout ! C'est l'heure !",
+      "ipa":"dəbˈu sɛ lˈœʁ",
+      "audio":"L13/7.mp3",
+      "audio_segment":[28.5,30],
+      "spanish":"Levantarse! Es el momento!",
+      "english":"Stand up! It's time!",
+      "korean":"일어나! 그것은 시간이다!"
+    },
+    {  
+      "french":"(7h00) La mère : Les enfants, debout ! Il est 7 heures. Réveillez-vous ! Vous vous douchez et moi, je vais préparer le petit déjeuner.",
+      "ipa":"sˈɛt ˈaʃ zeʁo zeʁˈo la- mˈɛʁ le-z ɑ̃fˈɑ̃ dəbˈu il ɛ sˈɛt ˈœʁ ʁevɛjˈevˈu vu vu duʃˈez e mwˈa ʒə- vˈɛ pʁepaʁˈe lə- pətˈi deʒønˈe",
+      "audio":"L13/8.mp3",
+      "audio_segment":[28.5,30],
+      "spanish":"(07:00) Madre: Los niños de pie! Es 07:00. Despertarse! Se ducha y me va a hacer el desayuno.",
+      "english":"(7:00) Mother: Children standing! It is 7:00. Wake up! You shower and I'll make breakfast.",
+      "korean":"(7시) 어머니 : 어린이가 서! 그것은 7:00입니다. 일어나! 당신은 샤워를하고 난 아침 식사를 만들 수 있습니다."
+    },
+    {  
+      "french":"Alice : Je suis fatiguée. Je voudrais dormir encore un peu.",
+      "ipa":"alˈis ʒə- syˌi fatiɡˈe ʒə- vudʁˈɛ dɔʁmˈiʁ ɑ̃kˌɔʁ œ̃ pˈø",
+      "audio":"L13/9.mp3",
+      "audio_segment":[28.5,30],
+      "spanish":"Alice: Estoy cansado. Me gustaría dormir un poco.",
+      "english":"Alice: I'm tired. I would like to get some sleep.",
+      "korean":"앨리스 : 나는 피곤 해요. 나는 잠을 좀하고 싶습니다."
+    },
+    {  
+      "french":"Le mère : Non, pas question ! Et l'école ? Allez, hop, debout ! Et tout de suite !",
+      "ipa":"lə- mˈɛʁ nˈɔ̃ pa kɛstjˈɔ̃ e lekˈɔl alˈe ˈɔp dəbˈu e tu də- syˈit",
+      "audio":"L13/10.mp3",
+      "audio_segment":[28.5,30],
+      "spanish":"Madre: No, de ninguna manera! Y la escuela? Vamos, saltar para arriba! Y de inmediato!",
+      "english":"Mother: No, no way! And school? Come on, hop up! And right away!",
+      "korean":"어머니 : 아니, 아니 방법! 그리고 학교? 어서, 뛰어! 그리고 바로!"
+    },
+    {  
+      "french":"(7h30) La mère : Allez. Dépêchez-vous ! Alice, s'il te plaît réveille-toi ! Tu dors !",
+      "ipa":"sˈɛt ˈaʃ tʁˈɑ̃t la- mˈɛʁ alˈe depɛʃˈevˈu alˈis sil tə- plˈɛ ʁevˈɛjtwˈa ty dˈɔʁ",
+      "audio":"L13/11.mp3",
+      "audio_segment":[28.5,30],
+      "spanish":"(07:30) Madre: Vamos. Darse prisa! Alice, por favor, despierta! A dormir!",
+      "english":"(7:30) Mother: Come on. Hurry up! Alice, please wake up! You sleep!",
+      "korean":"(7시 반) 어머니 : 자. 서둘러! 앨리스는, 제발 일어나! 당신은 잠을!"
+    },
+    {  
+      "french":"Théo, attention avec la confiture ! Oh là là !",
+      "ipa":"teˈo atɑ̃sjˈɔ̃ avˌɛk la- kɔ̃fitˈyʁ ˈɔ lˈa lˈa",
+      "audio":"L13/12.mp3",
+      "audio_segment":[28.5,30],
+      "spanish":"Theo, cuidado con el atasco! Oh my!",
+      "english":"Theo, careful with the jam! Oh my!",
+      "korean":"용지 걸림에주의 테오! 오!"
+    },
+    {  
+      "french":"(8h00) La mère : Oh ! 8 heures ! On part ! Vite ! Habillez-vous.",
+      "ipa":"yˈit ˈaʃ zeʁo zeʁˈo la- mˈɛʁ ˈɔ yˈit ˈœʁ ɔ̃ pˈaʁ vˈit abijˈevˈu",
+      "audio":"L13/13.mp3",
+      "audio_segment":[28.5,30],
+      "spanish":"(08:00) Madre: ¡Oh! 8 horas! Comenzamos! ¡Rápido! Vístete.",
+      "english":"(8:00) Mother: Oh! 8 hours! We start! Quick! Get dressed.",
+      "korean":"(8시) 어머니 : 아! 8시간! 우리는 시작! 빠른! 옷 입어."
+    }
+  ];
+
+          </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <div><!-- starting sections so numbering from 1-->
+          <div class="section">
+            <div class="container">
+
+              <audio id="conversation" class="fullwidth" src="L12/Piste057.mp3" controls preload></audio>
+              <script src="conversation.js"></script>
+
+            </div class="container">
+          </div class="section">
+          <div class="section">
+            <div class="container">
+
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation1)
+
+          </script>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="container">
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation2)
+
+          </script>
+            </div>
+          </div>
+          <div class="section">
+            <div class="container">
+          <script type="text/javascript">
+
+          write_conversation_segment(conversation3)
+
+          </script>
+            </div>
+          </div>
+
+
+        </div>
+        <footer>
+          <p><a href="index.html">Tableaux des contenus<a></p>
+        </footer>
+        </body>
+    </html>
+
