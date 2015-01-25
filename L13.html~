@@ -127,7 +127,7 @@ var conversation1 =
       "french":"Il est huit heures et demie à Paris.",
       "ipa":"il ɛ yˈit ˈœʁz e dəmˈi a paʁˈi",
       "audio":"L13/1.mp3",
-      "audio_segment":[7.75,9],
+      "audio_segment":[13,15],
       "spanish":"Es ocho y media de París.",
       "english":"It is half past eight in Paris.",
       "korean":"그것은 파리에서 8시 반입니다."
