@@ -118,6 +118,7 @@ var conversation1 =
     {  
       "french":"Une très belle expo",
       "ipa":"yn tʁɛ bˈɛl ɛkspˈo",
+      "audio":"L12/1.mp3",
       "audio_segment":[7.75,9],
       "spanish":"Una bella exposición",
       "english":"A beautiful exhibition",
@@ -126,6 +127,7 @@ var conversation1 =
     {  
       "french":"Bruno: Il y a une expo de Soulages. C'est très beau, je crois ! Viens avec moi !",
       "ipa":"bʁynˈo il i a yn ɛkspˈo də- sulˈaʒ sɛ tʁɛ bˈo ʒə- kʁwˈa vjˈɛ̃ avˌɛk mwˈa",
+      "audio":"L12/2.mp3",
       "audio_segment":[10.5,16],
       "spanish":"Bruno: No es una exposición de Soulages. Es hermoso, creo! Ven conmigo!",
       "english":"Bruno: There is an exhibition of Soulages. It's beautiful, I think! Come with me!",
@@ -134,6 +136,7 @@ var conversation1 =
     {  
       "french":"Sam : C'est où ?",
       "ipa":"sˈam sɛt ˈu",
+      "audio":"L12/3.mp3",
       "audio_segment":[16,17.75],
       "spanish":"Sam: ¿Dónde está?",
       "english":"Sam: Where is it?",
@@ -142,6 +145,7 @@ var conversation1 =
     {  
       "french":"Bruno : Au Centre Pompidou.",
       "ipa":"bʁynˈo o sˈɑ̃tʁ pɔ̃pidˈu",
+      "audio":"L12/4.mp3",
       "audio_segment":[17.75,19],
       "spanish":"Bruno: En el Centro Pompidou.",
       "english":"Bruno: At the Centre Pompidou.",
@@ -150,6 +154,7 @@ var conversation1 =
     {  
       "french":"Sam : Ah, c'est tout près de chez moi. Super !",
       "ipa":"sˈam ˈa sɛ tu pʁɛ də- ʃe mwˈa sypˈɛʁ",
+      "audio":"L12/5.mp3",
       "audio_segment":[19.5,22.5],
       "spanish":"Sam: Oh, es cerca de casa. ¡Genial!",
       "english":"Sam: Oh, it's close to home. Great!",
@@ -164,6 +169,7 @@ var conversation2 =
     {  
       "french":"Une folie !",
       "ipa":"yn fɔlˈi",
+      "audio":"L12/6.mp3",
       "audio_segment":[28.5,30],
       "spanish":"¡Qué locura!",
       "english":"Madness!",
@@ -257,7 +263,7 @@ var conversation3 =
     {  
       "french":"Mick : D'accord. Je fais ça tout de suite sur Internet.",
       "ipa":"mˈik dakˈɔʁ ʒə- fˈɛ sa tu də- syˈit syʁ ɛ̃tɛʁnˈɛt",
-      "audio_segment":[72,75],
+      "audio_segment":[72,75.5],
       "spanish":"",
       "english":"",
       "korean":""
@@ -290,7 +296,7 @@ var conversation3 =
           <div class="section">
             <div class="container">
 
-              <audio id="conversation" class="fullwidth" src="L12/Piste 057.mp3" controls preload></audio>
+              <audio id="conversation" class="fullwidth" src="L12/Piste057.mp3" controls preload></audio>
               <script src="conversation.js"></script>
 
             </div class="container">
