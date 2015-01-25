@@ -88,7 +88,7 @@ var conversation1 =
   [  
     {  
       "french":"Il faut de la farine, du beurre...",
-      "ipa":"il fo də- la- faʁˈin",
+      "ipa":"il fo də- la- faʁˈin dy- bˈœʁ",
       "audio_segment":[9.5,13],
       "spanish":"Se necesita harina, mantequilla ...",
       "english":"It takes flour, butter ...",
@@ -96,7 +96,7 @@ var conversation1 =
     },
     {  
       "french":"Alice voudrait un gâteau. Je fais les courses. Qu'est-ce qu'il faut acheter ?",
-      "ipa":"dy- bˈœʁ alˈis vudʁˈɛt œ̃ ɡatˈo ʒə- fˈɛ le- kˈuʁs kɛs kil fot aʃtˈe",
+      "ipa":"alˈis vudʁˈɛt œ̃ ɡatˈo ʒə- fˈɛ le- kˈuʁs kɛs kil fot aʃtˈe",
       "audio_segment":[13,19],
       "spanish":"Alice quiere un pastel. Hago compras. Lo qué comprar?",
       "english":"Alice wants a cake. I shop. What what to buy?",
@@ -208,7 +208,7 @@ var conversation2 =
           <div class="section">
             <div class="container">
 
-              <audio id="conversation" class="fullwidth" src="L10/Piste 049.mp3" controls preload></audio>
+              <audio id="conversation" class="fullwidth" src="L10/Piste049.mp3" controls preload></audio>
               <script src="conversation.js"></script>
 
             </div class="container">
