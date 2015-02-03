@@ -1,0 +1,168 @@
+body
+{
+  /*font-family: sans-serif;*/
+  font-family: 'EB Garamond', serif;
+    font-size: 1.35em;
+	margin: 0;
+   background-color: Ivory;
+max-width: 30em;
+max-width: 75ch;
+       margin-left: auto;
+       margin-right: auto;
+      overflow-y: scroll; /* for centering, always include scrollbar */
+}
+
+#container
+{
+}
+
+#header
+{
+	background: LightGray;
+	padding: 0.6em;
+}
+
+#header h1 {
+    margin: 0; /* no additional padding */
+    text-shadow: 0.1em 0.1em 0.05em Gray;
+    font-size: 1.5em;
+}
+
+#navigation
+{
+	float: left;
+	width: 100%;
+	background: DimGray;
+}
+
+#navigation a
+{
+	color: White;
+        background-color: inherit;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+        font-size: 1em;
+}
+
+#navigation li a
+{
+	/*display: block;*/
+	float: left;
+	padding: 0.1em 0.4em;
+	text-decoration: none; /*Disable underlining links*/
+	border-right: 0.05em solid White;
+}
+
+#navigation li a:hover {
+  background: #a4c639; /* Android green */
+}
+
+#navigation li a.current {
+  background: DarkGreen;
+}
+
+#content
+{
+	clear: left;
+	padding: 1em;
+}
+
+#content h2
+{
+        font-size: 1.25em;
+/*	font-size: 150%;*/
+}
+
+#content h3
+{
+        font-size: 1.1em;
+/*	font-size: 120%;*/
+}
+
+#footer
+{
+	background: LightGray;
+	text-align: right;
+	padding: 0.1em 0.4em;
+	height: 1%;
+}
+
+
+a  { 
+  background-color: inherit;
+  color: #7f992c; /* darker than Android green */
+}
+
+a:visited  { 
+  background-color: inherit;
+  color: #004500; /* darker than Dark green */
+}
+
+.alignRight { float:right; margin-left: 1em; }
+
+ul.links
+{
+    list-style-type: none;
+    margin: 1.75ex 0 0;
+    padding: 0;
+}
+
+#content .flushTop
+{
+	margin-top: 0
+}
+
+/* for two column */
+
+/* For browsers that understand min-width */
+.width {
+  width: 100%;
+/*  min-width: 45em;*/
+min-width: 15em;
+min-width: 37.5ch;
+  overflow: hidden;
+}
+
+/* IE6 Only */
+*html .minwidth {
+/*  border-left: 45em solid white;*/
+  border-left: 15em solid white;
+  border-left: 37.5ch solid white;
+
+  position: relative;
+  float: left;
+}
+
+/* IE6 Only */
+*html .wrapper {
+max-width: -15em;
+max-width: -37.5ch;
+/*  margin-left: -45em;*/
+  position: relative;
+  float: left;
+}
+
+.left {
+  float: left;
+  width: 47.5%;
+  margin-right: 2.5%;
+}
+
+.right {
+  float: left;
+  width: 47.5%;
+  margin-right: 2.5%;
+}
+
+
+

@@ -1,0 +1,99 @@
+ <!doctype html>
+    <html>
+      <head>
+         <link rel="stylesheet" type="text/css" href="common.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="small.css" media="screen, handheld" />
+         <link rel="stylesheet" type="text/css" href="large.css" media="screen and (min-width: 35em)" />
+         <!--[if (lt IE 9)&(!IEMobile)]>
+         <link rel="stylesheet" type="text/css" href="enhanced.css" />
+         <![endif]-->
+
+
+         <meta charset="utf-8"/>
+         <!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
+
+         <meta name="viewport" content="width=device-width; initial-scale = 1.0; maximum-scale=1.0; user-scalable=no" />
+         <title>Amical A1 – Tableaux des contenus</title>
+      </head>
+      <body>
+        <div id="headline">
+          <header>
+            <h1>Amical A1</h1>
+            <p>Tableaux des contenus</p>
+          </header>
+        </div>
+        <div><!-- starting sections so numbering from 1-->
+          <div class="section">
+            <div class="container">
+              <h2>Unité 1 : Un, deux, trois... Contact !</h2>
+              <ul>
+                <li><a href="L0.html">Leçon 0 : Bonjour !</a></li>
+                <li><a href="L1.html">Leçon 1 : Contact !</a></li>
+                <li><a href="L2.html">Leçon 2 : Vous êtes français ?</a></li>
+                <li><a href="L3.html">Leçon 3 : Toi aussi, tu es japonaise ?</a></li>
+                <li><a href="L4.html">Leçon 4 : Désolée, je suis touriste</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="container">
+              <h2>Unité 2 : Qu'est-ce que vous aimez ?</h2>
+              <ul>
+                <li><a href="L5.html">Leçon 5 : Qu'est-ce que tu aimes ?</a></li>
+                <li><a href="L6.html">Leçon 6 : Vous avez qual âge ?</a></li>
+                <li><a href="L7.html">Leçon 7 : Vous venez avec moi ?</a></li>
+                <li><a href="L8.html">Leçon 8 : Elle est comment ?</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="container">
+              <h2>Unité 3 : Faire des projets</h2>
+              <ul>
+                <li><a href="L9.html">Leçon 9 : Qu'est-ce qu'on achète ?</a></li>
+                <li><a href="L10.html">Leçon 10 : C'est l'anniversaire de Marion</a></li>
+                <li><a href="L11.html">Leçon 11 : C'est loin ?</a></li>
+                <li><a href="L12.html">Leçon 12 : Je voudrais voir ça...</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="container">
+              <h2>Unité 4 : Qu'est-ce que vous avez fait hier ?</h2>
+              <ul>
+                <li><a href="L13.html">Leçon 13 : Quelle heure est-il ?</a></li>
+                <li>Leçon 14</li>
+                <li>Leçon 15</li>
+                <li>Leçon 16</li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="container">
+              <h2>Unité 5 : Vous êtes arrivés quand ?</h2>
+              <ul>
+                <li>Leçon 17</li>
+                <li>Leçon 18</li>
+                <li>Leçon 19</li>
+                <li>Leçon 20</li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <div class="container">
+            <h2>Unité 6 : Avant, c'était très différent</h2>
+              <ul>
+                <li>Leçon 21</li>
+                <li>Leçon 22</li>
+                <li>Leçon 23</li>
+                <li>Leçon 24</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <p>Return to <a href="/index.html">French Links</a></p>
+        </footer>
+        </body>
+    </html>
+<!-- IPA from espeak. For example: espeak -qv fr --ipa=1 "Il déteste danser."-->
