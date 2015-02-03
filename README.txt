@@ -11,3 +11,8 @@ git push -u --force origin master
 
 for updates, can do:
 git add -A; git commit -m "updated README with instructions"; git push --all
+
+
+also
+
+appcfg.py update ~/d-k-murphy
