@@ -49,13 +49,19 @@
             <div class="container">
               <h2>Miscellaneous</h2>
               <ul>
+                <li>Conjugations Resources
+                  <ul>
+                    <li>http://fr.wiktionary.org/wiki/Annexe:Conjugaison_en_fran%C3%A7ais/ + verb</li>
+                    <li></li>
+                  </ul>
+                </li> 
                 <li>High-Frequency Vocabulary
                   <ul>
                     <li>
                       <a href="https://github.com/eileda/Word-Manager/tree/master/Siquoya%20word%20lists">Collections</a>
                     </li>
-
                     <li><a href="Core100/core100verbs.html">Core 100 verbs</a></li>
+                    <li><a href="verbs_1_10/verbs_1_10.html">Verbs 1 &ndash; 10</a></li>
                   </ul>
                 </li>
               </ul>
