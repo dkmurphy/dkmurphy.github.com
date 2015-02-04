@@ -38,7 +38,15 @@
                 </li>
                 <li>9 February 2015
                   <ul>
-                    <li></li>
+                    <li>vouloir + verbe/nom</li>
+                    <li>pouvoir + verbe</li>
+                    <li>devoir + verbe/€</li>
+                    <li>Il faut + verbe / Il faut que (phrase) / Il faut de (nom) pour (verbe) ça (faudra, fallait)</li>
+                    <li>ne + pas, bien, aussi, toujours, très, ici, beaucoup</li>
+                    <li>aujourd'hui, hier, demain, ensuite</li>
+                    <li>et, mais, parce que</li>
+                    <li>(m/f/before vowel/plural) mon/ma/mon/mes, ton/ta/ton/tes son/sa/son/ses notre/notre/notre/nos votre/votre/votre/vps leur/leur/leur/leurs</li>
+                    <li>une fois, quotidien, une fois par semaine, tous les jours</li>
                     <li></li>
                   </ul>
                 </li>
@@ -52,13 +60,20 @@
                 <li>Conjugations Resources
                   <ul>
                     <li>http://fr.wiktionary.org/wiki/Annexe:Conjugaison_en_fran%C3%A7ais/ + verb</li>
-                    <li></li>
+                    <li>http://fr.wiktionary.org/wiki/Annexe:Conjugaison_en_fran%C3%A7ais/être</li>
+                    <li><a href="http://frenchetc.org/conjugated-verb/">Audio Conjugations</a></li>
                   </ul>
                 </li> 
                 <li>High-Frequency Vocabulary
                   <ul>
                     <li>
                       <a href="https://github.com/eileda/Word-Manager/tree/master/Siquoya%20word%20lists">Collections</a>
+                    </li>
+                    <li>
+                     <a href="http://eduscol.education.fr/cid47916/liste-des-mots-classee-par-frequence-decroissante.html">1500 words (frequency order)</a>
+                    </li>
+                    <li>
+                     <a href="http://eduscol.education.fr/cid47917/liste-des-mots-classee-par-nature-et-par-frequence-decroissante.html">1500 words (part of speech, frequency order)</a>
                     </li>
                     <li><a href="Core100/core100verbs.html">Core 100 verbs</a></li>
                     <li><a href="verbs_1_10/verbs_1_10.html">Verbs 1 &ndash; 10</a></li>
