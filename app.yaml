@@ -60,6 +60,3 @@ skip_files:
 - ^(.*/)?.*/RCS/.*$
 - ^(.*/)?\..*$
 - ^(.*/)?app\.yaml
-- ^README\..*
-- \.gitignore
-- ^\.git/.*

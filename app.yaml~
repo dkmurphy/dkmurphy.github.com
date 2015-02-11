@@ -23,14 +23,6 @@ handlers:
   upload: (.*\.log)
   mime_type: text/plain
 
-
-- url: /L3/Piste015\.mp3
-  static_files: L3/Piste015\.mp3
-  upload: L3/Piste015\.mp3
-  http_headers:
-    Accept-Ranges: bytes
-  mime_type: audio/mpeg
-
 # issues with mp3 HTML5 audio served by GAE to mobile
 # Google App Engine does not support ranged requests
 
